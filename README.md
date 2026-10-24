@@ -4,7 +4,8 @@
 
 E6 已由用户完成 K80 实车验收并确认功能正常。移除原桌面辅助横屏，增加无障碍投屏前置、第三行三个应用位，修正双指抬起坐标，提供悬浮主页返回；USB 音频继续暂停。
 
-- [E6 安装包](dist/OpenSAICLink-E6-0.6.0.apk)、[E6 安装与使用](E6安装与使用.md)
+- [E6 安装包](dist/OpenSAICLink-E6-0.6.0.apk)、[E6 安装与使用](E6安装与使用.md)、[GitHub Release v0.6.0-e6](https://github.com/ZxxXinI/OpenSAIClink-Trial/releases/tag/v0.6.0-e6)
+- 实车验收针对同一 E6 源码的首次签名构建；仓库中的 APK 是之后用相同源码和同一测试签名重建的归档文件，签名时间不同，因此文件哈希不同。
 - [E5 实车问题复盘](analysis/e5-car-20261024/E5实车问题复盘与E6修正.md)
 - [E5 验证报告](E5验证报告.md)、[E4 验证报告](E4验证报告.md)
 - [USB 音频留档](USB音频协议研究留档.md)
