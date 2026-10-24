@@ -1,4 +1,4 @@
-/build/
+﻿/build/
 /emulator/
 /signing/
 __pycache__/
@@ -36,3 +36,8 @@ __pycache__/
 !/dist/OpenSAICLink-E6-0.6.0.apk
 !/dist/OpenSAICLink-E6-0.6.0.apk.build-info.json
 !/dist/build-info.json
+
+/release/app/build/
+/release/app/*.png
+/release/app/*.xml
+/release/app/installed.apk

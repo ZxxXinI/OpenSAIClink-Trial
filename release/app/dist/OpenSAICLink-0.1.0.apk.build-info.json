@@ -1,0 +1,15 @@
+﻿{
+  "builtAt": "2026-10-24T20:18:32.745670+08:00",
+  "apk": "OpenSAICLink-0.1.0.apk",
+  "package": "org.opensaiclink.app",
+  "version": "0.1.0",
+  "versionCode": 101,
+  "minSdk": 34,
+  "targetSdk": 36,
+  "bytes": 168551,
+  "sha256": "efa1ad3e296f5599e613cc2bf40820609be4a8d5bd150fb14c77236a35a60ed4",
+  "nativeLibraries": 0,
+  "signatureVerification": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): false\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=OpenSAICLink Local Trial, OU=Development, O=Local, C=CN\nSigner #1 certificate SHA-256 digest: a077a13c97e65dc45a4841f2686175acd218c70297899febdfe161c98599afa6\nSigner #1 certificate SHA-1 digest: 08167253cf81cdfbb3b772a5f964d4cb49a95864\nSigner #1 certificate MD5 digest: 4f3522a83805cf69df4405b51a9e02ab\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 3072\nSigner #1 public key SHA-256 digest: f0d26dfecd377eb656548ec22d9d90b74b7f8587aea06e07108e50cbbf6d6fdd\nSigner #1 public key SHA-1 digest: 6c02927787efdb30da71e04a06760abe8e4a1396\nSigner #1 public key MD5 digest: fbf0db5da74ed9101abaf20642d6e1bc",
+  "deviceValidation": "pending",
+  "carValidation": "pending"
+}

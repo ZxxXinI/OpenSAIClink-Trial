@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <dimen name="osc_screen_pad">16dp</dimen>
+ <dimen name="osc_phone_card_radius">18dp</dimen>
+ <dimen name="osc_car_card_radius">11dp</dimen>
+ <dimen name="osc_primary_height">52dp</dimen>
+ <dimen name="osc_touch_min">48dp</dimen>
+ <dimen name="osc_gap">10dp</dimen>
+ <dimen name="osc_title_size">24sp</dimen>
+ <dimen name="osc_body_size">14sp</dimen>
+ <dimen name="osc_caption_size">12sp</dimen>
+</resources>

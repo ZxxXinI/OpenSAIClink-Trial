@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.opensaiclink.app.tests">
+ <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="36"/>
+ <application android:label="OpenSAICLink UI Gate" android:debuggable="true"/>
+ <instrumentation android:name="org.opensaiclink.app.UiGate"
+     android:targetPackage="org.opensaiclink.app"/>
+</manifest>
