@@ -1,0 +1,1436 @@
+﻿11:18:01.136 START E3/0.3.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+11:18:06.949 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+11:18:06.971 USB_OPEN manufacturer=Mapbar, Inc model=WeLink version=1.0
+11:18:07.863 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+11:18:07.866 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+11:18:08.007 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"requestWeLink","extData":{"bluetooth_add":"EC:5B:73:1F:0E:C2","isBtAutoConnect":true,"isSupportRecord":true,"isHuSupportCall":false,"recordDefault":0,"imei":"1234567890","mac":"HPASIPLH83LNCSRATLAS7PCM093","guid":"0000000000000000","appHuVersion":"V1.7.12012041","sdkHuVersion":"V1.7.12012041","linkMethod":3,"vers":{"wlVersion":"V1.0.0","huVersion":"V1.7.12012041","muVersion":"V1.0.0"}}}}
+11:18:08.009 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"responseWeLink","extData":{"state":1,"errCode":0,"responseCode":0,"displayCode":"","codecMode":2,"width":1280,"height":480,"hasNewVers":false,"vers":{"wlVer":{"version":"versions","path":"path"},"huVer":{"version":"versions","path":"path"},"muVer":{"version":"versions","path":"path"}}}}}
+11:18:08.029 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onControlEnAndCh","extData":{"controlState":1}}}
+11:18:08.030 RX_8 config 30
+11:18:09.497 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:09.499 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:10.099 ROTATION_PERMISSION User must allow modify-system-settings for maps to rotate automatically
+11:18:10.185 ENCODER_CONFIG c2.qti.avc.encoder {max-fps-to-encoder=15.0, color-format=2130708361, i-frame-interval=1, level=512, mime=video/avc, latency=0, profile=1, bitrate=1200000, priority=0, repeat-previous-frame-after=66666, width=1280, max-bframes=0, frame-rate=15, height=480}
+11:18:10.396 CAPTURE_STARTED 1280x480 fps=15
+11:18:10.397 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+11:18:10.397 CAPTURE_VISIBILITY true
+11:18:10.461 ENCODER_FORMAT {max-bitrate=1200000, crop-right=1279, level=512, latency=0, mime=video/avc, profile=1, bitrate=1200000, priority=0, intra-refresh-period=0, color-standard=2, feature-secure-playback=0, csd-1=java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], color-transfer=3, crop-bottom=479, prepend-sps-pps-to-idr-frames=0, crop-left=0, width=1280, bitrate-mode=1, color-range=2, crop-top=0, frame-rate=15, height=480, csd-0=java.nio.HeapByteBuffer[pos=0 lim=21 cap=21]} csdBytes=29
+11:18:10.462 FIRST_ENCODED_FRAME bytes=19661 key=true
+11:18:10.468 TX_VIDEO_PACKET nal=7 wireBytes=29 writeMs=1
+11:18:10.469 TX_VIDEO_PACKET nal=8 wireBytes=16 writeMs=0
+11:18:10.469 TX_VIDEO_PACKET nal=5 wireBytes=19640 writeMs=0
+11:18:10.499 TX_VIDEO_PACKET nal=1 wireBytes=1153 writeMs=0
+11:18:10.563 TX_VIDEO_PACKET nal=1 wireBytes=1299 writeMs=0
+11:18:10.632 TX_VIDEO_PACKET nal=1 wireBytes=1153 writeMs=0
+11:18:10.695 TX_VIDEO_PACKET nal=1 wireBytes=1031 writeMs=0
+11:18:10.763 TX_VIDEO_PACKET nal=1 wireBytes=976 writeMs=0
+11:18:10.836 TX_VIDEO_PACKET nal=1 wireBytes=1002 writeMs=0
+11:18:10.910 TX_VIDEO_PACKET nal=1 wireBytes=973 writeMs=0
+11:18:10.972 TX_VIDEO_PACKET nal=1 wireBytes=853 writeMs=0
+11:18:10.983 STATS usb=true config=true capture=true pause=false encoded=9 videoWritten=9 bytesWritten=28844 videoPackets=11 fps=15 queueMs=0 maxQueueMs=0 writeMs=2 maxWriteMs=7 encodeAgeMs=21 maxEncodeAgeMs=50 touchRx=0 touchDone=0 dropped=0
+11:18:11.006 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:11.007 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:11.046 TX_VIDEO_PACKET nal=1 wireBytes=580 writeMs=0
+11:18:11.397 TX_JSON {"moduleName":"WeLink","version":0,"platform":"android","command":{"method":"onResumeWelink","extData":{"packageName":""}}}
+11:18:12.509 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:12.510 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:13.945 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+11:18:14.013 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:14.018 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:14.475 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+11:18:14.660 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+11:18:15.192 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+11:18:15.520 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:15.521 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:16.148 STATS usb=true config=true capture=true pause=false encoded=85 videoWritten=85 bytesWritten=490774 videoPackets=97 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=20 maxEncodeAgeMs=84 touchRx=0 touchDone=0 dropped=0
+11:18:17.030 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:17.032 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:18.549 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:18.550 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:20.050 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:20.051 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:21.152 STATS usb=true config=true capture=true pause=false encoded=162 videoWritten=162 bytesWritten=682260 videoPackets=184 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=13 maxEncodeAgeMs=84 touchRx=0 touchDone=0 dropped=0
+11:18:21.555 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:21.556 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:23.060 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:23.061 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:24.567 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:24.569 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:26.064 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:26.065 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:26.161 STATS usb=true config=true capture=true pause=false encoded=238 videoWritten=238 bytesWritten=959802 videoPackets=270 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=19 maxEncodeAgeMs=84 touchRx=0 touchDone=0 dropped=0
+11:18:27.565 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:27.566 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:29.070 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:29.071 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:30.581 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:30.583 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:31.170 STATS usb=true config=true capture=true pause=false encoded=310 videoWritten=310 bytesWritten=1187488 videoPackets=352 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=36 maxEncodeAgeMs=84 touchRx=0 touchDone=0 dropped=0
+11:18:32.085 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:32.090 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:33.094 RX_8 motionevent3 576 213 0 50 down
+11:18:33.102 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.159 RX_8 motionevent3 596 213 0 50 move
+11:18:33.161 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.192 RX_8 motionevent3 642 220 0 50 move
+11:18:33.194 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.226 RX_8 motionevent3 685 227 0 50 move
+11:18:33.227 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.260 RX_8 motionevent3 749 249 0 50 move
+11:18:33.262 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.293 RX_8 motionevent3 766 260 0 50 move
+11:18:33.295 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.325 RX_8 motionevent3 766 260 0 50 up
+11:18:33.330 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.587 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:33.589 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:33.728 RX_8 motionevent3 675 217 0 50 down
+11:18:33.730 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.789 RX_8 motionevent3 659 258 0 50 move
+11:18:33.792 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.823 RX_8 motionevent3 649 291 0 50 move
+11:18:33.826 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.860 RX_8 motionevent3 634 377 0 50 move
+11:18:33.863 RX_8 motionevent3 0 0 0 0 comm
+11:18:33.888 RX_8 motionevent3 634 377 0 50 up
+11:18:33.890 RX_8 motionevent3 0 0 0 0 comm
+11:18:35.097 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:35.102 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:36.184 STATS usb=true config=true capture=true pause=false encoded=326 videoWritten=326 bytesWritten=1203827 videoPackets=370 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=35 maxEncodeAgeMs=84 touchRx=12 touchDone=0 dropped=0
+11:18:36.594 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:36.598 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:38.097 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:38.098 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:39.601 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:39.603 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:41.111 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:41.113 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:41.194 STATS usb=true config=true capture=true pause=false encoded=386 videoWritten=386 bytesWritten=1447345 videoPackets=438 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=20 maxEncodeAgeMs=84 touchRx=12 touchDone=0 dropped=0
+11:18:42.648 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:42.650 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:44.135 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:44.140 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:45.637 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:45.639 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:46.201 STATS usb=true config=true capture=true pause=false encoded=455 videoWritten=455 bytesWritten=1536560 videoPackets=517 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=29 maxEncodeAgeMs=84 touchRx=12 touchDone=0 dropped=0
+11:18:47.144 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:47.146 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:48.652 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:48.656 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:50.154 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:50.158 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:51.210 STATS usb=true config=true capture=true pause=false encoded=519 videoWritten=519 bytesWritten=1610702 videoPackets=589 fps=15 queueMs=1 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=20 maxEncodeAgeMs=84 touchRx=12 touchDone=0 dropped=0
+11:18:51.670 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:51.671 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:51.878 TOUCH_SERVICE User enabled gesture relay
+11:18:53.174 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:53.178 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:54.680 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:54.682 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:56.187 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:56.188 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:56.218 STATS usb=true config=true capture=true pause=false encoded=592 videoWritten=592 bytesWritten=1750650 videoPackets=672 fps=15 queueMs=1 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=19 maxEncodeAgeMs=84 touchRx=12 touchDone=0 dropped=0
+11:18:57.697 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:57.702 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:58.689 RX_8 motionevent3 555 13 0 50 down
+11:18:58.691 RX_8 motionevent3 0 0 0 0 comm
+11:18:58.761 RX_8 motionevent3 550 9 0 50 move
+11:18:58.762 RX_8 motionevent3 0 0 0 0 comm
+11:18:58.794 RX_8 motionevent3 548 8 0 50 move
+11:18:58.795 RX_8 motionevent3 0 0 0 0 comm
+11:18:58.855 RX_8 motionevent3 548 8 0 50 up
+11:18:58.860 RX_8 motionevent3 0 0 0 0 comm
+11:18:59.198 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:18:59.200 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:18:59.234 RX_8 motionevent3 560 23 0 50 down
+11:18:59.235 RX_8 motionevent3 0 0 0 0 comm
+11:18:59.342 RX_8 motionevent3 560 23 0 50 up
+11:18:59.343 RX_8 motionevent3 0 0 0 0 comm
+11:18:59.845 RX_8 motionevent3 581 9 0 50 down
+11:18:59.847 RX_8 motionevent3 0 0 0 0 comm
+11:18:59.939 RX_8 motionevent3 581 9 0 50 up
+11:18:59.942 RX_8 motionevent3 0 0 0 0 comm
+11:19:00.707 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:00.709 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:01.224 STATS usb=true config=true capture=true pause=false encoded=659 videoWritten=659 bytesWritten=1807479 videoPackets=747 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=42 maxEncodeAgeMs=84 touchRx=20 touchDone=8 dropped=0
+11:19:01.227 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuAppFront","extData":{"state":false}}}
+11:19:01.230 HU_SOURCE Paused by head unit
+11:19:01.232 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuSourceChange","extData":{"status":0}}}
+11:19:01.235 HU_SOURCE Paused by head unit
+11:19:02.205 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:02.209 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:02.669 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuAppFront","extData":{"state":true}}}
+11:19:02.672 HU_SOURCE Resumed by head unit
+11:19:02.692 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuSourceChange","extData":{"status":1}}}
+11:19:02.693 HU_SOURCE Resumed by head unit
+11:19:03.734 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:03.736 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:04.180 RX_8 motionevent3 549 323 0 50 down
+11:19:04.186 RX_8 motionevent3 0 0 0 0 comm
+11:19:04.254 RX_8 motionevent3 560 323 0 50 move
+11:19:04.256 RX_8 motionevent3 0 0 0 0 comm
+11:19:04.285 RX_8 motionevent3 582 323 0 50 move
+11:19:04.291 RX_8 motionevent3 0 0 0 0 comm
+11:19:04.318 RX_8 motionevent3 630 335 0 50 move
+11:19:04.319 RX_8 motionevent3 0 0 0 0 comm
+11:19:04.351 RX_8 motionevent3 672 340 0 50 move
+11:19:04.352 RX_8 motionevent3 0 0 0 0 comm
+11:19:04.385 RX_8 motionevent3 722 350 0 50 move
+11:19:04.386 RX_8 motionevent3 0 0 0 0 comm
+11:19:04.419 RX_8 motionevent3 722 350 0 50 up
+11:19:04.425 RX_8 motionevent3 0 0 0 0 comm
+11:19:05.237 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:05.241 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:05.347 RX_8 motionevent3 605 248 0 50 down
+11:19:05.349 RX_8 motionevent3 0 0 0 0 comm
+11:19:05.351 RX_8 motionevent3 605 256 0 50 move
+11:19:05.353 RX_8 motionevent3 0 0 0 0 comm
+11:19:05.377 RX_8 motionevent3 611 278 0 50 move
+11:19:05.378 RX_8 motionevent3 0 0 0 0 comm
+11:19:05.418 RX_8 motionevent3 614 312 0 50 move
+11:19:05.419 RX_8 motionevent3 0 0 0 0 comm
+11:19:05.449 RX_8 motionevent3 618 349 0 50 move
+11:19:05.451 RX_8 motionevent3 0 0 0 0 comm
+11:19:05.481 RX_8 motionevent3 624 399 0 50 move
+11:19:05.483 RX_8 motionevent3 0 0 0 0 comm
+11:19:05.516 RX_8 motionevent3 629 441 0 50 move
+11:19:05.517 RX_8 motionevent3 0 0 0 0 comm
+11:19:05.556 RX_8 motionevent3 629 441 0 50 up
+11:19:05.558 RX_8 motionevent3 0 0 0 0 comm
+11:19:06.221 RX_8 motionevent3 554 23 0 50 down
+11:19:06.230 RX_8 motionevent3 0 0 0 0 comm
+11:19:06.232 STATS usb=true config=true capture=true pause=false encoded=705 videoWritten=705 bytesWritten=1912942 videoPackets=801 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=18 maxEncodeAgeMs=84 touchRx=36 touchDone=24 dropped=0
+11:19:06.350 RX_8 motionevent3 554 23 0 50 up
+11:19:06.352 RX_8 motionevent3 0 0 0 0 comm
+11:19:06.745 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:06.749 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:06.952 RX_8 motionevent3 568 22 0 50 down
+11:19:06.957 RX_8 motionevent3 0 0 0 0 comm
+11:19:07.085 RX_8 motionevent3 568 22 0 50 up
+11:19:07.090 RX_8 motionevent3 0 0 0 0 comm
+11:19:07.746 RX_8 motionevent3 556 24 0 50 down
+11:19:07.753 RX_8 motionevent3 0 0 0 0 comm
+11:19:07.811 RX_8 motionevent3 556 24 0 50 up
+11:19:07.815 RX_8 motionevent3 0 0 0 0 comm
+11:19:08.252 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:08.256 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:09.754 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:09.756 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:11.241 STATS usb=true config=true capture=true pause=false encoded=734 videoWritten=734 bytesWritten=1936358 videoPackets=832 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=35 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:11.260 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:11.262 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:12.778 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:12.779 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:14.283 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:14.284 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:15.786 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:15.790 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:16.249 STATS usb=true config=true capture=true pause=false encoded=780 videoWritten=780 bytesWritten=2207959 videoPackets=886 fps=15 queueMs=0 maxQueueMs=16 writeMs=2 maxWriteMs=21 encodeAgeMs=21 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:17.284 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:17.286 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:18.787 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:18.789 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:20.300 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:20.303 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:21.258 STATS usb=true config=true capture=true pause=false encoded=826 videoWritten=826 bytesWritten=2498396 videoPackets=938 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=11 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:21.809 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:21.810 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:23.324 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:23.326 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:24.616 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+11:19:24.821 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:24.823 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:26.265 STATS usb=true config=true capture=true pause=false encoded=900 videoWritten=900 bytesWritten=2922439 videoPackets=1022 fps=15 queueMs=0 maxQueueMs=16 writeMs=3 maxWriteMs=21 encodeAgeMs=18 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:26.325 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:26.327 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:27.827 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:27.831 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:29.330 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:29.332 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:30.841 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:30.843 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:31.275 STATS usb=true config=true capture=true pause=false encoded=928 videoWritten=928 bytesWritten=3087451 videoPackets=1052 fps=15 queueMs=1 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=32 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:32.354 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:32.357 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:33.335 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+11:19:33.856 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:33.856 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:35.362 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:35.362 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:36.288 STATS usb=true config=true capture=true pause=false encoded=989 videoWritten=989 bytesWritten=3357535 videoPackets=1121 fps=15 queueMs=4 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=58 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:36.866 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:36.867 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:38.368 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:38.371 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:39.866 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:39.868 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:40.402 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+11:19:41.295 STATS usb=true config=true capture=true pause=false encoded=1066 videoWritten=1066 bytesWritten=3802135 videoPackets=1210 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=12 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:41.371 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:41.382 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:42.875 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:42.875 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:44.381 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:44.382 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:45.884 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:45.886 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:46.303 STATS usb=true config=true capture=true pause=false encoded=1153 videoWritten=1153 bytesWritten=4324482 videoPackets=1307 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=18 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:47.382 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:47.385 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:48.909 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:48.911 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:50.402 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:50.404 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:51.313 STATS usb=true config=true capture=true pause=false encoded=1259 videoWritten=1259 bytesWritten=4882867 videoPackets=1427 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=21 maxEncodeAgeMs=84 touchRx=41 touchDone=29 dropped=0
+11:19:51.905 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:51.908 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:53.412 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:53.413 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:54.917 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:54.919 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:55.575 RX_8 motionevent3 224 239 0 50 down
+11:19:55.577 RX_8 motionevent3 0 0 0 0 comm
+11:19:55.603 RX_8 motionevent3 224 239 0 50 up
+11:19:55.604 RX_8 motionevent3 0 0 0 0 comm
+11:19:56.321 STATS usb=true config=true capture=true pause=false encoded=1354 videoWritten=1354 bytesWritten=5368253 videoPackets=1536 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=18 maxEncodeAgeMs=84 touchRx=43 touchDone=31 dropped=0
+11:19:56.425 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:56.427 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:57.012 RX_8 motionevent3 305 111 0 50 down
+11:19:57.015 RX_8 motionevent3 0 0 0 0 comm
+11:19:57.079 RX_8 motionevent3 305 111 0 50 up
+11:19:57.081 RX_8 motionevent3 0 0 0 0 comm
+11:19:57.926 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:57.927 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:19:58.896 RX_8 motionevent3 410 420 0 50 down
+11:19:58.897 RX_8 motionevent3 0 0 0 0 comm
+11:19:58.994 RX_8 motionevent3 410 420 0 50 up
+11:19:58.997 RX_8 motionevent3 0 0 0 0 comm
+11:19:59.425 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:19:59.426 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:00.929 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:00.931 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:01.327 STATS usb=true config=true capture=true pause=false encoded=1452 videoWritten=1452 bytesWritten=5783159 videoPackets=1646 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=21 maxEncodeAgeMs=84 touchRx=47 touchDone=35 dropped=0
+11:20:01.725 RX_8 motionevent3 937 283 0 50 down
+11:20:01.731 RX_8 motionevent3 0 0 0 0 comm
+11:20:01.822 RX_8 motionevent3 1004 361 1 50 down
+11:20:01.825 TOUCH_UNSUPPORTED motionevent3 1004 361 1 50 down
+11:20:01.826 RX_8 motionevent3 0 0 0 0 comm
+11:20:01.855 RX_8 motionevent3 1004 361 1 50 up
+11:20:01.858 TOUCH_UNSUPPORTED motionevent3 1004 361 1 50 up
+11:20:01.860 RX_8 motionevent3 0 0 0 0 comm
+11:20:01.958 RX_8 motionevent3 950 283 0 50 move
+11:20:01.962 RX_8 motionevent3 0 0 0 0 comm
+11:20:01.992 RX_8 motionevent3 962 283 0 50 move
+11:20:01.993 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.030 RX_8 motionevent3 974 283 0 50 move
+11:20:02.031 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.061 RX_8 motionevent3 980 283 0 50 move
+11:20:02.063 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.090 RX_8 motionevent3 987 283 0 50 move
+11:20:02.096 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.126 RX_8 motionevent3 992 283 0 50 move
+11:20:02.127 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.157 RX_8 motionevent3 997 286 0 50 move
+11:20:02.158 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.189 RX_8 motionevent3 1001 286 0 50 move
+11:20:02.190 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.223 RX_8 motionevent3 1006 286 0 50 move
+11:20:02.224 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.256 RX_8 motionevent3 1009 286 0 50 move
+11:20:02.258 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.312 RX_8 motionevent3 1011 286 0 50 move
+11:20:02.313 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.405 RX_8 motionevent3 1011 286 0 50 up
+11:20:02.406 RX_8 motionevent3 0 0 0 0 comm
+11:20:02.446 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:02.447 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:03.106 RX_8 motionevent3 963 286 0 50 down
+11:20:03.108 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.112 RX_8 motionevent3 872 340 1 50 down
+11:20:03.114 TOUCH_UNSUPPORTED motionevent3 872 340 1 50 down
+11:20:03.118 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.202 RX_8 motionevent3 859 340 1 50 move
+11:20:03.204 TOUCH_UNSUPPORTED motionevent3 859 340 1 50 move
+11:20:03.205 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.234 RX_8 motionevent3 843 340 1 50 move
+11:20:03.237 TOUCH_UNSUPPORTED motionevent3 843 340 1 50 move
+11:20:03.238 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.277 RX_8 motionevent3 826 336 1 50 move
+11:20:03.280 TOUCH_UNSUPPORTED motionevent3 826 336 1 50 move
+11:20:03.281 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.282 RX_8 motionevent3 970 286 0 50 move
+11:20:03.284 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.300 RX_8 motionevent3 974 286 0 50 move
+11:20:03.303 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.305 RX_8 motionevent3 816 336 1 50 move
+11:20:03.306 TOUCH_UNSUPPORTED motionevent3 816 336 1 50 move
+11:20:03.308 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.337 RX_8 motionevent3 982 286 0 50 move
+11:20:03.338 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.339 RX_8 motionevent3 801 334 1 50 move
+11:20:03.340 TOUCH_UNSUPPORTED motionevent3 801 334 1 50 move
+11:20:03.341 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.367 RX_8 motionevent3 987 286 0 50 move
+11:20:03.368 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.369 RX_8 motionevent3 784 334 1 50 move
+11:20:03.369 TOUCH_UNSUPPORTED motionevent3 784 334 1 50 move
+11:20:03.371 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.411 RX_8 motionevent3 989 286 0 50 move
+11:20:03.412 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.413 RX_8 motionevent3 772 334 1 50 move
+11:20:03.414 TOUCH_UNSUPPORTED motionevent3 772 334 1 50 move
+11:20:03.414 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.432 RX_8 motionevent3 991 286 0 50 move
+11:20:03.433 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.433 RX_8 motionevent3 755 334 1 50 move
+11:20:03.434 TOUCH_UNSUPPORTED motionevent3 755 334 1 50 move
+11:20:03.441 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.473 RX_8 motionevent3 992 286 0 50 move
+11:20:03.475 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.475 RX_8 motionevent3 740 337 1 50 move
+11:20:03.477 TOUCH_UNSUPPORTED motionevent3 740 337 1 50 move
+11:20:03.477 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.509 RX_8 motionevent3 993 286 0 50 move
+11:20:03.512 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.512 RX_8 motionevent3 728 338 1 50 move
+11:20:03.513 TOUCH_UNSUPPORTED motionevent3 728 338 1 50 move
+11:20:03.514 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.555 RX_8 motionevent3 719 339 1 50 move
+11:20:03.556 TOUCH_UNSUPPORTED motionevent3 719 339 1 50 move
+11:20:03.557 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.557 RX_8 motionevent3 994 286 0 50 move
+11:20:03.558 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.585 RX_8 motionevent3 709 341 1 50 move
+11:20:03.588 TOUCH_UNSUPPORTED motionevent3 709 341 1 50 move
+11:20:03.588 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.622 RX_8 motionevent3 699 343 1 50 move
+11:20:03.623 TOUCH_UNSUPPORTED motionevent3 699 343 1 50 move
+11:20:03.624 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.631 RX_8 motionevent3 995 289 0 50 move
+11:20:03.632 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.668 RX_8 motionevent3 695 345 1 50 move
+11:20:03.669 TOUCH_UNSUPPORTED motionevent3 695 345 1 50 move
+11:20:03.670 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.670 RX_8 motionevent3 695 345 0 50 up
+11:20:03.671 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.673 RX_8 motionevent3 695 345 1 50 up
+11:20:03.673 TOUCH_UNSUPPORTED motionevent3 695 345 1 50 up
+11:20:03.674 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.881 RX_8 motionevent3 971 323 0 50 down
+11:20:03.882 RX_8 motionevent3 0 0 0 0 comm
+11:20:03.962 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:03.965 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:03.981 RX_8 motionevent3 959 323 0 50 move
+11:20:03.983 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.014 RX_8 motionevent3 934 317 0 50 move
+11:20:04.015 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.054 RX_8 motionevent3 899 315 0 50 move
+11:20:04.055 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.086 RX_8 motionevent3 876 314 0 50 move
+11:20:04.087 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.115 RX_8 motionevent3 849 313 0 50 move
+11:20:04.116 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.148 RX_8 motionevent3 831 312 0 50 move
+11:20:04.149 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.180 RX_8 motionevent3 823 311 0 50 move
+11:20:04.181 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.214 RX_8 motionevent3 819 311 0 50 move
+11:20:04.219 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.251 RX_8 motionevent3 816 311 0 50 move
+11:20:04.253 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.312 RX_8 motionevent3 814 310 0 50 move
+11:20:04.317 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.413 RX_8 motionevent3 814 308 0 50 move
+11:20:04.414 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.479 RX_8 motionevent3 814 306 0 50 move
+11:20:04.480 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.513 RX_8 motionevent3 814 304 0 50 move
+11:20:04.514 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.545 RX_8 motionevent3 818 302 0 50 move
+11:20:04.545 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.582 RX_8 motionevent3 819 299 0 50 move
+11:20:04.584 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.613 RX_8 motionevent3 822 294 0 50 move
+11:20:04.614 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.643 RX_8 motionevent3 827 287 0 50 move
+11:20:04.644 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.676 RX_8 motionevent3 835 276 0 50 move
+11:20:04.677 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.716 RX_8 motionevent3 840 270 0 50 move
+11:20:04.718 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.748 RX_8 motionevent3 847 262 0 50 move
+11:20:04.750 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.779 RX_8 motionevent3 852 254 0 50 move
+11:20:04.780 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.818 RX_8 motionevent3 857 247 0 50 move
+11:20:04.819 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.845 RX_8 motionevent3 860 244 0 50 move
+11:20:04.845 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.897 RX_8 motionevent3 864 239 0 50 move
+11:20:04.898 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.911 RX_8 motionevent3 867 237 0 50 move
+11:20:04.912 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.956 RX_8 motionevent3 868 235 0 50 move
+11:20:04.957 RX_8 motionevent3 0 0 0 0 comm
+11:20:04.995 RX_8 motionevent3 870 233 0 50 move
+11:20:04.997 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.021 RX_8 motionevent3 872 232 0 50 move
+11:20:05.022 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.082 RX_8 motionevent3 875 230 0 50 move
+11:20:05.088 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.115 RX_8 motionevent3 880 228 0 50 move
+11:20:05.116 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.149 RX_8 motionevent3 886 226 0 50 move
+11:20:05.155 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.189 RX_8 motionevent3 889 225 0 50 move
+11:20:05.190 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.221 RX_8 motionevent3 892 223 0 50 move
+11:20:05.222 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.259 RX_8 motionevent3 895 222 0 50 move
+11:20:05.261 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.288 RX_8 motionevent3 895 222 0 50 up
+11:20:05.289 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.477 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:05.479 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:05.624 RX_8 motionevent3 673 351 0 50 down
+11:20:05.628 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.689 RX_8 motionevent3 688 336 0 50 move
+11:20:05.692 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.720 RX_8 motionevent3 728 309 0 50 move
+11:20:05.724 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.755 RX_8 motionevent3 780 280 0 50 move
+11:20:05.757 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.782 RX_8 motionevent3 812 266 0 50 move
+11:20:05.784 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.816 RX_8 motionevent3 854 252 0 50 move
+11:20:05.817 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.852 RX_8 motionevent3 885 243 0 50 move
+11:20:05.855 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.885 RX_8 motionevent3 908 238 0 50 move
+11:20:05.886 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.917 RX_8 motionevent3 914 237 0 50 move
+11:20:05.919 RX_8 motionevent3 0 0 0 0 comm
+11:20:05.950 RX_8 motionevent3 914 237 0 50 up
+11:20:05.952 RX_8 motionevent3 0 0 0 0 comm
+11:20:06.333 STATS usb=true config=true capture=true pause=false encoded=1535 videoWritten=1535 bytesWritten=6358974 videoPackets=1741 fps=15 queueMs=2 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=19 maxEncodeAgeMs=84 touchRx=118 touchDone=106 dropped=0
+11:20:06.522 RX_8 motionevent3 451 434 0 50 down
+11:20:06.524 RX_8 motionevent3 0 0 0 0 comm
+11:20:06.589 RX_8 motionevent3 451 434 0 50 up
+11:20:06.595 RX_8 motionevent3 0 0 0 0 comm
+11:20:06.984 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:06.988 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:07.718 RX_8 motionevent3 947 316 0 50 down
+11:20:07.719 RX_8 motionevent3 0 0 0 0 comm
+11:20:07.817 RX_8 motionevent3 937 316 0 50 move
+11:20:07.821 RX_8 motionevent3 0 0 0 0 comm
+11:20:07.852 RX_8 motionevent3 920 310 0 50 move
+11:20:07.854 RX_8 motionevent3 0 0 0 0 comm
+11:20:07.886 RX_8 motionevent3 905 303 0 50 move
+11:20:07.891 RX_8 motionevent3 0 0 0 0 comm
+11:20:07.919 RX_8 motionevent3 895 295 0 50 move
+11:20:07.920 RX_8 motionevent3 0 0 0 0 comm
+11:20:07.962 RX_8 motionevent3 888 287 0 50 move
+11:20:07.962 RX_8 motionevent3 0 0 0 0 comm
+11:20:07.990 RX_8 motionevent3 874 271 0 50 move
+11:20:07.991 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.018 RX_8 motionevent3 863 259 0 50 move
+11:20:08.020 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.056 RX_8 motionevent3 855 250 0 50 move
+11:20:08.058 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.093 RX_8 motionevent3 853 246 0 50 move
+11:20:08.094 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.121 RX_8 motionevent3 850 243 0 50 move
+11:20:08.122 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.153 RX_8 motionevent3 848 241 0 50 move
+11:20:08.160 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.221 RX_8 motionevent3 846 241 0 50 move
+11:20:08.223 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.484 RX_8 motionevent3 846 241 0 50 up
+11:20:08.486 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.493 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:08.494 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:08.692 RX_8 motionevent3 931 336 0 50 down
+11:20:08.695 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.778 RX_8 motionevent3 921 336 0 50 move
+11:20:08.783 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.811 RX_8 motionevent3 903 330 0 50 move
+11:20:08.815 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.850 RX_8 motionevent3 881 325 0 50 move
+11:20:08.851 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.886 RX_8 motionevent3 864 322 0 50 move
+11:20:08.887 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.912 RX_8 motionevent3 840 317 0 50 move
+11:20:08.913 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.943 RX_8 motionevent3 824 313 0 50 move
+11:20:08.944 RX_8 motionevent3 0 0 0 0 comm
+11:20:08.977 RX_8 motionevent3 816 311 0 50 move
+11:20:08.979 RX_8 motionevent3 0 0 0 0 comm
+11:20:09.015 RX_8 motionevent3 813 311 0 50 move
+11:20:09.017 RX_8 motionevent3 0 0 0 0 comm
+11:20:09.046 RX_8 motionevent3 810 310 0 50 move
+11:20:09.051 RX_8 motionevent3 0 0 0 0 comm
+11:20:09.120 RX_8 motionevent3 810 310 0 50 up
+11:20:09.121 RX_8 motionevent3 0 0 0 0 comm
+11:20:09.712 RX_8 motionevent3 203 424 0 50 down
+11:20:09.717 RX_8 motionevent3 0 0 0 0 comm
+11:20:09.818 RX_8 motionevent3 203 424 0 50 up
+11:20:09.821 RX_8 motionevent3 0 0 0 0 comm
+11:20:10.013 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:10.015 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:11.107 RX_8 motionevent3 211 38 0 50 down
+11:20:11.116 RX_8 motionevent3 0 0 0 0 comm
+11:20:11.173 RX_8 motionevent3 211 38 0 50 up
+11:20:11.174 RX_8 motionevent3 0 0 0 0 comm
+11:20:11.338 STATS usb=true config=true capture=true pause=false encoded=1628 videoWritten=1628 bytesWritten=6961380 videoPackets=1846 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=17 maxEncodeAgeMs=84 touchRx=149 touchDone=137 dropped=0
+11:20:11.538 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:11.539 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:12.571 RX_8 motionevent3 195 24 0 50 down
+11:20:12.577 RX_8 motionevent3 0 0 0 0 comm
+11:20:12.667 RX_8 motionevent3 195 24 0 50 up
+11:20:12.673 RX_8 motionevent3 0 0 0 0 comm
+11:20:13.034 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:13.038 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:14.542 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:14.545 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:14.619 RX_8 motionevent3 200 42 0 50 down
+11:20:14.621 RX_8 motionevent3 0 0 0 0 comm
+11:20:14.691 RX_8 motionevent3 200 42 0 50 up
+11:20:14.693 RX_8 motionevent3 0 0 0 0 comm
+11:20:16.045 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:16.049 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:16.258 RX_8 motionevent3 197 24 0 50 down
+11:20:16.260 RX_8 motionevent3 0 0 0 0 comm
+11:20:16.318 RX_8 motionevent3 197 24 0 50 up
+11:20:16.326 RX_8 motionevent3 0 0 0 0 comm
+11:20:16.346 STATS usb=true config=true capture=true pause=false encoded=1722 videoWritten=1722 bytesWritten=7500811 videoPackets=1952 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=21 maxEncodeAgeMs=84 touchRx=155 touchDone=142 dropped=0
+11:20:17.562 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:17.566 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:19.062 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:19.064 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:19.782 RX_8 motionevent3 4 324 0 50 down
+11:20:19.785 RX_8 motionevent3 0 0 0 0 comm
+11:20:19.787 TOUCH_REJECT Outside captured display or resize in progress
+11:20:19.859 RX_8 motionevent3 26 324 0 50 move
+11:20:19.861 RX_8 motionevent3 0 0 0 0 comm
+11:20:19.894 RX_8 motionevent3 79 324 0 50 move
+11:20:19.896 RX_8 motionevent3 0 0 0 0 comm
+11:20:19.934 RX_8 motionevent3 146 320 0 50 move
+11:20:19.937 RX_8 motionevent3 0 0 0 0 comm
+11:20:19.961 RX_8 motionevent3 203 318 0 50 move
+11:20:19.963 RX_8 motionevent3 0 0 0 0 comm
+11:20:20.000 RX_8 motionevent3 254 317 0 50 move
+11:20:20.002 RX_8 motionevent3 0 0 0 0 comm
+11:20:20.027 RX_8 motionevent3 278 317 0 50 move
+11:20:20.029 RX_8 motionevent3 0 0 0 0 comm
+11:20:20.066 RX_8 motionevent3 303 317 0 50 move
+11:20:20.068 RX_8 motionevent3 0 0 0 0 comm
+11:20:20.094 RX_8 motionevent3 303 317 0 50 up
+11:20:20.097 RX_8 motionevent3 0 0 0 0 comm
+11:20:20.569 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:20.572 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:20.789 RX_8 motionevent3 103 47 0 50 down
+11:20:20.792 TOUCH_REJECT Outside captured display or resize in progress
+11:20:20.794 RX_8 motionevent3 0 0 0 0 comm
+11:20:20.855 RX_8 motionevent3 103 47 0 50 up
+11:20:20.857 RX_8 motionevent3 0 0 0 0 comm
+11:20:21.355 STATS usb=true config=true capture=true pause=false encoded=1798 videoWritten=1798 bytesWritten=7894333 videoPackets=2038 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=24 maxEncodeAgeMs=84 touchRx=166 touchDone=143 dropped=0
+11:20:21.498 RX_8 motionevent3 386 118 0 50 down
+11:20:21.503 RX_8 motionevent3 0 0 0 0 comm
+11:20:21.602 RX_8 motionevent3 386 118 0 50 up
+11:20:21.606 RX_8 motionevent3 0 0 0 0 comm
+11:20:22.073 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:22.074 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:22.167 RX_8 motionevent3 192 54 0 50 down
+11:20:22.175 RX_8 motionevent3 0 0 0 0 comm
+11:20:22.288 RX_8 motionevent3 192 54 0 50 up
+11:20:22.291 RX_8 motionevent3 0 0 0 0 comm
+11:20:23.592 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:23.595 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:23.782 RX_8 motionevent3 200 22 0 50 down
+11:20:23.784 RX_8 motionevent3 0 0 0 0 comm
+11:20:23.910 RX_8 motionevent3 200 22 0 50 up
+11:20:23.916 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.127 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:25.129 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:25.329 RX_8 motionevent3 105 354 0 50 down
+11:20:25.331 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.333 TOUCH_REJECT Outside captured display or resize in progress
+11:20:25.391 RX_8 motionevent3 131 354 0 50 move
+11:20:25.392 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.425 RX_8 motionevent3 190 349 0 50 move
+11:20:25.427 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.458 RX_8 motionevent3 253 348 0 50 move
+11:20:25.460 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.492 RX_8 motionevent3 320 347 0 50 move
+11:20:25.495 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.525 RX_8 motionevent3 370 347 0 50 move
+11:20:25.527 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.558 RX_8 motionevent3 442 357 0 50 move
+11:20:25.560 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.592 RX_8 motionevent3 442 357 0 50 up
+11:20:25.593 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.989 RX_8 motionevent3 84 435 0 50 down
+11:20:25.991 RX_8 motionevent3 0 0 0 0 comm
+11:20:25.993 TOUCH_REJECT Outside captured display or resize in progress
+11:20:26.048 RX_8 motionevent3 114 426 0 50 move
+11:20:26.053 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.081 RX_8 motionevent3 171 415 0 50 move
+11:20:26.083 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.114 RX_8 motionevent3 230 405 0 50 move
+11:20:26.117 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.147 RX_8 motionevent3 273 402 0 50 move
+11:20:26.150 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.180 RX_8 motionevent3 328 411 0 50 move
+11:20:26.183 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.213 RX_8 motionevent3 342 416 0 50 move
+11:20:26.215 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.216 RX_8 motionevent3 342 416 0 50 up
+11:20:26.217 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.363 STATS usb=true config=true capture=true pause=false encoded=1892 videoWritten=1892 bytesWritten=8405040 videoPackets=2146 fps=15 queueMs=1 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=25 maxEncodeAgeMs=84 touchRx=188 touchDone=149 dropped=0
+11:20:26.511 RX_8 motionevent3 8 442 0 50 down
+11:20:26.515 TOUCH_REJECT Outside captured display or resize in progress
+11:20:26.518 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.551 RX_8 motionevent3 20 437 0 50 move
+11:20:26.553 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.583 RX_8 motionevent3 93 416 0 50 move
+11:20:26.586 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.612 RX_8 motionevent3 190 394 0 50 move
+11:20:26.614 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.631 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:26.638 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:26.642 RX_8 motionevent3 254 385 0 50 move
+11:20:26.648 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.676 RX_8 motionevent3 329 390 0 50 move
+11:20:26.678 RX_8 motionevent3 0 0 0 0 comm
+11:20:26.710 RX_8 motionevent3 329 390 0 50 up
+11:20:26.712 RX_8 motionevent3 0 0 0 0 comm
+11:20:27.146 RX_8 motionevent3 1198 306 0 50 down
+11:20:27.149 RX_8 motionevent3 0 0 0 0 comm
+11:20:27.150 TOUCH_REJECT Outside captured display or resize in progress
+11:20:27.218 RX_8 motionevent3 1185 306 0 50 move
+11:20:27.219 RX_8 motionevent3 0 0 0 0 comm
+11:20:27.254 RX_8 motionevent3 1164 303 0 50 move
+11:20:27.256 RX_8 motionevent3 0 0 0 0 comm
+11:20:27.286 RX_8 motionevent3 1125 296 0 50 move
+11:20:27.288 RX_8 motionevent3 0 0 0 0 comm
+11:20:27.324 RX_8 motionevent3 1067 286 0 50 move
+11:20:27.326 RX_8 motionevent3 0 0 0 0 comm
+11:20:27.359 RX_8 motionevent3 993 282 0 50 move
+11:20:27.362 RX_8 motionevent3 0 0 0 0 comm
+11:20:27.391 RX_8 motionevent3 993 282 0 50 up
+11:20:27.393 RX_8 motionevent3 0 0 0 0 comm
+11:20:28.127 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:28.129 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:29.650 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:29.651 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:29.775 RX_8 motionevent3 594 324 0 50 down
+11:20:29.782 RX_8 motionevent3 0 0 0 0 comm
+11:20:29.842 RX_8 motionevent3 615 320 0 50 move
+11:20:29.845 RX_8 motionevent3 0 0 0 0 comm
+11:20:29.881 RX_8 motionevent3 679 317 0 50 move
+11:20:29.882 RX_8 motionevent3 0 0 0 0 comm
+11:20:29.908 RX_8 motionevent3 724 317 0 50 move
+11:20:29.913 RX_8 motionevent3 0 0 0 0 comm
+11:20:29.942 RX_8 motionevent3 783 321 0 50 move
+11:20:29.943 RX_8 motionevent3 0 0 0 0 comm
+11:20:29.975 RX_8 motionevent3 783 321 0 50 up
+11:20:29.976 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.438 RX_8 motionevent3 892 292 0 50 down
+11:20:30.440 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.472 RX_8 motionevent3 892 286 0 50 move
+11:20:30.475 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.504 RX_8 motionevent3 888 278 0 50 move
+11:20:30.506 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.537 RX_8 motionevent3 882 265 0 50 move
+11:20:30.538 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.571 RX_8 motionevent3 871 246 0 50 move
+11:20:30.572 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.603 RX_8 motionevent3 851 219 0 50 move
+11:20:30.604 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.636 RX_8 motionevent3 825 195 0 50 move
+11:20:30.637 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.669 RX_8 motionevent3 782 166 0 50 move
+11:20:30.671 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.702 RX_8 motionevent3 737 144 0 50 move
+11:20:30.703 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.748 RX_8 motionevent3 719 139 0 50 move
+11:20:30.749 RX_8 motionevent3 0 0 0 0 comm
+11:20:30.772 RX_8 motionevent3 719 139 0 50 up
+11:20:30.773 RX_8 motionevent3 0 0 0 0 comm
+11:20:31.155 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:31.160 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:31.344 RX_8 motionevent3 706 442 0 50 down
+11:20:31.347 RX_8 motionevent3 0 0 0 0 comm
+11:20:31.370 STATS usb=true config=true capture=true pause=false encoded=1957 videoWritten=1957 bytesWritten=8844732 videoPackets=2219 fps=15 queueMs=1 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=23 maxEncodeAgeMs=84 touchRx=220 touchDone=167 dropped=0
+11:20:31.449 RX_8 motionevent3 706 442 0 50 up
+11:20:31.453 RX_8 motionevent3 0 0 0 0 comm
+11:20:31.875 RX_8 motionevent3 692 418 0 50 down
+11:20:31.878 RX_8 motionevent3 0 0 0 0 comm
+11:20:31.978 RX_8 motionevent3 692 418 0 50 up
+11:20:31.980 RX_8 motionevent3 0 0 0 0 comm
+11:20:32.652 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:32.654 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:34.161 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:34.165 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:35.674 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:35.677 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:36.378 STATS usb=true config=true capture=true pause=false encoded=2031 videoWritten=2031 bytesWritten=9246509 videoPackets=2303 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=28 maxEncodeAgeMs=84 touchRx=223 touchDone=170 dropped=0
+11:20:37.173 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:37.175 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:38.674 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:38.675 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:40.196 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:40.198 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:41.387 STATS usb=true config=true capture=true pause=false encoded=2086 videoWritten=2086 bytesWritten=9496456 videoPackets=2366 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=25 maxEncodeAgeMs=84 touchRx=223 touchDone=170 dropped=0
+11:20:41.555 RX_8 motionevent3 870 269 0 50 down
+11:20:41.557 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.626 RX_8 motionevent3 874 253 0 50 move
+11:20:41.629 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.650 RX_8 motionevent3 878 238 0 50 move
+11:20:41.653 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.683 RX_8 motionevent3 883 209 0 50 move
+11:20:41.684 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.699 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:41.699 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:41.716 RX_8 motionevent3 888 178 0 50 move
+11:20:41.718 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.766 RX_8 motionevent3 890 150 0 50 move
+11:20:41.767 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.802 RX_8 motionevent3 892 129 0 50 move
+11:20:41.803 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.828 RX_8 motionevent3 893 117 0 50 move
+11:20:41.829 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.857 RX_8 motionevent3 893 110 0 50 move
+11:20:41.859 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.892 RX_8 motionevent3 893 107 0 50 move
+11:20:41.894 RX_8 motionevent3 0 0 0 0 comm
+11:20:41.928 RX_8 motionevent3 893 105 0 50 move
+11:20:41.929 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.058 RX_8 motionevent3 893 105 0 50 up
+11:20:42.059 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.521 RX_8 motionevent3 895 174 0 50 down
+11:20:42.523 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.592 RX_8 motionevent3 895 179 0 50 move
+11:20:42.593 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.633 RX_8 motionevent3 890 188 0 50 move
+11:20:42.635 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.659 RX_8 motionevent3 889 198 0 50 move
+11:20:42.665 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.686 RX_8 motionevent3 888 212 0 50 move
+11:20:42.687 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.719 RX_8 motionevent3 887 227 0 50 move
+11:20:42.720 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.758 RX_8 motionevent3 887 236 0 50 move
+11:20:42.759 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.790 RX_8 motionevent3 886 247 0 50 move
+11:20:42.792 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.824 RX_8 motionevent3 885 257 0 50 move
+11:20:42.826 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.857 RX_8 motionevent3 884 266 0 50 move
+11:20:42.859 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.886 RX_8 motionevent3 884 273 0 50 move
+11:20:42.891 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.920 RX_8 motionevent3 884 276 0 50 move
+11:20:42.921 RX_8 motionevent3 0 0 0 0 comm
+11:20:42.954 RX_8 motionevent3 884 280 0 50 move
+11:20:42.955 RX_8 motionevent3 0 0 0 0 comm
+11:20:43.003 RX_8 motionevent3 883 286 0 50 move
+11:20:43.004 RX_8 motionevent3 0 0 0 0 comm
+11:20:43.047 RX_8 motionevent3 883 286 0 50 up
+11:20:43.052 RX_8 motionevent3 0 0 0 0 comm
+11:20:43.217 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:43.220 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:43.444 RX_8 motionevent3 686 414 0 50 down
+11:20:43.447 RX_8 motionevent3 0 0 0 0 comm
+11:20:43.504 RX_8 motionevent3 686 414 0 50 up
+11:20:43.506 RX_8 motionevent3 0 0 0 0 comm
+11:20:44.719 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:44.721 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:46.221 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:46.223 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:46.396 STATS usb=true config=true capture=true pause=false encoded=2169 videoWritten=2169 bytesWritten=10090953 videoPackets=2459 fps=15 queueMs=1 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=13 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:20:47.137 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+11:20:47.725 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:47.727 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:49.230 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:49.231 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:50.733 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:50.737 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:51.402 STATS usb=true config=true capture=true pause=false encoded=2233 videoWritten=2233 bytesWritten=10772269 videoPackets=2531 fps=15 queueMs=1 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=18 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:20:52.239 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:52.240 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:53.746 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:53.748 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:55.258 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:55.260 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:56.411 STATS usb=true config=true capture=true pause=false encoded=2279 videoWritten=2279 bytesWritten=11070560 videoPackets=2583 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=27 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:20:56.758 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:56.759 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:58.268 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:58.272 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:20:59.774 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:20:59.774 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:00.189 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+11:21:00.284 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+11:21:01.292 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:01.293 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:01.418 STATS usb=true config=true capture=true pause=false encoded=2351 videoWritten=2351 bytesWritten=11465317 videoPackets=2665 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=14 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:02.795 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:02.796 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:04.324 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:04.327 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:05.820 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:05.822 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:06.423 STATS usb=true config=true capture=true pause=false encoded=2426 videoWritten=2426 bytesWritten=12022293 videoPackets=2750 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=16 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:07.327 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:07.329 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:08.845 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:08.846 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:10.334 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:10.335 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:11.426 STATS usb=true config=true capture=true pause=false encoded=2499 videoWritten=2499 bytesWritten=12451223 videoPackets=2833 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=37 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:11.842 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:11.845 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:13.342 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:13.346 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:14.842 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:14.843 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:16.347 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:16.349 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:16.440 STATS usb=true config=true capture=true pause=false encoded=2577 videoWritten=2577 bytesWritten=14122154 videoPackets=2921 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=14 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:17.111 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+11:21:17.867 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:17.869 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:19.371 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:19.372 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:20.878 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:20.880 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:21.448 STATS usb=true config=true capture=true pause=false encoded=2652 videoWritten=2652 bytesWritten=14674850 videoPackets=3006 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=16 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:22.381 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:22.384 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:23.896 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:23.901 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:25.402 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:25.406 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:26.458 STATS usb=true config=true capture=true pause=false encoded=2673 videoWritten=2673 bytesWritten=14741665 videoPackets=3031 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=28 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:26.905 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:26.909 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:28.411 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:28.415 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:29.909 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:29.911 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:31.413 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:31.416 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:31.468 STATS usb=true config=true capture=true pause=false encoded=2700 videoWritten=2700 bytesWritten=14818535 videoPackets=3062 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=34 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:32.922 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:32.923 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:34.419 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:34.424 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:35.932 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:35.937 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:36.478 STATS usb=true config=true capture=true pause=false encoded=2711 videoWritten=2711 bytesWritten=14829586 videoPackets=3073 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=39 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:37.434 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:37.439 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:38.936 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:38.939 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:40.444 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:40.451 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:41.490 STATS usb=true config=true capture=true pause=false encoded=2722 videoWritten=2722 bytesWritten=14865804 videoPackets=3086 fps=15 queueMs=1 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=45 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:41.941 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:41.944 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:43.446 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:43.448 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:44.953 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:44.955 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:46.454 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:46.456 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:46.501 STATS usb=true config=true capture=true pause=false encoded=2733 videoWritten=2733 bytesWritten=14897699 videoPackets=3099 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=34 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:47.958 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:47.960 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:49.460 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:49.462 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:50.959 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:50.961 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:51.513 STATS usb=true config=true capture=true pause=false encoded=2744 videoWritten=2744 bytesWritten=14909048 videoPackets=3110 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=48 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:52.461 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:52.463 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:53.299 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+11:21:53.968 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:53.970 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:55.472 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:55.473 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:56.519 STATS usb=true config=true capture=true pause=false encoded=2806 videoWritten=2806 bytesWritten=15614327 videoPackets=3182 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=29 maxEncodeAgeMs=84 touchRx=252 touchDone=199 dropped=0
+11:21:56.997 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:56.998 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:21:58.498 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:21:58.501 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:00.006 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:00.008 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:00.457 RX_8 motionevent3 485 416 0 50 down
+11:22:00.460 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.487 RX_8 motionevent3 481 401 0 50 move
+11:22:00.493 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.514 RX_8 motionevent3 480 383 0 50 move
+11:22:00.515 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.548 RX_8 motionevent3 480 349 0 50 move
+11:22:00.549 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.597 RX_8 motionevent3 485 315 0 50 move
+11:22:00.597 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.627 RX_8 motionevent3 491 281 0 50 move
+11:22:00.633 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.661 RX_8 motionevent3 498 242 0 50 move
+11:22:00.661 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.698 RX_8 motionevent3 503 219 0 50 move
+11:22:00.699 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.732 RX_8 motionevent3 507 201 0 50 move
+11:22:00.736 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.764 RX_8 motionevent3 509 192 0 50 move
+11:22:00.765 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.798 RX_8 motionevent3 511 183 0 50 move
+11:22:00.799 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.835 RX_8 motionevent3 512 180 0 50 move
+11:22:00.836 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.869 RX_8 motionevent3 512 177 0 50 move
+11:22:00.871 RX_8 motionevent3 0 0 0 0 comm
+11:22:00.969 RX_8 motionevent3 514 176 0 50 move
+11:22:00.970 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.063 RX_8 motionevent3 514 180 0 50 move
+11:22:01.068 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.169 RX_8 motionevent3 514 182 0 50 move
+11:22:01.171 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.234 RX_8 motionevent3 514 186 0 50 move
+11:22:01.235 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.266 RX_8 motionevent3 515 189 0 50 move
+11:22:01.268 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.301 RX_8 motionevent3 515 195 0 50 move
+11:22:01.302 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.328 RX_8 motionevent3 515 206 0 50 move
+11:22:01.329 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.361 RX_8 motionevent3 515 217 0 50 move
+11:22:01.362 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.398 RX_8 motionevent3 509 237 0 50 move
+11:22:01.400 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.427 RX_8 motionevent3 506 261 0 50 move
+11:22:01.433 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.465 RX_8 motionevent3 501 289 0 50 move
+11:22:01.467 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.492 RX_8 motionevent3 499 305 0 50 move
+11:22:01.497 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.508 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:01.509 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:01.522 STATS usb=true config=true capture=true pause=false encoded=2888 videoWritten=2888 bytesWritten=16482394 videoPackets=3274 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=19 maxEncodeAgeMs=84 touchRx=277 touchDone=224 dropped=0
+11:22:01.532 RX_8 motionevent3 497 329 0 50 move
+11:22:01.533 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.563 RX_8 motionevent3 495 355 0 50 move
+11:22:01.564 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.597 RX_8 motionevent3 494 369 0 50 move
+11:22:01.598 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.625 RX_8 motionevent3 492 387 0 50 move
+11:22:01.636 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.659 RX_8 motionevent3 492 397 0 50 move
+11:22:01.660 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.713 RX_8 motionevent3 492 402 0 50 move
+11:22:01.714 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.746 RX_8 motionevent3 492 406 0 50 move
+11:22:01.747 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.797 RX_8 motionevent3 492 408 0 50 move
+11:22:01.798 RX_8 motionevent3 0 0 0 0 comm
+11:22:01.859 RX_8 motionevent3 492 410 0 50 move
+11:22:01.860 RX_8 motionevent3 0 0 0 0 comm
+11:22:02.251 RX_8 motionevent3 492 412 0 50 move
+11:22:02.256 RX_8 motionevent3 0 0 0 0 comm
+11:22:02.387 RX_8 motionevent3 492 414 0 50 move
+11:22:02.389 RX_8 motionevent3 0 0 0 0 comm
+11:22:02.453 RX_8 motionevent3 492 417 0 50 move
+11:22:02.455 RX_8 motionevent3 0 0 0 0 comm
+11:22:02.519 RX_8 motionevent3 492 419 0 50 move
+11:22:02.520 RX_8 motionevent3 0 0 0 0 comm
+11:22:02.585 RX_8 motionevent3 492 421 0 50 move
+11:22:02.587 RX_8 motionevent3 0 0 0 0 comm
+11:22:02.785 RX_8 motionevent3 492 423 0 50 move
+11:22:02.785 RX_8 motionevent3 0 0 0 0 comm
+11:22:03.018 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:03.019 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:03.254 RX_8 motionevent3 492 425 0 50 move
+11:22:03.255 RX_8 motionevent3 0 0 0 0 comm
+11:22:03.750 RX_8 motionevent3 492 429 0 50 move
+11:22:03.751 RX_8 motionevent3 0 0 0 0 comm
+11:22:03.783 RX_8 motionevent3 492 433 0 50 move
+11:22:03.785 RX_8 motionevent3 0 0 0 0 comm
+11:22:03.811 RX_8 motionevent3 492 437 0 50 move
+11:22:03.816 RX_8 motionevent3 0 0 0 0 comm
+11:22:03.853 RX_8 motionevent3 490 453 0 50 move
+11:22:03.855 RX_8 motionevent3 0 0 0 0 comm
+11:22:03.878 RX_8 motionevent3 490 453 0 50 up
+11:22:03.882 RX_8 motionevent3 0 0 0 0 comm
+11:22:04.528 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:04.529 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:05.943 RX_8 motionevent3 606 341 0 50 down
+11:22:05.945 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.029 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:06.031 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:06.047 RX_8 motionevent3 609 327 0 50 move
+11:22:06.048 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.074 RX_8 motionevent3 613 313 0 50 move
+11:22:06.075 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.113 RX_8 motionevent3 617 300 0 50 move
+11:22:06.113 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.145 RX_8 motionevent3 620 291 0 50 move
+11:22:06.147 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.173 RX_8 motionevent3 624 276 0 50 move
+11:22:06.179 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.213 RX_8 motionevent3 627 261 0 50 move
+11:22:06.214 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.246 RX_8 motionevent3 629 247 0 50 move
+11:22:06.247 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.278 RX_8 motionevent3 641 217 0 50 move
+11:22:06.279 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.311 RX_8 motionevent3 641 217 0 50 up
+11:22:06.313 RX_8 motionevent3 0 0 0 0 comm
+11:22:06.526 STATS usb=true config=true capture=true pause=false encoded=2967 videoWritten=2967 bytesWritten=17038659 videoPackets=3363 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=19 maxEncodeAgeMs=84 touchRx=308 touchDone=254 dropped=0
+11:22:07.122 RX_8 motionevent3 638 277 0 50 down
+11:22:07.124 RX_8 motionevent3 0 0 0 0 comm
+11:22:07.289 RX_8 motionevent3 638 282 0 50 move
+11:22:07.294 RX_8 motionevent3 0 0 0 0 comm
+11:22:07.323 RX_8 motionevent3 638 285 0 50 move
+11:22:07.327 RX_8 motionevent3 0 0 0 0 comm
+11:22:07.353 RX_8 motionevent3 638 287 0 50 move
+11:22:07.355 RX_8 motionevent3 0 0 0 0 comm
+11:22:07.420 RX_8 motionevent3 638 289 0 50 move
+11:22:07.421 RX_8 motionevent3 0 0 0 0 comm
+11:22:07.485 RX_8 motionevent3 638 291 0 50 move
+11:22:07.487 RX_8 motionevent3 0 0 0 0 comm
+11:22:07.541 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:07.542 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:08.257 RX_8 motionevent3 638 293 0 50 move
+11:22:08.259 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.318 RX_8 motionevent3 638 295 0 50 move
+11:22:08.319 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.389 RX_8 motionevent3 638 298 0 50 move
+11:22:08.390 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.421 RX_8 motionevent3 635 300 0 50 move
+11:22:08.423 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.454 RX_8 motionevent3 634 304 0 50 move
+11:22:08.456 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.483 RX_8 motionevent3 633 311 0 50 move
+11:22:08.488 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.517 RX_8 motionevent3 632 319 0 50 move
+11:22:08.519 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.555 RX_8 motionevent3 630 333 0 50 move
+11:22:08.557 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.582 RX_8 motionevent3 626 357 0 50 move
+11:22:08.588 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.616 RX_8 motionevent3 623 387 0 50 move
+11:22:08.622 RX_8 motionevent3 0 0 0 0 comm
+11:22:08.622 RX_8 motionevent3 623 387 0 50 up
+11:22:08.623 RX_8 motionevent3 0 0 0 0 comm
+11:22:09.046 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:09.047 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:10.436 RX_8 motionevent3 52 299 0 50 down
+11:22:10.437 RX_8 motionevent3 0 0 0 0 comm
+11:22:10.444 TOUCH_REJECT Outside captured display or resize in progress
+11:22:10.464 RX_8 motionevent3 62 299 0 50 move
+11:22:10.465 RX_8 motionevent3 0 0 0 0 comm
+11:22:10.496 RX_8 motionevent3 92 296 0 50 move
+11:22:10.498 RX_8 motionevent3 0 0 0 0 comm
+11:22:10.529 RX_8 motionevent3 130 289 0 50 move
+11:22:10.531 RX_8 motionevent3 0 0 0 0 comm
+11:22:10.547 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:10.548 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:10.563 RX_8 motionevent3 161 281 0 50 move
+11:22:10.564 RX_8 motionevent3 0 0 0 0 comm
+11:22:10.595 RX_8 motionevent3 200 273 0 50 move
+11:22:10.596 RX_8 motionevent3 0 0 0 0 comm
+11:22:10.628 RX_8 motionevent3 241 271 0 50 move
+11:22:10.630 RX_8 motionevent3 0 0 0 0 comm
+11:22:10.666 RX_8 motionevent3 271 275 0 50 move
+11:22:10.668 RX_8 motionevent3 0 0 0 0 comm
+11:22:10.695 RX_8 motionevent3 271 275 0 50 up
+11:22:10.696 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.258 RX_8 motionevent3 1 329 0 50 down
+11:22:11.260 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.261 RX_8 motionevent3 7 329 0 50 move
+11:22:11.262 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.270 TOUCH_REJECT Outside captured display or resize in progress
+11:22:11.297 RX_8 motionevent3 22 329 0 50 move
+11:22:11.299 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.325 RX_8 motionevent3 73 324 0 50 move
+11:22:11.329 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.357 RX_8 motionevent3 137 320 0 50 move
+11:22:11.359 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.391 RX_8 motionevent3 182 320 0 50 move
+11:22:11.392 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.429 RX_8 motionevent3 228 327 0 50 move
+11:22:11.430 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.462 RX_8 motionevent3 228 327 0 50 up
+11:22:11.464 RX_8 motionevent3 0 0 0 0 comm
+11:22:11.536 STATS usb=true config=true capture=true pause=false encoded=3044 videoWritten=3044 bytesWritten=17838606 videoPackets=3450 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=19 maxEncodeAgeMs=84 touchRx=342 touchDone=271 dropped=0
+11:22:12.054 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:12.058 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:12.137 RX_8 motionevent3 1211 399 0 50 down
+11:22:12.140 RX_8 motionevent3 0 0 0 0 comm
+11:22:12.142 TOUCH_REJECT Outside captured display or resize in progress
+11:22:12.198 RX_8 motionevent3 1196 402 0 50 move
+11:22:12.204 RX_8 motionevent3 0 0 0 0 comm
+11:22:12.232 RX_8 motionevent3 1176 405 0 50 move
+11:22:12.234 RX_8 motionevent3 0 0 0 0 comm
+11:22:12.265 RX_8 motionevent3 1155 406 0 50 move
+11:22:12.266 RX_8 motionevent3 0 0 0 0 comm
+11:22:12.303 RX_8 motionevent3 1102 406 0 50 move
+11:22:12.306 RX_8 motionevent3 0 0 0 0 comm
+11:22:12.331 RX_8 motionevent3 1028 402 0 50 move
+11:22:12.333 RX_8 motionevent3 0 0 0 0 comm
+11:22:12.364 RX_8 motionevent3 924 407 0 50 move
+11:22:12.366 RX_8 motionevent3 0 0 0 0 comm
+11:22:12.397 RX_8 motionevent3 870 418 0 50 move
+11:22:12.398 RX_8 motionevent3 0 0 0 0 comm
+11:22:12.432 RX_8 motionevent3 870 418 0 50 up
+11:22:12.434 RX_8 motionevent3 0 0 0 0 comm
+11:22:13.581 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:13.583 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:14.472 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuAppFront","extData":{"state":false}}}
+11:22:14.474 HU_SOURCE Paused by head unit
+11:22:14.478 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuSourceChange","extData":{"status":0}}}
+11:22:14.480 HU_SOURCE Paused by head unit
+11:22:15.081 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:15.082 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:15.631 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuAppFront","extData":{"state":true}}}
+11:22:15.633 HU_SOURCE Resumed by head unit
+11:22:15.649 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuSourceChange","extData":{"status":1}}}
+11:22:15.650 HU_SOURCE Resumed by head unit
+11:22:16.546 STATS usb=true config=true capture=true pause=false encoded=3118 videoWritten=3101 bytesWritten=18003331 videoPackets=3517 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=27 maxEncodeAgeMs=84 touchRx=351 touchDone=271 dropped=0
+11:22:16.607 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:16.610 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:18.108 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:18.112 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:19.384 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+11:22:19.623 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:19.624 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:21.128 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:21.129 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:21.551 STATS usb=true config=true capture=true pause=false encoded=3196 videoWritten=3179 bytesWritten=18705448 videoPackets=3605 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=16 maxEncodeAgeMs=84 touchRx=351 touchDone=271 dropped=0
+11:22:22.632 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:22.633 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:24.145 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:24.147 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:25.648 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:25.648 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:26.566 STATS usb=true config=true capture=true pause=false encoded=3270 videoWritten=3253 bytesWritten=19078462 videoPackets=3689 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=15 maxEncodeAgeMs=84 touchRx=351 touchDone=271 dropped=0
+11:22:27.145 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:27.147 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:28.650 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:28.652 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:28.735 RX_8 motionevent3 646 295 0 50 down
+11:22:28.736 RX_8 motionevent3 0 0 0 0 comm
+11:22:28.867 RX_8 motionevent3 646 295 0 50 up
+11:22:28.868 RX_8 motionevent3 0 0 0 0 comm
+11:22:30.148 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:30.153 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:31.573 STATS usb=true config=true capture=true pause=false encoded=3345 videoWritten=3328 bytesWritten=19312672 videoPackets=3774 fps=15 queueMs=0 maxQueueMs=16 writeMs=1 maxWriteMs=21 encodeAgeMs=17 maxEncodeAgeMs=84 touchRx=353 touchDone=273 dropped=0
+11:22:31.654 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:31.654 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:33.163 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:33.164 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:33.642 RX_8 motionevent3 581 200 0 50 down
+11:22:33.643 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.648 RX_8 motionevent3 735 140 1 50 down
+11:22:33.648 TOUCH_UNSUPPORTED motionevent3 735 140 1 50 down
+11:22:33.649 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.709 RX_8 motionevent3 573 200 0 50 move
+11:22:33.715 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.716 RX_8 motionevent3 742 140 1 50 move
+11:22:33.716 TOUCH_UNSUPPORTED motionevent3 742 140 1 50 move
+11:22:33.716 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.746 RX_8 motionevent3 564 200 0 50 move
+11:22:33.748 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.748 RX_8 motionevent3 754 140 1 50 move
+11:22:33.750 TOUCH_UNSUPPORTED motionevent3 754 140 1 50 move
+11:22:33.750 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.779 RX_8 motionevent3 557 200 0 50 move
+11:22:33.779 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.780 RX_8 motionevent3 773 140 1 50 move
+11:22:33.780 TOUCH_UNSUPPORTED motionevent3 773 140 1 50 move
+11:22:33.780 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.812 RX_8 motionevent3 554 200 0 50 move
+11:22:33.813 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.813 RX_8 motionevent3 788 140 1 50 move
+11:22:33.814 TOUCH_UNSUPPORTED motionevent3 788 140 1 50 move
+11:22:33.814 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.840 RX_8 motionevent3 551 200 0 50 move
+11:22:33.845 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.845 RX_8 motionevent3 808 136 1 50 move
+11:22:33.846 TOUCH_UNSUPPORTED motionevent3 808 136 1 50 move
+11:22:33.846 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.873 RX_8 motionevent3 547 200 0 50 move
+11:22:33.878 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.879 RX_8 motionevent3 822 134 1 50 move
+11:22:33.879 TOUCH_UNSUPPORTED motionevent3 822 134 1 50 move
+11:22:33.879 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.906 RX_8 motionevent3 539 205 0 50 move
+11:22:33.911 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.912 RX_8 motionevent3 830 133 1 50 move
+11:22:33.913 TOUCH_UNSUPPORTED motionevent3 830 133 1 50 move
+11:22:33.913 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.945 RX_8 motionevent3 531 208 0 50 move
+11:22:33.945 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.946 RX_8 motionevent3 833 133 1 50 move
+11:22:33.946 TOUCH_UNSUPPORTED motionevent3 833 133 1 50 move
+11:22:33.946 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.977 RX_8 motionevent3 519 213 0 50 move
+11:22:33.978 RX_8 motionevent3 0 0 0 0 comm
+11:22:33.979 RX_8 motionevent3 836 133 1 50 move
+11:22:33.980 TOUCH_UNSUPPORTED motionevent3 836 133 1 50 move
+11:22:33.981 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.010 RX_8 motionevent3 508 216 0 50 move
+11:22:34.012 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.043 RX_8 motionevent3 838 133 1 50 move
+11:22:34.044 TOUCH_UNSUPPORTED motionevent3 838 133 1 50 move
+11:22:34.045 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.045 RX_8 motionevent3 498 219 0 50 move
+11:22:34.046 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.077 RX_8 motionevent3 492 221 0 50 move
+11:22:34.078 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.109 RX_8 motionevent3 483 224 0 50 move
+11:22:34.110 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.137 RX_8 motionevent3 473 228 0 50 move
+11:22:34.143 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.143 RX_8 motionevent3 838 137 1 50 move
+11:22:34.143 TOUCH_UNSUPPORTED motionevent3 838 137 1 50 move
+11:22:34.144 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.171 RX_8 motionevent3 465 231 0 50 move
+11:22:34.174 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.203 RX_8 motionevent3 461 233 0 50 move
+11:22:34.209 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.235 RX_8 motionevent3 838 139 1 50 move
+11:22:34.237 TOUCH_UNSUPPORTED motionevent3 838 139 1 50 move
+11:22:34.241 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.242 RX_8 motionevent3 455 236 0 50 move
+11:22:34.242 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.294 RX_8 motionevent3 450 239 0 50 move
+11:22:34.295 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.314 RX_8 motionevent3 447 241 0 50 move
+11:22:34.314 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.367 RX_8 motionevent3 445 242 0 50 move
+11:22:34.369 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.377 RX_8 motionevent3 444 244 0 50 move
+11:22:34.378 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.379 RX_8 motionevent3 838 140 1 50 move
+11:22:34.379 TOUCH_UNSUPPORTED motionevent3 838 140 1 50 move
+11:22:34.379 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.427 RX_8 motionevent3 443 245 0 50 move
+11:22:34.428 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.628 RX_8 motionevent3 448 246 0 50 move
+11:22:34.630 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.660 RX_8 motionevent3 452 246 0 50 move
+11:22:34.660 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.668 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:34.668 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:34.693 RX_8 motionevent3 459 246 0 50 move
+11:22:34.694 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.721 RX_8 motionevent3 465 241 0 50 move
+11:22:34.727 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.755 RX_8 motionevent3 473 239 0 50 move
+11:22:34.760 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.761 RX_8 motionevent3 839 140 1 50 move
+11:22:34.761 TOUCH_UNSUPPORTED motionevent3 839 140 1 50 move
+11:22:34.761 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.789 RX_8 motionevent3 481 237 0 50 move
+11:22:34.795 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.797 RX_8 motionevent3 839 137 1 50 move
+11:22:34.797 TOUCH_UNSUPPORTED motionevent3 839 137 1 50 move
+11:22:34.798 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.828 RX_8 motionevent3 497 234 0 50 move
+11:22:34.830 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.831 RX_8 motionevent3 842 136 1 50 move
+11:22:34.832 TOUCH_UNSUPPORTED motionevent3 842 136 1 50 move
+11:22:34.833 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.861 RX_8 motionevent3 513 230 0 50 move
+11:22:34.863 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.864 RX_8 motionevent3 851 136 1 50 move
+11:22:34.865 TOUCH_UNSUPPORTED motionevent3 851 136 1 50 move
+11:22:34.866 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.895 RX_8 motionevent3 554 222 0 50 move
+11:22:34.895 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.896 RX_8 motionevent3 878 140 1 50 move
+11:22:34.896 TOUCH_UNSUPPORTED motionevent3 878 140 1 50 move
+11:22:34.897 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.922 RX_8 motionevent3 885 142 1 50 move
+11:22:34.923 TOUCH_UNSUPPORTED motionevent3 885 142 1 50 move
+11:22:34.924 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.927 RX_8 motionevent3 580 218 0 50 move
+11:22:34.928 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.956 RX_8 motionevent3 580 218 1 50 up
+11:22:34.957 TOUCH_UNSUPPORTED motionevent3 580 218 1 50 up
+11:22:34.960 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.961 RX_8 motionevent3 598 216 0 50 move
+11:22:34.962 RX_8 motionevent3 0 0 0 0 comm
+11:22:34.994 RX_8 motionevent3 615 215 0 50 move
+11:22:34.995 RX_8 motionevent3 0 0 0 0 comm
+11:22:35.027 RX_8 motionevent3 633 215 0 50 move
+11:22:35.028 RX_8 motionevent3 0 0 0 0 comm
+11:22:35.061 RX_8 motionevent3 652 213 0 50 move
+11:22:35.062 RX_8 motionevent3 0 0 0 0 comm
+11:22:35.089 RX_8 motionevent3 675 210 0 50 move
+11:22:35.095 RX_8 motionevent3 0 0 0 0 comm
+11:22:35.125 RX_8 motionevent3 688 208 0 50 move
+11:22:35.128 RX_8 motionevent3 0 0 0 0 comm
+11:22:35.161 RX_8 motionevent3 695 208 0 50 move
+11:22:35.162 RX_8 motionevent3 0 0 0 0 comm
+11:22:35.190 RX_8 motionevent3 695 208 0 50 up
+11:22:35.194 RX_8 motionevent3 0 0 0 0 comm
+11:22:35.880 RX_8 motionevent3 585 197 0 50 down
+11:22:35.882 RX_8 motionevent3 0 0 0 0 comm
+11:22:35.984 RX_8 motionevent3 609 197 0 50 move
+11:22:35.985 RX_8 motionevent3 0 0 0 0 comm
+11:22:36.016 RX_8 motionevent3 629 200 0 50 move
+11:22:36.018 RX_8 motionevent3 0 0 0 0 comm
+11:22:36.045 RX_8 motionevent3 665 204 0 50 move
+11:22:36.046 RX_8 motionevent3 0 0 0 0 comm
+11:22:36.079 RX_8 motionevent3 665 204 0 50 up
+11:22:36.080 RX_8 motionevent3 0 0 0 0 comm
+11:22:36.174 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:36.176 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:36.580 STATS usb=true config=true capture=true pause=false encoded=3423 videoWritten=3406 bytesWritten=19447925 videoPackets=3862 fps=15 queueMs=2 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=24 maxEncodeAgeMs=84 touchRx=399 touchDone=296 dropped=0
+11:22:37.679 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:37.682 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:39.203 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:39.204 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:40.708 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:40.711 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:41.589 STATS usb=true config=true capture=true pause=false encoded=3441 videoWritten=3424 bytesWritten=19493093 videoPackets=3884 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=24 maxEncodeAgeMs=84 touchRx=399 touchDone=296 dropped=0
+11:22:42.209 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:42.211 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:42.710 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuAppFront","extData":{"state":false}}}
+11:22:42.713 HU_SOURCE Paused by head unit
+11:22:42.715 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuSourceChange","extData":{"status":0}}}
+11:22:42.717 HU_SOURCE Paused by head unit
+11:22:43.720 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:43.723 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:45.227 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:45.230 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:46.604 STATS usb=true config=true capture=true pause=true encoded=3471 videoWritten=3434 bytesWritten=19496693 videoPackets=3894 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=17 maxEncodeAgeMs=84 touchRx=399 touchDone=296 dropped=0
+11:22:46.725 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:46.730 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:48.240 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:48.243 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:49.742 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:49.744 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:51.250 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:51.251 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:51.612 STATS usb=true config=true capture=true pause=true encoded=3519 videoWritten=3434 bytesWritten=19497327 videoPackets=3894 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=12 maxEncodeAgeMs=84 touchRx=399 touchDone=296 dropped=0
+11:22:52.747 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:52.748 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:54.252 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:54.253 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:54.487 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+11:22:55.754 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:55.755 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:56.619 STATS usb=true config=true capture=true pause=true encoded=3598 videoWritten=3434 bytesWritten=19497845 videoPackets=3894 fps=15 queueMs=0 maxQueueMs=16 writeMs=0 maxWriteMs=21 encodeAgeMs=19 maxEncodeAgeMs=84 touchRx=399 touchDone=296 dropped=0
+11:22:57.259 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:57.263 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:58.765 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+11:22:58.766 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+11:22:59.243 USB_CLOSED read: java.io.IOException: read failed: EIO (I/O error)
+11:22:59.253 SERVICE_STOPPED USB and capture released
+11:22:59.363 CAPTURE_STOPPED sampleBytes=10462931
+11:23:22.382 USB_NOT_FOUND Connect phone directly to the car and select SAICLink

@@ -1,0 +1,12 @@
+﻿motionevent3 375 425 0 50 down
+motionevent3 0 0 0 0 comm
+motionevent3 375 425 0 50 up
+motionevent3 0 0 0 0 comm
+motionevent3 439 429 0 50 down
+motionevent3 0 0 0 0 comm
+motionevent3 439 429 0 50 up
+motionevent3 0 0 0 0 comm
+motionevent3 188 441 0 50 down
+motionevent3 0 0 0 0 comm
+motionevent3 188 441 0 50 up
+motionevent3 0 0 0 0 comm

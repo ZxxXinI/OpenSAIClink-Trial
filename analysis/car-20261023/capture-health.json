@@ -1,0 +1,38 @@
+﻿[
+  {
+    "file": "capture-1792714320407.h264",
+    "decodedFrames": 1213,
+    "width": 1280,
+    "height": 720,
+    "firstMeanLuma": 59.095927734375,
+    "lastMeanLuma": 56.52984809027778,
+    "firstLastPixelDifference": 2.6507957175925925
+  },
+  {
+    "file": "capture-1792714781165.h264",
+    "decodedFrames": 927,
+    "width": 1280,
+    "height": 480,
+    "firstMeanLuma": 38.5781787109375,
+    "lastMeanLuma": 18.271407877604165,
+    "firstLastPixelDifference": 22.226002061631945
+  },
+  {
+    "file": "capture-1792714968599.h264",
+    "decodedFrames": 1361,
+    "width": 1280,
+    "height": 480,
+    "firstMeanLuma": 38.709580078125,
+    "lastMeanLuma": 37.6910205078125,
+    "firstLastPixelDifference": 2.6640934244791667
+  },
+  {
+    "file": "capture-1792715789931.h264",
+    "decodedFrames": 423,
+    "width": 1280,
+    "height": 480,
+    "firstMeanLuma": 38.506891276041664,
+    "lastMeanLuma": 37.65372395833333,
+    "firstLastPixelDifference": 1.2705946180555556
+  }
+]

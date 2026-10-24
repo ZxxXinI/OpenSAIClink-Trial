@@ -1,0 +1,26 @@
+﻿[
+  {
+    "class": "Lcom/mapbar/wedrive/launcher/util/JsonStringUtils;",
+    "dex": "classes.dex",
+    "file": "com.mapbar.wedrive.launcher.util.JsonStringUtils.dexasm.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lcom/mapbar/wedrive/launcher/view/MainPage$9;",
+    "dex": "classes.dex",
+    "file": "com.mapbar.wedrive.launcher.view.MainPage$9.dexasm.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lcom/mapbar/wedrive/launcher/view/MainPage;",
+    "dex": "classes.dex",
+    "file": "com.mapbar.wedrive.launcher.view.MainPage.dexasm.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lcom/mapbar/wedrive/launcher/MainActivity;",
+    "dex": "classes.dex",
+    "file": "com.mapbar.wedrive.launcher.MainActivity.dexasm.txt",
+    "methods": 1
+  }
+]

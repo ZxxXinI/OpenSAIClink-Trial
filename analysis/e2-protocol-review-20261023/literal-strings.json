@@ -1,0 +1,2697 @@
+﻿[
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce0c",
+    "string": "START!!!\r\n"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce14",
+    "string": "_genJsonCmd"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce2e",
+    "string": "state"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce34",
+    "string": "extData"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce3a",
+    "string": "onHuAppFront"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce40",
+    "string": "method"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce46",
+    "string": "command"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce4e",
+    "string": "platform"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce58",
+    "string": "version"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce5c",
+    "string": "WeLink"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce60",
+    "string": "moduleName"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce64",
+    "string": "{ss si ss s{ss s{sb}}}"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce6e",
+    "string": "ERROR!!!\r\n"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce76",
+    "string": "_genJsonCmd"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce92",
+    "string": "START!!!\r\n"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ce9a",
+    "string": "_genJsonCmd"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7cebc",
+    "string": "END!!!\r\n"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7cec4",
+    "string": "_genJsonCmd"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7cee2",
+    "string": "END!!!\r\n"
+  },
+  {
+    "file": "app-json.asm.txt",
+    "address": "7ceea",
+    "string": "_genJsonCmd"
+  },
+  {
+    "file": "image-callback.asm.txt",
+    "address": "85f0a",
+    "string": "START!!!\r\n"
+  },
+  {
+    "file": "image-callback.asm.txt",
+    "address": "85f70",
+    "string": "finish frame count!(count:%d, config:%d)\r\n"
+  },
+  {
+    "file": "image-callback.asm.txt",
+    "address": "86020",
+    "string": "END!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790a4",
+    "string": "status"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790aa",
+    "string": "extData"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790b0",
+    "string": "onHuSourceChange"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790b6",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790bc",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790c4",
+    "string": "platform"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790ce",
+    "string": "version"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790d2",
+    "string": "WeLink_SDK"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790d6",
+    "string": "moduleName"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "790da",
+    "string": "{ss si ss s{ss s{si}}}"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7910c",
+    "string": "_mware_json_get_onHuSourceChange"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7916c",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79172",
+    "string": "_mware_json_get_onHuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79192",
+    "string": "codecMode"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7919a",
+    "string": "height"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791a2",
+    "string": "width"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791a8",
+    "string": "extData"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791ae",
+    "string": "onHuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791b4",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791ba",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791c2",
+    "string": "platform"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791cc",
+    "string": "version"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791d0",
+    "string": "WeLink_SDK"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791d4",
+    "string": "moduleName"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "791d8",
+    "string": "{ss si ss s{ss s{si si si}}}"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7920a",
+    "string": "_mware_json_get_onHuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79286",
+    "string": "isSupportVerticalFull"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7928c",
+    "string": "extData"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79292",
+    "string": "onHuVerticalFull"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79298",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7929e",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "792a6",
+    "string": "platform"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "792b0",
+    "string": "version"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "792b4",
+    "string": "WeLink_SDK"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "792b8",
+    "string": "moduleName"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "792bc",
+    "string": "{ss si ss s{ss s{sb}}}"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "792ee",
+    "string": "_mware_json_get_onHuVerticalFull"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7939a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "793a0",
+    "string": "_mware_json_get_requestWelink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79426",
+    "string": "muVersion"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7942e",
+    "string": "huVersion"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79438",
+    "string": "wlVersion"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7943e",
+    "string": "vers"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79448",
+    "string": "linkMethod"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79452",
+    "string": "sdkHuVersion"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7945c",
+    "string": "appHuVersion"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79466",
+    "string": "guid"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79470",
+    "string": "mac"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7947a",
+    "string": "imei"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79482",
+    "string": "recordDefault"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7948a",
+    "string": "isHuSupportCall"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79492",
+    "string": "isSupportRecord"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7949a",
+    "string": "isBtAutoConnect"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794a2",
+    "string": "bluetooth_add"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794a8",
+    "string": "extData"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794ae",
+    "string": "requestWeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794b4",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794ba",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794c4",
+    "string": "platform"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794ce",
+    "string": "version"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794d2",
+    "string": "WeLink_SDK"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794d6",
+    "string": "moduleName"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "794da",
+    "string": "{ss si ss s{ss s{ss sb sb sb si ss ss ss ss ss si s{ss ss ss}}}}"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7950c",
+    "string": "_mware_json_get_requestWelink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795ac",
+    "string": "heartbeatType"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795b2",
+    "string": "extData"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795b8",
+    "string": "reqHeartbeat"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795be",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795c4",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795cc",
+    "string": "platform"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795d6",
+    "string": "version"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795da",
+    "string": "WeLink_SDK"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795de",
+    "string": "moduleName"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "795e2",
+    "string": "{ss si ss s{ss s{si}}}"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79614",
+    "string": "_mware_json_get_reqHeartbeat"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79676",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7967e",
+    "string": "_mware_json_onLocationChanged"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "796c4",
+    "string": "time"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "796ce",
+    "string": "speed"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "796d6",
+    "string": "sateliteNum"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "796dc",
+    "string": "gps"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "796e2",
+    "string": "provider"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "796ec",
+    "string": "longitude"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "796f6",
+    "string": "latitude"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79700",
+    "string": "bearing"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7970a",
+    "string": "altitude"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79714",
+    "string": "accuracy"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7971a",
+    "string": "extData"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79720",
+    "string": "onLocationChanged"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79726",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7972c",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79736",
+    "string": "platform"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79740",
+    "string": "version"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79744",
+    "string": "WeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79748",
+    "string": "moduleName"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7974c",
+    "string": "{ss si ss s{ss s[{sf sf sf sf sf ss si sf sI}]}}"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79780",
+    "string": "_mware_json_onLocationChanged"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7981a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79822",
+    "string": "_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7985a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79862",
+    "string": "_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7987a",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7989e",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "798a6",
+    "string": "_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "798b2",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "798d6",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "798de",
+    "string": "_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79908",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79910",
+    "string": "_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79930",
+    "string": "_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79954",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7995c",
+    "string": "_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79a06",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79a0e",
+    "string": "_mware_json_get_module"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79a46",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79a4e",
+    "string": "_mware_json_get_module"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79a66",
+    "string": "moduleName"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79a8a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79a92",
+    "string": "_mware_json_get_module"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79abc",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79ac4",
+    "string": "_mware_json_get_module"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79ae4",
+    "string": "_mware_json_get_module"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79b08",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79b10",
+    "string": "_mware_json_get_module"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79bc2",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79bca",
+    "string": "_mware_json_parse_onMuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c06",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c0e",
+    "string": "_mware_json_parse_onMuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c26",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c4a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c52",
+    "string": "_mware_json_parse_onMuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c5e",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c82",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c8a",
+    "string": "_mware_json_parse_onMuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79c96",
+    "string": "extData"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79cba",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79cc2",
+    "string": "_mware_json_parse_onMuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79cce",
+    "string": "width"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79ce2",
+    "string": "height"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79cf6",
+    "string": "systemVersion"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79d22",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79d2a",
+    "string": "_mware_json_parse_onMuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79e2a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79e32",
+    "string": "_mware_json_parse_responseWeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79e6e",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79e76",
+    "string": "_mware_json_parse_responseWeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79e8e",
+    "string": "command"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79eb2",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79eba",
+    "string": "_mware_json_parse_responseWeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79ec6",
+    "string": "extData"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79eea",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79ef2",
+    "string": "_mware_json_parse_responseWeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79efe",
+    "string": "method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79f22",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79f2a",
+    "string": "_mware_json_parse_responseWeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79f36",
+    "string": "state"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79f4a",
+    "string": "errCode"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79f5e",
+    "string": "codecMode"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79f72",
+    "string": "displayCode"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79f86",
+    "string": "sdkMuVersion"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79f9a",
+    "string": "width"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "79fae",
+    "string": "height"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a14e",
+    "string": "wl_mware_json_init"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a162",
+    "string": "wl_mware_json_init"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a186",
+    "string": "wl_mware_json_init"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a1ce",
+    "string": "wl_mware_json_deinit"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a1e2",
+    "string": "wl_mware_json_deinit"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a1f6",
+    "string": "wl_mware_json_deinit"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a238",
+    "string": "wl_mware_json_onHuSourceChange"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a256",
+    "string": "wl_mware_json_onHuSourceChange"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a290",
+    "string": "wl_mware_json_onHuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a2ae",
+    "string": "wl_mware_json_onHuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a324",
+    "string": "wl_mware_json_reqHeartbeat"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a342",
+    "string": "wl_mware_json_reqHeartbeat"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a37c",
+    "string": "wl_mware_json_onLocationChanged"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a39a",
+    "string": "wl_mware_json_onLocationChanged"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a3d4",
+    "string": "wl_mware_json_requestWelink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a3f2",
+    "string": "wl_mware_json_requestWelink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a42e",
+    "string": "wl_mware_json_get_module"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a44e",
+    "string": "wl_mware_json_get_module"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a48a",
+    "string": "wl_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a4aa",
+    "string": "wl_mware_json_get_method"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a4e8",
+    "string": "wl_mware_json_parse_onMuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a50a",
+    "string": "wl_mware_json_parse_onMuReady"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a548",
+    "string": "wl_mware_json_parse_responseWeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a56a",
+    "string": "wl_mware_json_parse_responseWeLink"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a5a6",
+    "string": "FUNC %s LINE %d \r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a5ac",
+    "string": "_mware_socket_disconnect"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a5c2",
+    "string": "socket disconnect %d\r\n"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a5c8",
+    "string": "_mware_socket_disconnect"
+  },
+  {
+    "file": "json.asm.txt",
+    "address": "7a5ea",
+    "string": "_mware_socket_disconnect"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7503c",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75042",
+    "string": "_mware_protocol_reqHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7507e",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75084",
+    "string": "_mware_protocol_reqHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "750a6",
+    "string": "[SDK_JSON]reqHeartbeat port:%d len:%d\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "750ac",
+    "string": "_mware_protocol_reqHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "750ba",
+    "string": "[SDK_JSON]%s\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "750c0",
+    "string": "_mware_protocol_reqHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7510a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75110",
+    "string": "_mware_protocol_reqHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75138",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7513e",
+    "string": "_mware_protocol_reqHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7514e",
+    "string": "_mware_protocol_reqHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7515a",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75160",
+    "string": "_mware_protocol_reqHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "751b8",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "751be",
+    "string": "_mware_protocol_onHuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "751e6",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "751ec",
+    "string": "_mware_protocol_onHuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75260",
+    "string": "[SDK_JSON]onHuReady width:%d height:%d codecMode:%d(%s)\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75266",
+    "string": "_mware_protocol_onHuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75274",
+    "string": "[SDK_JSON]%s\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7527a",
+    "string": "_mware_protocol_onHuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7528a",
+    "string": "_mware_protocol_onHuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75296",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7529c",
+    "string": "_mware_protocol_onHuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75336",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7533e",
+    "string": "_mware_protocol_requestWeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75366",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7536e",
+    "string": "_mware_protocol_requestWeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75400",
+    "string": "[SDK_JSON]btAddr OCCUR!!!use default bt addr!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75408",
+    "string": "_mware_protocol_requestWeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7548a",
+    "string": "[SDK_JSON]requestWelink bt:%s bt_autoconnect:%d SupportRecord:%d SupportCall:%d recordDefault:%d imei:%s mac:%s guid:%s appHuVersion:%s sdkHuVersion:%s linkMeth"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75492",
+    "string": "_mware_protocol_requestWeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "754a0",
+    "string": "[SDK_JSON]%s\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "754a8",
+    "string": "_mware_protocol_requestWeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "754ba",
+    "string": "_mware_protocol_requestWeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "754c6",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "754ce",
+    "string": "_mware_protocol_requestWeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75536",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7553e",
+    "string": "_mware_chg_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75568",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75570",
+    "string": "_mware_chg_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75646",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7564e",
+    "string": "_mware_chg_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75684",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7568c",
+    "string": "_mware_protocol_active_file_check"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "756ce",
+    "string": "activation_codes.dat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "756ea",
+    "string": "rb"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7572e",
+    "string": "_mware_protocol_active_file_check"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7578e",
+    "string": "SEND ACTIVE FILE RET %d!(read_len %d)\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75796",
+    "string": "_mware_protocol_active_file_check"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "757a4",
+    "string": "_mware_protocol_active_file_check"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "757c2",
+    "string": "ACTIVE FILE OPEN FAILED!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "757ca",
+    "string": "_mware_protocol_active_file_check"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "757d4",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "757dc",
+    "string": "_mware_protocol_active_file_check"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75830",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75838",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75872",
+    "string": "[WL_SET_NOTICE %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7587a",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "758b2",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "758ba",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "758d6",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75962",
+    "string": "info->window.phone_width %d, info->window.phone_height %d, mu_info.version %d \r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7596a",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75992",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "759c6",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "759e0",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "759e8",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "759f0",
+    "string": "_mware_protocol_MuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75a50",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75a58",
+    "string": "_mware_protocolget_auth_err_code"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75a78",
+    "string": "[SDK_JSON]ResponseWelink errCode:%d(%s)!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75a80",
+    "string": "_mware_protocolget_auth_err_code"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75b14",
+    "string": "[SDK_JSON]ResponseWelink display OCCUR code(%s)!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75b1c",
+    "string": "_mware_protocolget_auth_err_code"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75b26",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75b2e",
+    "string": "_mware_protocolget_auth_err_code"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75b88",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75b90",
+    "string": "_mware_protocol_config"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75ba8",
+    "string": "_mware_protocol_config"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75bc2",
+    "string": "config %d"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75bec",
+    "string": "set fps:%s  ret:%d\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75bf4",
+    "string": "_mware_protocol_config"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75c02",
+    "string": "_mware_protocol_config"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75c44",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75c4c",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75c7c",
+    "string": "[WL_SET_NOTICE %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75c84",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75cbc",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75cc4",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75ce2",
+    "string": "[SDK_JSON]ResponseWelink state:%d(%s)!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75cea",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75d3e",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75d60",
+    "string": "[SDK_JSON]ResponseWelink width:%d height:%d\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75d68",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75da8",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75dc2",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75dee",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75e00",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75e08",
+    "string": "_mware_protocol_ResponseWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75f56",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75f5e",
+    "string": "_mware_protocol_image"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75f82",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75f8a",
+    "string": "_mware_protocol_image"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75fa0",
+    "string": "receive wechat QR code!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75fa8",
+    "string": "_mware_protocol_image"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75fbc",
+    "string": "receive wechat head portrait!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "75fc4",
+    "string": "_mware_protocol_image"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7609c",
+    "string": "_mware_protocol_image"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "760f0",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "760f8",
+    "string": "_mware_protocol_image"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76108",
+    "string": "_mware_protocol_image"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7615c",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76164",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76196",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7619e",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "761c4",
+    "string": "[APL&SDK_JSON]%s \r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "761cc",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "761ee",
+    "string": "WeLink_SDK"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7620c",
+    "string": "onMuReady"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76228",
+    "string": "[SDK_JSON]onMuReady is received!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76230",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76248",
+    "string": "responseWeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76264",
+    "string": "[SDK_JSON]responseWelink is received!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7626c",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76284",
+    "string": "onHeartbeat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "762a0",
+    "string": "[SDK_JSON]onHeartbeat is received!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "762a8",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "762b4",
+    "string": "startRecord"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "762d0",
+    "string": "[SDK_JSON]startRecord is received!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "762d8",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76300",
+    "string": "stopRecord"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7631c",
+    "string": "[SDK_JSON]stopRecord is received!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76324",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7634c",
+    "string": "[SDK_JSON]unknown json type!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76354",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76362",
+    "string": "WeLink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7637e",
+    "string": "onResumeWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "763ac",
+    "string": "[APL_JSON]onResumeWelink is received!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "763b4",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "763ca",
+    "string": "onLimitWelink"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "763f8",
+    "string": "[APL_JSON]onLimitWelink is received!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76400",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7642c",
+    "string": "[SDK&APL_JSON]unknown json type!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76434",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76442",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76452",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76466",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7646e",
+    "string": "_mware_protocol_json"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76522",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7652a",
+    "string": "_mware_protocol_get_channel"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76550",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76558",
+    "string": "_mware_protocol_get_channel"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76638",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76640",
+    "string": "_mware_protocol_get_channel"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7667a",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76682",
+    "string": "_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "766c0",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "766c8",
+    "string": "_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7671a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76722",
+    "string": "_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7674c",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76754",
+    "string": "_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76762",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7676a",
+    "string": "_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "767b4",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "767bc",
+    "string": "_mware_protocol_h264"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "767da",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "767e2",
+    "string": "_mware_protocol_h264"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76814",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7681c",
+    "string": "_mware_protocol_jpg"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7683a",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76842",
+    "string": "_mware_protocol_jpg"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76874",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7687c",
+    "string": "_mware_protocol_wechat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7688e",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76896",
+    "string": "_mware_protocol_wechat"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76904",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7690c",
+    "string": "wl_mware_protocol_start"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76930",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76938",
+    "string": "wl_mware_protocol_start"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76968",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76970",
+    "string": "wl_mware_protocol_req"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76994",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7699c",
+    "string": "wl_mware_protocol_req"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "769cc",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "769d4",
+    "string": "wl_mware_protocol_config"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "769ee",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "769f6",
+    "string": "wl_mware_protocol_config"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76a24",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76a2c",
+    "string": "wl_mware_protocol_onHuVerticalFull"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76a66",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76a6e",
+    "string": "wl_mware_protocol_onHuVerticalFull"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76aa4",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76aac",
+    "string": "wl_mware_protocol_get_type"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76acc",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76ad4",
+    "string": "wl_mware_protocol_get_type"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76aee",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76af6",
+    "string": "wl_mware_protocol_get_type"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76b30",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76b38",
+    "string": "wl_mware_protocol_hu"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76b66",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76b6e",
+    "string": "wl_mware_protocol_hu"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76bac",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76bb4",
+    "string": "wl_mware_protocol_hu"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76bec",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76bf4",
+    "string": "wl_mware_protocol_audio"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76c22",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76c2a",
+    "string": "wl_mware_protocol_audio"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76c72",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76c7a",
+    "string": "wl_mware_protocol_audio"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76cb4",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76cbc",
+    "string": "wl_mware_protocol_data"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76cea",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76cf2",
+    "string": "wl_mware_protocol_data"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76d64",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76d6c",
+    "string": "wl_mware_protocol_data"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76da4",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76dac",
+    "string": "wl_mware_protocol_video"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76dcc",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76dd4",
+    "string": "wl_mware_protocol_video"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76e7a",
+    "string": "video channel receive NP or NC info!(type:%d)\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76e82",
+    "string": "wl_mware_protocol_video"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76e8e",
+    "string": "video channel receive unknown info!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76e96",
+    "string": "wl_mware_protocol_video"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76ea2",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76eaa",
+    "string": "wl_mware_protocol_video"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76ef4",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76efc",
+    "string": "wl_mware_protocol_msg"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76f1c",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76f24",
+    "string": "wl_mware_protocol_msg"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76f76",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76f7e",
+    "string": "wl_mware_protocol_msg"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76fba",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76fc2",
+    "string": "wl_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76ff0",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "76ff8",
+    "string": "wl_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7705c",
+    "string": "wl_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77082",
+    "string": "wl_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77090",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77098",
+    "string": "wl_mware_protocol_send"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "770d4",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "770dc",
+    "string": "wl_mware_protocol_init"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77102",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7710a",
+    "string": "wl_mware_protocol_init"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77128",
+    "string": "wl_mware_protocol_init"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77136",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7713e",
+    "string": "wl_mware_protocol_init"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77178",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77180",
+    "string": "wl_mware_protocol_deinit"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "771a6",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "771ae",
+    "string": "wl_mware_protocol_deinit"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "771d0",
+    "string": "wl_mware_protocol_deinit"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "771de",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "771e6",
+    "string": "wl_mware_protocol_deinit"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77220",
+    "string": "START\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77228",
+    "string": "wl_mware_protocol_end"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "77242",
+    "string": "END\r\n"
+  },
+  {
+    "file": "protocol.asm.txt",
+    "address": "7724a",
+    "string": "wl_mware_protocol_end"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a650",
+    "string": "date length is out of range!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a656",
+    "string": "_mware_check_header"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a6be",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a6c4",
+    "string": "_mware_socket_send"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a728",
+    "string": "port: %d, ret %d, errorno %d, retry_flag %d\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a72e",
+    "string": "_mware_socket_send"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a752",
+    "string": "port: %d, ret %d, errorno %d\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a758",
+    "string": "_mware_socket_send"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a76a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a770",
+    "string": "_mware_socket_send"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a794",
+    "string": "port: %d, ret %d, errorno %d\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a79a",
+    "string": "_mware_socket_send"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a7ac",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a7b2",
+    "string": "_mware_socket_send"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a872",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a878",
+    "string": "_mware_socket_send_packet"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a94a",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a950",
+    "string": "_mware_socke_recv"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a9b2",
+    "string": "socket_recv_disconnect, port: %d, ret %d, errorno %d\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a9b8",
+    "string": "_mware_socke_recv"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a9ca",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a9d0",
+    "string": "_mware_socke_recv"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7a9fc",
+    "string": "socket_recv_disconnect, port: %d, ret %d, errorno %d\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aa02",
+    "string": "_mware_socke_recv"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aa14",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aa1a",
+    "string": "_mware_socke_recv"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aa94",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aa9a",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aacc",
+    "string": "string is NULL\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aad2",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aae6",
+    "string": "string is : %s\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aaec",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ab24",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ab2a",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ab36",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ab68",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ab6e",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ab7a",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aba4",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ac0c",
+    "string": "_mware_check_header mismatch, port %d [%02X %02X %02X %02X %02X %02X %02X %02X]\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ac12",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ac3c",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ac58",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ac5e",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ac9e",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aca4",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7acb0",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ace8",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7acf0",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7acfe",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ad2c",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ad52",
+    "string": "_mware_socket_thread"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ae16",
+    "string": "wl_mware_socket_init"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ae2a",
+    "string": "wl_mware_socket_init"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ae46",
+    "string": "wl_mware_socket_init"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ae8a",
+    "string": "port %d , ssl_flag %d \r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7ae92",
+    "string": "wl_mware_socket_init"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aece",
+    "string": "[WL_SET_OCCUR %d]!!!\r\n"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7aed6",
+    "string": "wl_mware_socket_init"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7af10",
+    "string": "wl_mware_socket_init"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7af6c",
+    "string": "wl_mware_socket_deinit"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7afaa",
+    "string": "wl_mware_socket_deinit"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7afc8",
+    "string": "wl_mware_socket_deinit"
+  },
+  {
+    "file": "wire.asm.txt",
+    "address": "7b026",
+    "string": "wl_mware_socket_send"
+  }
+]

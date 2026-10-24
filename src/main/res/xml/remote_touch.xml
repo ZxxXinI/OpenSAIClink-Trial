@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+ android:accessibilityFeedbackType="feedbackGeneric"
+ android:canRetrieveWindowContent="false"
+ android:canPerformGestures="true"
+ android:isAccessibilityTool="false"
+ android:description="@string/touch_service_description"/>

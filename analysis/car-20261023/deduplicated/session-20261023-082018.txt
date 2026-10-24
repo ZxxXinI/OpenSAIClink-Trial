@@ -1,0 +1,3 @@
+﻿08:20:18.367 START E1/0.1.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+08:20:26.030 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:20:26.047 USB_OPEN manufacturer=Mapbar, Inc model=WeLink version=1.0

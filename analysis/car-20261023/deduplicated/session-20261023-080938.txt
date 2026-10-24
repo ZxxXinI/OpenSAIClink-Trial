@@ -1,0 +1,27 @@
+﻿08:09:38.146 START E1/0.1.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+08:12:00.307 ENCODER_CONFIG c2.qti.avc.encoder {max-fps-to-encoder=15.0, color-format=2130708361, i-frame-interval=2, level=512, mime=video/avc, profile=1, width=1280, bitrate=2764800, max-bframes=0, frame-rate=15, height=720, repeat-previous-frame-after=66666}
+08:12:00.457 CAPTURE_STARTED 1280x720 fps=15
+08:12:00.458 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x720
+08:12:00.458 CAPTURE_VISIBILITY true
+08:12:00.542 ENCODER_FORMAT {max-bitrate=2764800, crop-right=1279, level=512, latency=4, mime=video/avc, profile=1, bitrate=2764800, priority=4, intra-refresh-period=0, color-standard=2, feature-secure-playback=0, csd-1=java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], color-transfer=3, crop-bottom=719, prepend-sps-pps-to-idr-frames=0, crop-left=0, width=1280, bitrate-mode=1, color-range=2, crop-top=0, frame-rate=15, height=720, csd-0=java.nio.HeapByteBuffer[pos=0 lim=21 cap=21]} csdBytes=29
+08:12:00.545 FIRST_ENCODED_FRAME bytes=23295 key=true
+08:12:04.251 STATS usb=false config=false capture=true pause=false encoded=58 videoWritten=0 bytesWritten=0 dropped=0
+08:12:09.258 STATS usb=false config=false capture=true pause=false encoded=134 videoWritten=0 bytesWritten=0 dropped=0
+08:12:14.269 STATS usb=false config=false capture=true pause=false encoded=209 videoWritten=0 bytesWritten=0 dropped=0
+08:12:19.273 STATS usb=false config=false capture=true pause=false encoded=284 videoWritten=0 bytesWritten=0 dropped=0
+08:12:24.299 STATS usb=false config=false capture=true pause=false encoded=356 videoWritten=0 bytesWritten=0 dropped=0
+08:12:29.335 STATS usb=false config=false capture=true pause=false encoded=418 videoWritten=0 bytesWritten=0 dropped=0
+08:12:34.373 STATS usb=false config=false capture=true pause=false encoded=481 videoWritten=0 bytesWritten=0 dropped=0
+08:12:39.422 STATS usb=false config=false capture=true pause=false encoded=540 videoWritten=0 bytesWritten=0 dropped=0
+08:12:44.480 STATS usb=false config=false capture=true pause=false encoded=601 videoWritten=0 bytesWritten=0 dropped=0
+08:12:49.536 STATS usb=false config=false capture=true pause=false encoded=661 videoWritten=0 bytesWritten=0 dropped=0
+08:12:54.588 STATS usb=false config=false capture=true pause=false encoded=721 videoWritten=0 bytesWritten=0 dropped=0
+08:12:59.642 STATS usb=false config=false capture=true pause=false encoded=786 videoWritten=0 bytesWritten=0 dropped=0
+08:13:04.695 STATS usb=false config=false capture=true pause=false encoded=848 videoWritten=0 bytesWritten=0 dropped=0
+08:13:09.759 STATS usb=false config=false capture=true pause=false encoded=905 videoWritten=0 bytesWritten=0 dropped=0
+08:13:14.825 STATS usb=false config=false capture=true pause=false encoded=971 videoWritten=0 bytesWritten=0 dropped=0
+08:13:19.886 STATS usb=false config=false capture=true pause=false encoded=1033 videoWritten=0 bytesWritten=0 dropped=0
+08:13:24.963 STATS usb=false config=false capture=true pause=false encoded=1094 videoWritten=0 bytesWritten=0 dropped=0
+08:13:30.022 STATS usb=false config=false capture=true pause=false encoded=1155 videoWritten=0 bytesWritten=0 dropped=0
+08:13:34.408 SERVICE_STOPPED USB and capture released
+08:13:34.457 CAPTURE_STOPPED sampleBytes=2715879

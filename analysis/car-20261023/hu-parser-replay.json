@@ -1,0 +1,71 @@
+﻿{
+  "unicornVersion": "2.1.4",
+  "firmwareSha256": "835f2d3a6485c52111c5360c34ef665bcf2b1a26969cd7cea8747fc8f2275ced",
+  "entryAddress": "0x73241",
+  "stubbedCalls": {
+    "info": "0x69ee0",
+    "log": "0x68a34",
+    "errno": "0x683b4",
+    "malloc": "0x6f510",
+    "free": "0x6f5c4",
+    "memcpy": "0x15644",
+    "imageCallback": "0x731b8"
+  },
+  "results": [
+    {
+      "capture": "capture-1792714781165.h264",
+      "e1FirstPacketNalTypes": [
+        7,
+        8,
+        5
+      ],
+      "e1ImageCallbacks": 0,
+      "splitPacketSizes": [
+        21,
+        8,
+        22096
+      ],
+      "splitImageCallbacks": 1,
+      "splitImageType": 1,
+      "reconstructedBytesEqualOriginal": true,
+      "actualJavaWire": true
+    },
+    {
+      "capture": "capture-1792714968599.h264",
+      "e1FirstPacketNalTypes": [
+        7,
+        8,
+        5
+      ],
+      "e1ImageCallbacks": 0,
+      "splitPacketSizes": [
+        21,
+        8,
+        22513
+      ],
+      "splitImageCallbacks": 1,
+      "splitImageType": 1,
+      "reconstructedBytesEqualOriginal": true,
+      "actualJavaWire": true
+    },
+    {
+      "capture": "capture-1792715789931.h264",
+      "e1FirstPacketNalTypes": [
+        7,
+        8,
+        5
+      ],
+      "e1ImageCallbacks": 0,
+      "splitPacketSizes": [
+        21,
+        8,
+        23051
+      ],
+      "splitImageCallbacks": 1,
+      "splitImageType": 1,
+      "reconstructedBytesEqualOriginal": true,
+      "actualJavaWire": true
+    }
+  ],
+  "limitation": "CPU parser replay only; no USB or physical hardware decoding/display tested."
+}

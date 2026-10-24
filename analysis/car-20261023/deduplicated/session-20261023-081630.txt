@@ -1,0 +1,40 @@
+﻿08:16:30.532 START E1/0.1.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+08:19:33.105 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:19:33.165 USB_OPEN manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:19:33.165 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:19:33.166 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:19:33.171 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:19:33.175 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:19:33.177 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:19:33.178 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:19:33.181 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:19:33.181 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:19:33.186 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"requestWeLink","extData":{"bluetooth_add":"EC:5B:73:1F:0E:C2","isBtAutoConnect":true,"isSupportRecord":true,"isHuSupportCall":false,"recordDefault":0,"imei":"1234567890","mac":"HPASIPLH83LNCSRATLAS7PCM093","guid":"0000000000000000","appHuVersion":"V1.7.12012041","sdkHuVersion":"V1.7.12012041","linkMethod":3,"vers":{"wlVersion":"V1.0.0","huVersion":"V1.7.12012041","muVersion":"V1.0.0"}}}}
+08:19:33.186 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"responseWeLink","extData":{"state":1,"errCode":0,"responseCode":0,"displayCode":"","codecMode":2,"width":1280,"height":480,"hasNewVers":false,"vers":{"wlVer":{"version":"versions","path":"path"},"huVer":{"version":"versions","path":"path"},"muVer":{"version":"versions","path":"path"}}}}}
+08:19:33.200 RX_8 config 30
+08:19:33.200 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onControlEnAndCh","extData":{"controlState":1}}}
+08:19:34.621 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+08:19:34.623 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+08:19:36.127 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+08:19:36.129 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+08:19:37.220 STATS usb=true config=true capture=false pause=false encoded=0 videoWritten=0 bytesWritten=1343 dropped=0
+08:19:37.632 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+08:19:37.636 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+08:19:39.133 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+08:19:39.137 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+08:19:41.063 ENCODER_CONFIG c2.qti.avc.encoder {max-fps-to-encoder=30.0, color-format=2130708361, i-frame-interval=2, level=512, mime=video/avc, profile=1, width=1280, bitrate=1843200, max-bframes=0, frame-rate=30, height=480, repeat-previous-frame-after=33333}
+08:19:41.246 CAPTURE_STARTED 1280x480 fps=30
+08:19:41.247 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+08:19:41.248 CAPTURE_VISIBILITY true
+08:19:41.287 ENCODER_FORMAT {max-bitrate=1843200, crop-right=1279, level=512, latency=4, mime=video/avc, profile=1, bitrate=1843200, priority=4, intra-refresh-period=0, color-standard=2, feature-secure-playback=0, csd-1=java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], color-transfer=3, crop-bottom=479, prepend-sps-pps-to-idr-frames=0, crop-left=0, width=1280, bitrate-mode=1, color-range=2, crop-top=0, frame-rate=30, height=480, csd-0=java.nio.HeapByteBuffer[pos=0 lim=21 cap=21]} csdBytes=29
+08:19:41.289 FIRST_ENCODED_FRAME bytes=22125 key=true
+08:19:42.248 TX_JSON {"moduleName":"WeLink","version":0,"platform":"android","command":{"method":"onResumeWelink","extData":{"packageName":""}}}
+08:19:42.263 STATS usb=true config=true capture=true pause=false encoded=32 videoWritten=2 bytesWritten=24591 dropped=29
+08:19:46.297 TX_JSON {"moduleName":"WeLink","version":0,"platform":"android","command":{"method":"onResumeWelink","extData":{"packageName":"com.autonavi.minimap"}}}
+08:19:47.295 STATS usb=true config=true capture=true pause=false encoded=114 videoWritten=2 bytesWritten=24591 dropped=111
+08:19:52.302 STATS usb=true config=true capture=true pause=false encoded=269 videoWritten=2 bytesWritten=24591 dropped=266
+08:19:57.310 STATS usb=true config=true capture=true pause=false encoded=420 videoWritten=2 bytesWritten=24591 dropped=417
+08:20:02.324 STATS usb=true config=true capture=true pause=false encoded=542 videoWritten=2 bytesWritten=24591 dropped=529
+08:20:07.349 STATS usb=true config=true capture=true pause=false encoded=671 videoWritten=2 bytesWritten=24591 dropped=668
+08:20:11.314 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:20:12.361 STATS usb=true config=true capture=true pause=false encoded=819 videoWritten=2 bytesWritten=24591 dropped=816

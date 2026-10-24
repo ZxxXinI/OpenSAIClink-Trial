@@ -1,0 +1,36 @@
+﻿{
+  "onMuReady": {
+    "matchesRecordedE1": true,
+    "matchingSessions": [
+      "session-20261023-081630.txt",
+      "session-20261023-082226.txt",
+      "session-20261023-082534.txt",
+      "session-20261023-082605.txt",
+      "session-20261023-083622.txt"
+    ]
+  },
+  "responseWeLink": {
+    "matchesRecordedE1": true,
+    "matchingSessions": [
+      "session-20261023-081630.txt",
+      "session-20261023-082226.txt",
+      "session-20261023-083622.txt"
+    ]
+  },
+  "onHeartbeat": {
+    "matchesRecordedE1": true,
+    "matchingSessions": [
+      "session-20261023-081630.txt",
+      "session-20261023-082226.txt",
+      "session-20261023-083622.txt"
+    ]
+  },
+  "onResumeWelink": {
+    "matchesRecordedE1": true,
+    "matchingSessions": [
+      "session-20261023-081630.txt",
+      "session-20261023-082226.txt",
+      "session-20261023-083622.txt"
+    ]
+  }
+}

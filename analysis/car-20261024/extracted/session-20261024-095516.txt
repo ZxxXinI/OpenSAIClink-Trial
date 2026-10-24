@@ -1,0 +1,1047 @@
+﻿09:55:16.200 START E2/0.2.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+09:55:16.941 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+09:55:16.951 USB_OPEN manufacturer=Mapbar, Inc model=WeLink version=1.0
+09:55:16.953 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+09:55:16.955 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+09:55:16.955 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+09:55:16.956 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+09:55:16.956 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+09:55:16.957 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+09:55:16.967 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"requestWeLink","extData":{"bluetooth_add":"EC:5B:73:1F:0E:C2","isBtAutoConnect":true,"isSupportRecord":true,"isHuSupportCall":false,"recordDefault":0,"imei":"1234567890","mac":"HPASIPLH83LNCSRATLAS7PCM093","guid":"0000000000000000","appHuVersion":"V1.7.12012041","sdkHuVersion":"V1.7.12012041","linkMethod":3,"vers":{"wlVersion":"V1.0.0","huVersion":"V1.7.12012041","muVersion":"V1.0.0"}}}}
+09:55:16.967 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"responseWeLink","extData":{"state":1,"errCode":0,"responseCode":0,"displayCode":"","codecMode":2,"width":1280,"height":480,"hasNewVers":false,"vers":{"wlVer":{"version":"versions","path":"path"},"huVer":{"version":"versions","path":"path"},"muVer":{"version":"versions","path":"path"}}}}}
+09:55:16.974 RX_8 config 30
+09:55:16.983 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onControlEnAndCh","extData":{"controlState":1}}}
+09:55:18.411 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:18.414 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:19.928 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:19.931 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:20.173 ENCODER_CONFIG c2.qti.avc.encoder {max-fps-to-encoder=30.0, color-format=2130708361, i-frame-interval=2, level=512, mime=video/avc, profile=1, width=1280, bitrate=1843200, max-bframes=0, frame-rate=30, height=480, repeat-previous-frame-after=33333}
+09:55:20.297 CAPTURE_STARTED 1280x480 fps=30
+09:55:20.301 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+09:55:20.301 CAPTURE_VISIBILITY true
+09:55:20.344 ENCODER_FORMAT {max-bitrate=1843200, crop-right=1279, level=512, latency=4, mime=video/avc, profile=1, bitrate=1843200, priority=4, intra-refresh-period=0, color-standard=2, feature-secure-playback=0, csd-1=java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], color-transfer=3, crop-bottom=479, prepend-sps-pps-to-idr-frames=0, crop-left=0, width=1280, bitrate-mode=1, color-range=2, crop-top=0, frame-rate=30, height=480, csd-0=java.nio.HeapByteBuffer[pos=0 lim=21 cap=21]} csdBytes=29
+09:55:20.347 FIRST_ENCODED_FRAME bytes=22133 key=true
+09:55:20.357 TX_VIDEO_PACKET nal=7 wireBytes=29 writeMs=0
+09:55:20.357 TX_VIDEO_PACKET nal=8 wireBytes=16 writeMs=0
+09:55:20.358 TX_VIDEO_PACKET nal=5 wireBytes=22112 writeMs=0
+09:55:20.358 TX_VIDEO_PACKET nal=1 wireBytes=570 writeMs=0
+09:55:20.386 TX_VIDEO_PACKET nal=1 wireBytes=634 writeMs=0
+09:55:20.420 TX_VIDEO_PACKET nal=1 wireBytes=607 writeMs=0
+09:55:20.454 TX_VIDEO_PACKET nal=1 wireBytes=710 writeMs=0
+09:55:20.485 TX_VIDEO_PACKET nal=1 wireBytes=953 writeMs=0
+09:55:20.526 TX_VIDEO_PACKET nal=1 wireBytes=1157 writeMs=0
+09:55:20.565 TX_VIDEO_PACKET nal=1 wireBytes=1013 writeMs=0
+09:55:20.594 TX_VIDEO_PACKET nal=1 wireBytes=1205 writeMs=0
+09:55:20.626 TX_VIDEO_PACKET nal=1 wireBytes=991 writeMs=0
+09:55:20.957 STATS usb=true config=true capture=true pause=false encoded=19 videoWritten=19 bytesWritten=41051 videoPackets=21 dropped=0
+09:55:21.301 TX_JSON {"moduleName":"WeLink","version":0,"platform":"android","command":{"method":"onResumeWelink","extData":{"packageName":""}}}
+09:55:21.434 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:21.436 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:22.947 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:22.952 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:23.307 TX_JSON {"moduleName":"WeLink","version":0,"platform":"android","command":{"method":"onResumeWelink","extData":{"packageName":"com.autonavi.minimap"}}}
+09:55:24.451 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:24.455 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:25.954 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:25.956 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:25.962 STATS usb=true config=true capture=true pause=false encoded=136 videoWritten=136 bytesWritten=501528 videoPackets=142 dropped=0
+09:55:27.463 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:27.465 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:28.964 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:28.965 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:30.464 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:30.465 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:30.969 STATS usb=true config=true capture=true pause=false encoded=287 videoWritten=287 bytesWritten=785122 videoPackets=297 dropped=0
+09:55:31.966 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:31.968 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:33.474 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:33.475 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:34.976 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:34.978 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:35.979 STATS usb=true config=true capture=true pause=false encoded=456 videoWritten=456 bytesWritten=1047901 videoPackets=472 dropped=0
+09:55:36.480 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:36.481 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:38.001 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:38.002 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:39.524 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:39.529 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:40.986 STATS usb=true config=true capture=true pause=false encoded=652 videoWritten=652 bytesWritten=1338487 videoPackets=674 dropped=0
+09:55:41.029 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:41.030 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:42.535 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:42.537 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:44.040 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:44.041 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:45.569 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:45.570 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:45.992 STATS usb=true config=true capture=true pause=false encoded=811 videoWritten=811 bytesWritten=2121596 videoPackets=839 dropped=0
+09:55:47.082 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:47.086 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:48.579 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:48.581 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:50.097 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:50.098 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:51.001 STATS usb=true config=true capture=true pause=false encoded=934 videoWritten=934 bytesWritten=2458837 videoPackets=966 dropped=0
+09:55:51.593 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:51.595 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:53.100 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:53.102 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:54.609 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:54.611 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:56.006 STATS usb=true config=true capture=true pause=false encoded=1085 videoWritten=1085 bytesWritten=3459138 videoPackets=1123 dropped=0
+09:55:56.112 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:56.113 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:57.622 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:57.624 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:55:59.139 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:55:59.140 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:00.208 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+09:56:00.659 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:00.659 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:01.016 STATS usb=true config=true capture=true pause=false encoded=1239 videoWritten=1239 bytesWritten=4378865 videoPackets=1281 dropped=0
+09:56:02.175 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:02.176 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:03.673 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:03.673 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:05.199 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:05.201 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:06.023 STATS usb=true config=true capture=true pause=false encoded=1379 videoWritten=1379 bytesWritten=4661264 videoPackets=1425 dropped=0
+09:56:06.703 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:06.704 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:08.205 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:08.207 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:09.709 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:09.710 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:11.030 STATS usb=true config=true capture=true pause=false encoded=1434 videoWritten=1434 bytesWritten=4778474 videoPackets=1482 dropped=0
+09:56:11.216 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:11.218 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:12.719 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:12.720 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:12.892 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+09:56:14.233 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:14.234 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:15.732 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:15.733 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:16.040 STATS usb=true config=true capture=true pause=false encoded=1566 videoWritten=1566 bytesWritten=6049190 videoPackets=1620 dropped=0
+09:56:17.236 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:17.238 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:17.892 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+09:56:18.739 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:18.741 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:20.258 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:20.260 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:21.047 STATS usb=true config=true capture=true pause=false encoded=1676 videoWritten=1676 bytesWritten=6671020 videoPackets=1732 dropped=0
+09:56:21.765 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:21.766 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:23.271 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:23.273 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:24.773 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:24.775 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:26.056 STATS usb=true config=true capture=true pause=false encoded=1836 videoWritten=1836 bytesWritten=6946856 videoPackets=1898 dropped=0
+09:56:26.290 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:26.293 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:27.786 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:27.787 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:29.289 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:29.290 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:30.800 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:30.802 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:31.067 STATS usb=true config=true capture=true pause=false encoded=2021 videoWritten=2021 bytesWritten=7757344 videoPackets=2089 dropped=0
+09:56:32.297 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:32.298 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:32.626 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+09:56:33.817 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:33.819 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:35.328 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:35.329 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:36.074 STATS usb=true config=true capture=true pause=false encoded=2172 videoWritten=2172 bytesWritten=8891267 videoPackets=2246 dropped=0
+09:56:36.831 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:36.832 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:38.345 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:38.346 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:39.849 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:39.850 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:41.083 STATS usb=true config=true capture=true pause=false encoded=2305 videoWritten=2305 bytesWritten=9191045 videoPackets=2383 dropped=0
+09:56:41.351 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:41.352 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:42.855 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:42.857 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:44.356 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:44.357 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:45.859 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:45.860 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:46.094 STATS usb=true config=true capture=true pause=false encoded=2457 videoWritten=2457 bytesWritten=9680986 videoPackets=2539 dropped=0
+09:56:47.363 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:47.364 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:48.876 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:48.877 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:50.417 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:50.420 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:51.104 STATS usb=true config=true capture=true pause=false encoded=2611 videoWritten=2611 bytesWritten=10142946 videoPackets=2699 dropped=0
+09:56:51.910 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:51.911 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:53.415 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:53.415 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:54.922 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:54.924 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:56.115 STATS usb=true config=true capture=true pause=false encoded=2753 videoWritten=2753 bytesWritten=10284773 videoPackets=2845 dropped=0
+09:56:56.421 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:56.424 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:57.929 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:57.930 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:56:59.440 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:56:59.444 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:00.953 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:00.954 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:01.122 STATS usb=true config=true capture=true pause=false encoded=2890 videoWritten=2890 bytesWritten=10963335 videoPackets=2988 dropped=0
+09:57:02.465 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:02.471 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:03.790 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+09:57:03.968 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:03.969 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:05.475 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:05.477 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:06.129 STATS usb=true config=true capture=true pause=false encoded=3042 videoWritten=3042 bytesWritten=11658001 videoPackets=3144 dropped=0
+09:57:06.973 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:06.975 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:07.833 RX_8 motionevent3 214 185 0 50 down
+09:57:07.834 RX_8 motionevent3 0 0 0 0 comm
+09:57:07.928 RX_8 motionevent3 214 185 0 50 up
+09:57:07.934 RX_8 motionevent3 0 0 0 0 comm
+09:57:08.128 RX_8 motionevent3 220 241 0 50 down
+09:57:08.131 RX_8 motionevent3 0 0 0 0 comm
+09:57:08.228 RX_8 motionevent3 220 241 0 50 up
+09:57:08.233 RX_8 motionevent3 0 0 0 0 comm
+09:57:08.328 RX_8 motionevent3 229 242 0 50 down
+09:57:08.330 RX_8 motionevent3 0 0 0 0 comm
+09:57:08.395 RX_8 motionevent3 229 242 0 50 up
+09:57:08.398 RX_8 motionevent3 0 0 0 0 comm
+09:57:08.481 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:08.484 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:08.493 RX_8 motionevent3 232 228 0 50 down
+09:57:08.495 RX_8 motionevent3 0 0 0 0 comm
+09:57:08.591 RX_8 motionevent3 232 228 0 50 up
+09:57:08.593 RX_8 motionevent3 0 0 0 0 comm
+09:57:08.873 RX_8 motionevent3 613 298 0 50 down
+09:57:08.875 RX_8 motionevent3 0 0 0 0 comm
+09:57:08.971 RX_8 motionevent3 624 287 0 50 move
+09:57:08.973 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.005 RX_8 motionevent3 633 273 0 50 move
+09:57:09.008 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.037 RX_8 motionevent3 640 260 0 50 move
+09:57:09.038 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.071 RX_8 motionevent3 651 239 0 50 move
+09:57:09.073 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.103 RX_8 motionevent3 661 219 0 50 move
+09:57:09.104 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.136 RX_8 motionevent3 666 209 0 50 move
+09:57:09.141 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.169 RX_8 motionevent3 668 205 0 50 move
+09:57:09.169 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.208 RX_8 motionevent3 670 202 0 50 move
+09:57:09.211 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.249 RX_8 motionevent3 670 202 0 50 up
+09:57:09.251 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.403 RX_8 motionevent3 833 134 0 50 down
+09:57:09.405 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.470 RX_8 motionevent3 814 144 0 50 move
+09:57:09.478 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.503 RX_8 motionevent3 787 160 0 50 move
+09:57:09.504 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.541 RX_8 motionevent3 770 172 0 50 move
+09:57:09.544 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.576 RX_8 motionevent3 753 184 0 50 move
+09:57:09.578 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.605 RX_8 motionevent3 743 191 0 50 move
+09:57:09.607 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.637 RX_8 motionevent3 736 196 0 50 move
+09:57:09.637 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.675 RX_8 motionevent3 731 201 0 50 move
+09:57:09.676 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.705 RX_8 motionevent3 725 207 0 50 move
+09:57:09.706 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.736 RX_8 motionevent3 723 211 0 50 move
+09:57:09.738 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.770 RX_8 motionevent3 723 211 0 50 up
+09:57:09.771 RX_8 motionevent3 0 0 0 0 comm
+09:57:09.998 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:09.999 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:10.197 RX_8 motionevent3 212 219 0 50 down
+09:57:10.201 RX_8 motionevent3 0 0 0 0 comm
+09:57:10.289 RX_8 motionevent3 212 219 0 50 up
+09:57:10.291 RX_8 motionevent3 0 0 0 0 comm
+09:57:10.389 RX_8 motionevent3 237 200 0 50 down
+09:57:10.391 RX_8 motionevent3 0 0 0 0 comm
+09:57:10.456 RX_8 motionevent3 237 200 0 50 up
+09:57:10.457 RX_8 motionevent3 0 0 0 0 comm
+09:57:10.555 RX_8 motionevent3 221 230 0 50 down
+09:57:10.557 RX_8 motionevent3 0 0 0 0 comm
+09:57:10.629 RX_8 motionevent3 221 230 0 50 up
+09:57:10.631 RX_8 motionevent3 0 0 0 0 comm
+09:57:11.136 STATS usb=true config=true capture=true pause=false encoded=3194 videoWritten=3194 bytesWritten=11973385 videoPackets=3302 dropped=0
+09:57:11.495 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:11.496 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:13.026 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:13.029 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:14.048 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+09:57:14.522 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:14.524 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:16.048 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:16.049 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:16.144 STATS usb=true config=true capture=true pause=false encoded=3341 videoWritten=3341 bytesWritten=13136065 videoPackets=3453 dropped=0
+09:57:17.556 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:17.598 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:19.072 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:19.075 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:20.595 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:20.603 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:21.155 STATS usb=true config=true capture=true pause=false encoded=3474 videoWritten=3474 bytesWritten=13627777 videoPackets=3590 dropped=0
+09:57:22.105 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:22.105 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:23.620 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:23.621 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:25.129 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:25.129 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:26.164 STATS usb=true config=true capture=true pause=false encoded=3627 videoWritten=3627 bytesWritten=14166202 videoPackets=3749 dropped=0
+09:57:26.629 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:26.630 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:28.140 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:28.141 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:29.642 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:29.644 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:31.155 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:31.156 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:31.170 STATS usb=true config=true capture=true pause=false encoded=3795 videoWritten=3795 bytesWritten=14355672 videoPackets=3923 dropped=0
+09:57:32.664 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:32.667 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:34.160 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:34.162 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:35.321 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+09:57:35.665 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:35.667 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:36.181 STATS usb=true config=true capture=true pause=false encoded=3954 videoWritten=3954 bytesWritten=14821508 videoPackets=4086 dropped=0
+09:57:37.173 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:37.175 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:38.695 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:38.698 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:40.196 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:40.199 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:41.191 STATS usb=true config=true capture=true pause=false encoded=4129 videoWritten=4129 bytesWritten=15096879 videoPackets=4267 dropped=0
+09:57:41.695 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:41.697 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:43.198 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:43.200 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:44.711 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:44.713 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:46.199 STATS usb=true config=true capture=true pause=false encoded=4302 videoWritten=4302 bytesWritten=15385894 videoPackets=4446 dropped=0
+09:57:46.215 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:46.216 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:47.720 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:47.723 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:49.232 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:49.237 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:50.728 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:50.730 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:51.210 STATS usb=true config=true capture=true pause=false encoded=4482 videoWritten=4482 bytesWritten=15675075 videoPackets=4632 dropped=0
+09:57:52.247 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:52.248 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:53.760 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:53.761 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:55.268 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:55.269 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:56.219 STATS usb=true config=true capture=true pause=false encoded=4666 videoWritten=4666 bytesWritten=15974795 videoPackets=4822 dropped=0
+09:57:56.772 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:56.774 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:58.274 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:58.275 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:57:59.779 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:57:59.782 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:01.228 STATS usb=true config=true capture=true pause=false encoded=4851 videoWritten=4851 bytesWritten=16266158 videoPackets=5013 dropped=0
+09:58:01.298 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:01.302 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:02.793 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:02.795 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:04.309 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:04.311 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:05.820 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:05.823 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:06.236 STATS usb=true config=true capture=true pause=false encoded=5024 videoWritten=5024 bytesWritten=16555620 videoPackets=5192 dropped=0
+09:58:07.338 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:07.340 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:08.846 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:08.849 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:10.359 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:10.363 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:11.248 STATS usb=true config=true capture=true pause=false encoded=5194 videoWritten=5194 bytesWritten=16834502 videoPackets=5368 dropped=0
+09:58:11.860 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:11.861 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:13.370 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:13.372 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:14.891 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:14.896 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:16.257 STATS usb=true config=true capture=true pause=false encoded=5364 videoWritten=5364 bytesWritten=17113896 videoPackets=5544 dropped=0
+09:58:16.388 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:16.391 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:17.910 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:17.912 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:19.423 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:19.428 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:20.925 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:20.928 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:21.268 STATS usb=true config=true capture=true pause=false encoded=5545 videoWritten=5545 bytesWritten=17409633 videoPackets=5731 dropped=0
+09:58:22.427 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:22.430 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:23.940 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:23.948 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:25.438 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:25.440 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:26.276 STATS usb=true config=true capture=true pause=false encoded=5728 videoWritten=5728 bytesWritten=17694548 videoPackets=5920 dropped=0
+09:58:26.953 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:26.956 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:28.460 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:28.462 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:29.967 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:29.970 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:31.285 STATS usb=true config=true capture=true pause=false encoded=5914 videoWritten=5914 bytesWritten=17996732 videoPackets=6112 dropped=0
+09:58:31.468 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:31.470 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:32.973 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:32.975 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:34.487 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:34.490 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:35.991 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:35.993 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:36.297 STATS usb=true config=true capture=true pause=false encoded=6098 videoWritten=6098 bytesWritten=18292005 videoPackets=6302 dropped=0
+09:58:37.489 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:37.491 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:39.010 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:39.011 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:40.501 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:40.502 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:41.308 STATS usb=true config=true capture=true pause=false encoded=6280 videoWritten=6280 bytesWritten=18575488 videoPackets=6490 dropped=0
+09:58:42.009 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:42.011 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:43.511 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:43.514 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:45.010 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:45.012 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:46.316 STATS usb=true config=true capture=true pause=false encoded=6453 videoWritten=6453 bytesWritten=18857166 videoPackets=6669 dropped=0
+09:58:46.530 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:46.535 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:48.058 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:48.060 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:49.564 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:49.570 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:51.065 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:51.069 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:51.324 STATS usb=true config=true capture=true pause=false encoded=6628 videoWritten=6628 bytesWritten=19205875 videoPackets=6850 dropped=0
+09:58:52.585 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:52.588 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:54.103 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:54.104 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:55.609 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:55.611 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:56.332 STATS usb=true config=true capture=true pause=false encoded=6815 videoWritten=6814 bytesWritten=19658353 videoPackets=7043 dropped=0
+09:58:57.120 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:57.122 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:58:58.640 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:58:58.641 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:00.144 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:00.146 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:01.339 STATS usb=true config=true capture=true pause=false encoded=7003 videoWritten=7003 bytesWritten=20131039 videoPackets=7237 dropped=0
+09:59:01.678 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:01.680 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:03.180 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:03.182 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:04.691 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:04.693 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:06.196 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:06.199 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:06.347 STATS usb=true config=true capture=true pause=false encoded=7188 videoWritten=7188 bytesWritten=20465706 videoPackets=7428 dropped=0
+09:59:07.717 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:07.721 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:09.241 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:09.243 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:10.759 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:10.760 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:11.356 STATS usb=true config=true capture=true pause=false encoded=7374 videoWritten=7374 bytesWritten=20706893 videoPackets=7620 dropped=0
+09:59:12.260 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:12.264 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:12.362 USB_TX_STALLED type=6 nal=1 payload=788 headerDone=true pendingMs=0
+09:59:13.765 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:13.770 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:15.268 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:15.270 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:16.368 STATS usb=true config=true capture=true pause=false encoded=7555 videoWritten=7555 bytesWritten=20943353 videoPackets=7807 dropped=0
+09:59:16.770 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:16.772 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:18.291 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:18.292 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:19.792 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:19.793 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:21.298 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:21.299 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:21.376 STATS usb=true config=true capture=true pause=false encoded=7730 videoWritten=7730 bytesWritten=21175312 videoPackets=7988 dropped=0
+09:59:22.295 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+09:59:22.320 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+09:59:22.340 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+09:59:22.363 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+09:59:22.375 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+09:59:22.802 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:22.803 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:24.310 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:24.312 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:25.819 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:25.820 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:26.384 STATS usb=true config=true capture=true pause=false encoded=7903 videoWritten=7903 bytesWritten=21401995 videoPackets=8167 dropped=0
+09:59:27.321 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:27.323 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:28.825 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:28.829 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:30.324 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:30.328 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:31.395 STATS usb=true config=true capture=true pause=false encoded=8088 videoWritten=8088 bytesWritten=21643246 videoPackets=8358 dropped=0
+09:59:31.832 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:31.834 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:33.332 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:33.334 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:34.834 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:34.835 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:36.338 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:36.340 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:36.405 STATS usb=true config=true capture=true pause=false encoded=8263 videoWritten=8263 bytesWritten=21875681 videoPackets=8539 dropped=0
+09:59:37.867 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:37.869 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:39.368 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:39.369 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:40.877 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:40.879 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:41.414 STATS usb=true config=true capture=true pause=false encoded=8440 videoWritten=8440 bytesWritten=22117963 videoPackets=8722 dropped=0
+09:59:42.388 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:42.389 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:43.904 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:43.905 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:45.407 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:45.408 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:46.424 STATS usb=true config=true capture=true pause=false encoded=8613 videoWritten=8613 bytesWritten=22357155 videoPackets=8901 dropped=0
+09:59:46.908 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:46.911 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:48.419 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:48.420 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:49.922 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:49.924 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:51.428 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:51.433 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:51.435 STATS usb=true config=true capture=true pause=false encoded=8796 videoWritten=8795 bytesWritten=22604232 videoPackets=9089 dropped=0
+09:59:52.932 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:52.934 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:54.438 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:54.439 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:55.945 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:55.947 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:56.445 STATS usb=true config=true capture=true pause=false encoded=8980 videoWritten=8980 bytesWritten=22854340 videoPackets=9280 dropped=0
+09:59:57.468 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:57.470 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+09:59:58.963 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+09:59:58.967 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:00.471 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:00.472 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:01.454 STATS usb=true config=true capture=true pause=false encoded=9168 videoWritten=9168 bytesWritten=23309290 videoPackets=9474 dropped=0
+10:00:01.973 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:01.974 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:03.496 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:03.497 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:05.017 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:05.020 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:06.464 STATS usb=true config=true capture=true pause=false encoded=9356 videoWritten=9356 bytesWritten=23916550 videoPackets=9668 dropped=0
+10:00:06.508 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:06.511 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:08.018 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:08.020 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:09.526 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:09.530 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:11.027 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:11.029 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:11.474 STATS usb=true config=true capture=true pause=false encoded=9540 videoWritten=9540 bytesWritten=24305783 videoPackets=9858 dropped=0
+10:00:12.537 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:12.539 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:14.049 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:14.052 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:15.547 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:15.549 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:16.481 STATS usb=true config=true capture=true pause=false encoded=9707 videoWritten=9707 bytesWritten=24688128 videoPackets=10031 dropped=0
+10:00:17.058 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:17.062 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:18.562 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:18.563 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:20.082 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:20.083 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:21.489 STATS usb=true config=true capture=true pause=false encoded=9882 videoWritten=9882 bytesWritten=25027837 videoPackets=10212 dropped=0
+10:00:21.581 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:21.582 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:23.097 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:23.098 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:24.599 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:24.602 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:26.113 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:26.117 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:26.497 STATS usb=true config=true capture=true pause=false encoded=10068 videoWritten=10068 bytesWritten=25414109 videoPackets=10404 dropped=0
+10:00:27.623 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:27.625 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:29.123 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:29.125 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:30.627 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:30.631 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:31.504 STATS usb=true config=true capture=true pause=false encoded=10251 videoWritten=10251 bytesWritten=25845550 videoPackets=10593 dropped=0
+10:00:32.121 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:32.122 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:33.625 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:33.627 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:35.130 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:35.132 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:36.520 STATS usb=true config=true capture=true pause=false encoded=10438 videoWritten=10438 bytesWritten=26263243 videoPackets=10786 dropped=0
+10:00:36.592 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+10:00:36.637 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:36.649 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:38.137 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:38.138 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:39.640 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:39.641 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:41.149 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:41.151 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:41.526 STATS usb=true config=true capture=true pause=false encoded=10608 videoWritten=10608 bytesWritten=26597395 videoPackets=10962 dropped=0
+10:00:42.657 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:42.658 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:44.166 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:44.168 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:45.676 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:45.680 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:46.533 STATS usb=true config=true capture=true pause=false encoded=10802 videoWritten=10802 bytesWritten=26737188 videoPackets=11164 dropped=0
+10:00:47.177 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:47.180 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:48.699 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:48.704 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:50.206 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:50.210 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:51.542 STATS usb=true config=true capture=true pause=false encoded=10976 videoWritten=10976 bytesWritten=26838699 videoPackets=11342 dropped=0
+10:00:51.713 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:51.715 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:53.216 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:53.219 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:54.717 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:54.719 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:56.230 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:56.232 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:56.552 STATS usb=true config=true capture=true pause=false encoded=11153 videoWritten=11153 bytesWritten=26961200 videoPackets=11525 dropped=0
+10:00:57.741 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:57.745 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:00:59.249 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:00:59.253 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:00.752 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:00.755 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:01.563 STATS usb=true config=true capture=true pause=false encoded=11339 videoWritten=11339 bytesWritten=27081069 videoPackets=11717 dropped=0
+10:01:02.262 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:02.265 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:03.772 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:03.789 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:05.273 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:05.275 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:06.570 STATS usb=true config=true capture=true pause=false encoded=11518 videoWritten=11518 bytesWritten=27201482 videoPackets=11902 dropped=0
+10:01:06.772 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:06.773 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:08.283 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:08.285 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:09.805 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:09.806 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:11.325 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:11.327 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:11.578 STATS usb=true config=true capture=true pause=false encoded=11696 videoWritten=11696 bytesWritten=27323407 videoPackets=12086 dropped=0
+10:01:12.831 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:12.832 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:14.365 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:14.371 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:15.881 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:15.883 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:16.589 STATS usb=true config=true capture=true pause=false encoded=11877 videoWritten=11877 bytesWritten=27441400 videoPackets=12273 dropped=0
+10:01:17.388 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:17.392 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:18.896 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:18.897 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:20.410 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:20.412 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:21.601 STATS usb=true config=true capture=true pause=false encoded=12048 videoWritten=12048 bytesWritten=27554300 videoPackets=12450 dropped=0
+10:01:21.914 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:21.917 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:23.413 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:23.415 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:24.915 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:24.917 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:26.419 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:26.421 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:26.612 STATS usb=true config=true capture=true pause=false encoded=12163 videoWritten=12163 bytesWritten=27634954 videoPackets=12569 dropped=0
+10:01:27.930 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:27.933 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:29.427 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:29.428 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:30.930 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:30.933 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:31.620 STATS usb=true config=true capture=true pause=false encoded=12216 videoWritten=12216 bytesWritten=27670872 videoPackets=12624 dropped=0
+10:01:32.434 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:32.436 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:33.937 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:33.941 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:35.455 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:35.459 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:36.629 STATS usb=true config=true capture=true pause=false encoded=12283 videoWritten=12283 bytesWritten=27718739 videoPackets=12693 dropped=0
+10:01:36.964 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:36.966 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:38.468 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:38.472 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:39.975 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:39.977 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:41.476 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:41.479 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:41.644 STATS usb=true config=true capture=true pause=false encoded=12348 videoWritten=12348 bytesWritten=27761790 videoPackets=12760 dropped=0
+10:01:42.984 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:42.986 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:44.494 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:44.495 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:45.988 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:45.990 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:46.651 STATS usb=true config=true capture=true pause=false encoded=12417 videoWritten=12417 bytesWritten=27806605 videoPackets=12831 dropped=0
+10:01:47.501 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:47.503 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:49.019 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:49.021 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:50.519 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:50.520 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:51.659 STATS usb=true config=true capture=true pause=false encoded=12477 videoWritten=12477 bytesWritten=27848037 videoPackets=12893 dropped=0
+10:01:52.030 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:52.032 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:53.537 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:53.539 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:55.051 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:55.052 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:56.549 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:56.553 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:56.669 STATS usb=true config=true capture=true pause=false encoded=12528 videoWritten=12528 bytesWritten=27889988 videoPackets=12946 dropped=0
+10:01:58.054 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:58.056 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:01:59.557 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:01:59.562 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:01.061 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:01.063 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:01.678 STATS usb=true config=true capture=true pause=false encoded=12593 videoWritten=12593 bytesWritten=27929686 videoPackets=13013 dropped=0
+10:02:02.577 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:02.580 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:04.106 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:04.110 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:05.601 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:05.603 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:06.685 STATS usb=true config=true capture=true pause=false encoded=12665 videoWritten=12665 bytesWritten=27995910 videoPackets=13089 dropped=0
+10:02:07.103 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:07.105 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:08.607 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:08.609 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:10.113 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:10.115 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:11.619 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:11.620 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:11.696 STATS usb=true config=true capture=true pause=false encoded=12720 videoWritten=12720 bytesWritten=28019953 videoPackets=13144 dropped=0
+10:02:13.121 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:13.123 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:14.640 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:14.643 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:16.139 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:16.142 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:16.709 STATS usb=true config=true capture=true pause=false encoded=12770 videoWritten=12770 bytesWritten=28059814 videoPackets=13196 dropped=0
+10:02:17.642 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:17.644 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:19.148 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:19.150 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:20.657 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:20.658 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:21.720 STATS usb=true config=true capture=true pause=false encoded=12830 videoWritten=12830 bytesWritten=28101328 videoPackets=13258 dropped=0
+10:02:22.168 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:22.171 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:23.677 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:23.679 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:25.176 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:25.178 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:26.678 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:26.679 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:26.730 STATS usb=true config=true capture=true pause=false encoded=12886 videoWritten=12886 bytesWritten=28145856 videoPackets=13316 dropped=0
+10:02:28.180 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:28.182 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:29.689 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:29.691 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:31.189 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:31.195 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:31.739 STATS usb=true config=true capture=true pause=false encoded=12926 videoWritten=12926 bytesWritten=28177987 videoPackets=13358 dropped=0
+10:02:32.693 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:32.699 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:34.199 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:34.203 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:35.706 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:35.710 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:36.752 STATS usb=true config=true capture=true pause=false encoded=12986 videoWritten=12986 bytesWritten=28221920 videoPackets=13420 dropped=0
+10:02:37.208 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:37.212 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:38.712 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:38.718 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:40.213 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:40.216 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:41.719 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:41.721 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:41.763 STATS usb=true config=true capture=true pause=false encoded=13048 videoWritten=13048 bytesWritten=28266494 videoPackets=13484 dropped=0
+10:02:43.227 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:43.230 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:44.741 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:44.746 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:46.251 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:46.256 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:46.773 STATS usb=true config=true capture=true pause=false encoded=13134 videoWritten=13134 bytesWritten=28314402 videoPackets=13572 dropped=0
+10:02:47.759 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:47.764 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:49.260 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:49.264 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:50.757 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:50.762 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:51.781 STATS usb=true config=true capture=true pause=false encoded=13202 videoWritten=13202 bytesWritten=28379124 videoPackets=13644 dropped=0
+10:02:52.262 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:52.265 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:53.765 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:53.768 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:55.275 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:55.280 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:56.769 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:56.773 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:56.790 STATS usb=true config=true capture=true pause=false encoded=13264 videoWritten=13264 bytesWritten=28423207 videoPackets=13708 dropped=0
+10:02:58.278 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:58.281 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:02:59.785 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:02:59.789 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:01.289 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:01.291 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:01.803 STATS usb=true config=true capture=true pause=false encoded=13322 videoWritten=13322 bytesWritten=28466061 videoPackets=13768 dropped=0
+10:03:02.800 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:02.803 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:04.312 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:04.317 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:05.815 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:05.820 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:06.818 STATS usb=true config=true capture=true pause=false encoded=13393 videoWritten=13393 bytesWritten=28516555 videoPackets=13841 dropped=0
+10:03:07.315 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:07.317 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:08.824 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:08.826 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:10.332 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:10.335 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:11.830 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:11.833 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:11.835 STATS usb=true config=true capture=true pause=false encoded=13462 videoWritten=13462 bytesWritten=28559222 videoPackets=13912 dropped=0
+10:03:13.338 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:13.341 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:14.851 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:14.853 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:16.354 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:16.359 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:16.846 STATS usb=true config=true capture=true pause=false encoded=13504 videoWritten=13504 bytesWritten=28592572 videoPackets=13956 dropped=0
+10:03:17.868 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:17.872 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:19.365 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:19.370 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:19.610 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuAppFront","extData":{"state":false}}}
+10:03:19.628 HU_SOURCE Paused by head unit
+10:03:19.642 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuSourceChange","extData":{"status":0}}}
+10:03:19.643 HU_SOURCE Paused by head unit
+10:03:20.868 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:20.870 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:21.856 STATS usb=true config=true capture=true pause=true encoded=13556 videoWritten=13537 bytesWritten=28611499 videoPackets=13989 dropped=0
+10:03:22.376 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:22.378 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:23.877 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:03:23.879 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:03:24.009 USB_CLOSED read: java.io.IOException: read failed: EIO (I/O error)
+10:03:24.029 SERVICE_STOPPED USB and capture released
+10:03:24.160 CAPTURE_STOPPED sampleBytes=10471767
+10:04:53.603 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+10:04:53.628 USB_OPEN manufacturer=Mapbar, Inc model=WeLink version=1.0
+10:04:53.634 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+10:04:53.635 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+10:04:53.640 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+10:04:53.640 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+10:04:53.648 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"requestWeLink","extData":{"bluetooth_add":"EC:5B:73:1F:0E:C2","isBtAutoConnect":true,"isSupportRecord":true,"isHuSupportCall":false,"recordDefault":0,"imei":"1234567890","mac":"HPASIPLH83LNCSRATLAS7PCM093","guid":"0000000000000000","appHuVersion":"V1.7.12012041","sdkHuVersion":"V1.7.12012041","linkMethod":3,"vers":{"wlVersion":"V1.0.0","huVersion":"V1.7.12012041","muVersion":"V1.0.0"}}}}
+10:04:53.650 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"responseWeLink","extData":{"state":1,"errCode":0,"responseCode":0,"displayCode":"","codecMode":2,"width":1280,"height":480,"hasNewVers":false,"vers":{"wlVer":{"version":"versions","path":"path"},"huVer":{"version":"versions","path":"path"},"muVer":{"version":"versions","path":"path"}}}}}
+10:04:53.660 RX_8 config 30
+10:04:53.661 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onControlEnAndCh","extData":{"controlState":1}}}
+10:04:55.165 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:04:55.166 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:04:56.669 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:04:56.672 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:04:57.640 STATS usb=true config=true capture=false pause=false encoded=13591 videoWritten=0 bytesWritten=1027 videoPackets=0 dropped=0
+10:04:58.176 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:04:58.179 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:04:59.677 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:04:59.679 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:01.186 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:01.188 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:02.654 STATS usb=true config=true capture=false pause=false encoded=13591 videoWritten=0 bytesWritten=1545 videoPackets=0 dropped=0
+10:05:02.683 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:02.685 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:04.190 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:04.192 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:05.696 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:05.697 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:06.869 ENCODER_CONFIG c2.qti.avc.encoder {max-fps-to-encoder=30.0, color-format=2130708361, i-frame-interval=2, level=512, mime=video/avc, profile=1, width=1280, bitrate=1843200, max-bframes=0, frame-rate=30, height=480, repeat-previous-frame-after=33333}
+10:05:07.004 CAPTURE_STARTED 1280x480 fps=30
+10:05:07.005 CAPTURE_RESIZE content=1440x3200 fixedEncoder=1280x480
+10:05:07.005 CAPTURE_VISIBILITY true
+10:05:07.076 ENCODER_FORMAT {max-bitrate=1843200, crop-right=1279, level=512, latency=4, mime=video/avc, profile=1, bitrate=1843200, priority=4, intra-refresh-period=0, color-standard=2, feature-secure-playback=0, csd-1=java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], color-transfer=3, crop-bottom=479, prepend-sps-pps-to-idr-frames=0, crop-left=0, width=1280, bitrate-mode=1, color-range=2, crop-top=0, frame-rate=30, height=480, csd-0=java.nio.HeapByteBuffer[pos=0 lim=21 cap=21]} csdBytes=29
+10:05:07.077 FIRST_ENCODED_FRAME bytes=22311 key=true
+10:05:07.078 TX_VIDEO_PACKET nal=7 wireBytes=29 writeMs=0
+10:05:07.078 TX_VIDEO_PACKET nal=8 wireBytes=16 writeMs=0
+10:05:07.078 TX_VIDEO_PACKET nal=5 wireBytes=22290 writeMs=0
+10:05:07.078 TX_VIDEO_PACKET nal=1 wireBytes=691 writeMs=0
+10:05:07.109 TX_VIDEO_PACKET nal=1 wireBytes=754 writeMs=0
+10:05:07.145 TX_VIDEO_PACKET nal=1 wireBytes=800 writeMs=0
+10:05:07.189 TX_VIDEO_PACKET nal=1 wireBytes=1029 writeMs=0
+10:05:07.200 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:07.201 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:07.216 TX_VIDEO_PACKET nal=1 wireBytes=886 writeMs=0
+10:05:07.255 TX_VIDEO_PACKET nal=1 wireBytes=1093 writeMs=0
+10:05:07.287 TX_VIDEO_PACKET nal=1 wireBytes=874 writeMs=0
+10:05:07.322 TX_VIDEO_PACKET nal=1 wireBytes=1156 writeMs=0
+10:05:07.351 TX_VIDEO_PACKET nal=1 wireBytes=843 writeMs=0
+10:05:07.659 STATS usb=true config=true capture=true pause=false encoded=18 videoWritten=18 bytesWritten=42370 videoPackets=20 dropped=0
+10:05:08.005 TX_JSON {"moduleName":"WeLink","version":0,"platform":"android","command":{"method":"onResumeWelink","extData":{"packageName":""}}}
+10:05:08.711 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:08.715 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:10.207 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:10.210 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:11.711 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:11.715 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:12.663 STATS usb=true config=true capture=true pause=false encoded=87 videoWritten=87 bytesWritten=132969 videoPackets=91 dropped=0
+10:05:13.247 TX_JSON {"moduleName":"WeLink","version":0,"platform":"android","command":{"method":"onResumeWelink","extData":{"packageName":"com.autonavi.minimap"}}}
+10:05:13.260 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:13.261 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:14.727 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:14.729 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:15.949 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:15.968 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:15.991 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:15.999 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:16.007 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:16.245 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:16.247 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:17.671 STATS usb=true config=true capture=true pause=false encoded=188 videoWritten=188 bytesWritten=419221 videoPackets=196 dropped=0
+10:05:17.749 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:17.751 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:19.252 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:19.254 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:19.338 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:19.348 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:19.360 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:19.385 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:19.399 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:20.755 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:20.756 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:21.923 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:21.941 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:21.963 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:21.974 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:21.990 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:22.291 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:22.292 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:22.679 STATS usb=true config=true capture=true pause=false encoded=327 videoWritten=327 bytesWritten=1593764 videoPackets=339 dropped=0
+10:05:23.809 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:23.811 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:24.086 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:24.100 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:24.125 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:24.143 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:24.167 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:25.307 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:25.308 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:26.704 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:26.743 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:26.750 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:26.754 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:26.775 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:26.828 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:26.829 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:27.688 STATS usb=true config=true capture=true pause=false encoded=480 videoWritten=480 bytesWritten=1867301 videoPackets=496 dropped=0
+10:05:28.328 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:28.329 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:29.831 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:29.832 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:31.343 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:31.344 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:32.693 STATS usb=true config=true capture=true pause=false encoded=636 videoWritten=635 bytesWritten=2147612 videoPackets=657 dropped=0
+10:05:32.857 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:32.859 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:34.361 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:34.361 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:35.883 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:35.884 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:37.051 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:37.105 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:37.151 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:37.178 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:37.377 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:37.377 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:37.700 STATS usb=true config=true capture=true pause=false encoded=780 videoWritten=780 bytesWritten=2238807 videoPackets=806 dropped=0
+10:05:38.877 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:38.879 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:39.818 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:39.858 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:39.879 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:39.887 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuBTPhone","extData":{"btPhoneState":2}}}
+10:05:40.379 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:40.380 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:41.901 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:41.904 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:42.711 STATS usb=true config=true capture=true pause=false encoded=931 videoWritten=931 bytesWritten=2459501 videoPackets=963 dropped=0
+10:05:43.403 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:43.404 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:44.911 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:44.914 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:46.413 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:46.415 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:47.718 STATS usb=true config=true capture=true pause=false encoded=1086 videoWritten=1086 bytesWritten=2945279 videoPackets=1124 dropped=0
+10:05:47.958 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:47.960 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:49.463 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:49.464 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:50.966 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:50.967 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:52.470 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:52.473 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:52.727 STATS usb=true config=true capture=true pause=false encoded=1243 videoWritten=1243 bytesWritten=3932495 videoPackets=1285 dropped=0
+10:05:53.977 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:53.978 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:55.482 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:55.483 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:57.001 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:57.002 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:05:57.737 STATS usb=true config=true capture=true pause=false encoded=1400 videoWritten=1400 bytesWritten=4952863 videoPackets=1448 dropped=0
+10:05:58.518 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:05:58.519 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:06:00.029 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:06:00.031 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:06:01.531 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:06:01.532 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:06:02.744 STATS usb=true config=true capture=true pause=false encoded=1550 videoWritten=1550 bytesWritten=5524326 videoPackets=1602 dropped=0
+10:06:03.041 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:06:03.043 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:06:04.556 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:06:04.563 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:06:04.880 RX_9 {"moduleName":"WeLink","version":0,"platform":"linux","command":{"method":"onHuAppFront","extData":{"state":false}}}
+10:06:04.885 HU_SOURCE Paused by head unit
+10:06:04.887 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuSourceChange","extData":{"status":0}}}
+10:06:04.891 HU_SOURCE Paused by head unit
+10:06:06.071 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"reqHeartbeat","extData":{"heartbeatType":1}}}
+10:06:06.075 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onHeartbeat","extData":{}}}
+10:06:06.979 USB_CLOSED read: java.io.IOException: read failed: EIO (I/O error)
+10:06:06.994 SERVICE_STOPPED USB and capture released
+10:06:07.178 CAPTURE_STOPPED sampleBytes=5550430

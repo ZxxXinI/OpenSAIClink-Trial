@@ -1,0 +1,38 @@
+/build/
+/emulator/
+/signing/
+__pycache__/
+*.pyc
+
+# Large local regressions are not source. Markdown, JSON, logs and small
+# deterministic fixtures remain available in the repository.
+/analysis/**/*.zip
+/analysis/**/*.h264
+/analysis/**/*.jpg
+/analysis/**/*.png
+/analysis/**/*.so
+/analysis/**/*.bin
+/analysis/**/*.wl
+/analysis/**/*.aus
+/analysis/**/firmware/
+/analysis/**/host-classes/
+/analysis/**/host-src/
+/analysis/**/__pycache__/
+/analysis/**/*.asm.txt
+/analysis/**/*.asm.annotated.txt
+/analysis/**/*.dexasm.txt
+/analysis/**/*.apk-dex.txt
+/analysis/**/*-strings.txt
+/analysis/**/*-symbols.txt
+/device-results/
+/evidence/
+/tools/
+
+# Historical source snapshots duplicate the current tree.
+/releases/
+
+# Keep the vetted final APK in the repository for direct download.
+/dist/*
+!/dist/OpenSAICLink-E6-0.6.0.apk
+!/dist/OpenSAICLink-E6-0.6.0.apk.build-info.json
+!/dist/build-info.json

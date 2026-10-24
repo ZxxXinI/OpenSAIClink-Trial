@@ -1,0 +1,1 @@
+﻿11:13:34.907 START E3/0.3.0 Android=36 model=24117RK2CC abis=[arm64-v8a]

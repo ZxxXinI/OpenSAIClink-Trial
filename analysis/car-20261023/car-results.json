@@ -1,0 +1,580 @@
+﻿{
+  "exports": [
+    {
+      "name": "OpenSAICLink-E1-1792715022253.zip",
+      "sha256": "3d2066a01b9e1a044c7ddb075221243be2e7b5f371ef527e74d875c85bff8923",
+      "entries": [
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "session-20261023-080938.txt",
+          "bytes": 3280,
+          "sha256": "4b7f590c29ba73c8e15780798a32bad2de94ed6ea5a9050729533e99294712aa"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "capture-1792714320407.h264",
+          "bytes": 2715879,
+          "sha256": "5950bdd3f4f3ef44c81c27712606c5ec2267cd6540c228a6586be28f4240642c"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "session-20261023-081630.txt",
+          "bytes": 6026,
+          "sha256": "c79f1e23f6d429b2519f4f414570290c027bb9e1230213784197230e7fddd440"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "capture-1792714781165.h264",
+          "bytes": 3910833,
+          "sha256": "97b003cf1b680fab31a181d4a09676cd3cdc6487a1df86200a1b24ea1ba71df4"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "session-20261023-082018.txt",
+          "bytes": 226,
+          "sha256": "7a03bed9187308fa8b00426290f65ec63ec66cb8c3fab52a3418cdc03db66f76"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "session-20261023-082039.txt",
+          "bytes": 694,
+          "sha256": "7ce07f1889f64b441f4301c1c1725508380ebaf6c867d44a510477b551f89f3d"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "session-20261023-082141.txt",
+          "bytes": 603,
+          "sha256": "138a4a0d387201b71951abc180d247d7de59c4ae630e508c2570331b226753bf"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "session-20261023-082226.txt",
+          "bytes": 15027,
+          "sha256": "20f7b70725d3e949f8cea543aa963b45c487fe9a2a79072929eb4c7b919cc679"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715022253.zip",
+          "name": "capture-1792714968599.h264",
+          "bytes": 4189006,
+          "sha256": "e17b5aea4a0d002e148f65b65f1264ad62e1d1c5378dccb464dd92a7f48f2025"
+        }
+      ]
+    },
+    {
+      "name": "OpenSAICLink-E1-1792715188200.zip",
+      "sha256": "6d3bfeff9b7d984fe082d1d70add9d3c8b9f46cb063cde3de8bcbc166a697dd0",
+      "entries": [
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-080938.txt",
+          "bytes": 3280,
+          "sha256": "4b7f590c29ba73c8e15780798a32bad2de94ed6ea5a9050729533e99294712aa"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "capture-1792714320407.h264",
+          "bytes": 2715879,
+          "sha256": "5950bdd3f4f3ef44c81c27712606c5ec2267cd6540c228a6586be28f4240642c"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-081630.txt",
+          "bytes": 6026,
+          "sha256": "c79f1e23f6d429b2519f4f414570290c027bb9e1230213784197230e7fddd440"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "capture-1792714781165.h264",
+          "bytes": 3910833,
+          "sha256": "97b003cf1b680fab31a181d4a09676cd3cdc6487a1df86200a1b24ea1ba71df4"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-082018.txt",
+          "bytes": 226,
+          "sha256": "7a03bed9187308fa8b00426290f65ec63ec66cb8c3fab52a3418cdc03db66f76"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-082039.txt",
+          "bytes": 694,
+          "sha256": "7ce07f1889f64b441f4301c1c1725508380ebaf6c867d44a510477b551f89f3d"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-082141.txt",
+          "bytes": 603,
+          "sha256": "138a4a0d387201b71951abc180d247d7de59c4ae630e508c2570331b226753bf"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-082226.txt",
+          "bytes": 15027,
+          "sha256": "20f7b70725d3e949f8cea543aa963b45c487fe9a2a79072929eb4c7b919cc679"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "capture-1792714968599.h264",
+          "bytes": 4189006,
+          "sha256": "e17b5aea4a0d002e148f65b65f1264ad62e1d1c5378dccb464dd92a7f48f2025"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-082504.txt",
+          "bytes": 157,
+          "sha256": "ce572b6438983d535641289bcbf6af9a748ea09d4764be42121fef77de21541c"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-082534.txt",
+          "bytes": 2624,
+          "sha256": "670131da6be83a3bd2fd25f93958fa8e4bc6a0ec11990efe15aa431962ce0db2"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715188200.zip",
+          "name": "session-20261023-082605.txt",
+          "bytes": 2838,
+          "sha256": "819222f6e003c9f1e7e6212253225466999ec856295bd61f71ea85a7ad643326"
+        }
+      ]
+    },
+    {
+      "name": "OpenSAICLink-E1-1792715807777.zip",
+      "sha256": "25c0be797f3f17f9b8aa291fc163b640a13b595076daee27212a10f0bb6e367e",
+      "entries": [
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-080938.txt",
+          "bytes": 3280,
+          "sha256": "4b7f590c29ba73c8e15780798a32bad2de94ed6ea5a9050729533e99294712aa"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "capture-1792714320407.h264",
+          "bytes": 2715879,
+          "sha256": "5950bdd3f4f3ef44c81c27712606c5ec2267cd6540c228a6586be28f4240642c"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-081630.txt",
+          "bytes": 6026,
+          "sha256": "c79f1e23f6d429b2519f4f414570290c027bb9e1230213784197230e7fddd440"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "capture-1792714781165.h264",
+          "bytes": 3910833,
+          "sha256": "97b003cf1b680fab31a181d4a09676cd3cdc6487a1df86200a1b24ea1ba71df4"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-082018.txt",
+          "bytes": 226,
+          "sha256": "7a03bed9187308fa8b00426290f65ec63ec66cb8c3fab52a3418cdc03db66f76"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-082039.txt",
+          "bytes": 694,
+          "sha256": "7ce07f1889f64b441f4301c1c1725508380ebaf6c867d44a510477b551f89f3d"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-082141.txt",
+          "bytes": 603,
+          "sha256": "138a4a0d387201b71951abc180d247d7de59c4ae630e508c2570331b226753bf"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-082226.txt",
+          "bytes": 15027,
+          "sha256": "20f7b70725d3e949f8cea543aa963b45c487fe9a2a79072929eb4c7b919cc679"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "capture-1792714968599.h264",
+          "bytes": 4189006,
+          "sha256": "e17b5aea4a0d002e148f65b65f1264ad62e1d1c5378dccb464dd92a7f48f2025"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-082504.txt",
+          "bytes": 157,
+          "sha256": "ce572b6438983d535641289bcbf6af9a748ea09d4764be42121fef77de21541c"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-082534.txt",
+          "bytes": 2624,
+          "sha256": "670131da6be83a3bd2fd25f93958fa8e4bc6a0ec11990efe15aa431962ce0db2"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-082605.txt",
+          "bytes": 2838,
+          "sha256": "819222f6e003c9f1e7e6212253225466999ec856295bd61f71ea85a7ad643326"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "session-20261023-083622.txt",
+          "bytes": 7600,
+          "sha256": "23fd5bd584f702ffdd1df779af760ab0f3dcf0852cf11a081f903c560f621417"
+        },
+        {
+          "export": "OpenSAICLink-E1-1792715807777.zip",
+          "name": "capture-1792715789931.h264",
+          "bytes": 1335541,
+          "sha256": "77f28d58e6dd840a999e7c86e5f13e2ae37726ca195ce1b857a7eb19ca67cc92"
+        }
+      ]
+    }
+  ],
+  "uniqueSessions": [
+    {
+      "name": "session-20261023-080938.txt",
+      "lines": 27,
+      "snapshots": 3,
+      "usbOpen": false,
+      "configReceived": false,
+      "captureStarted": true,
+      "methodsReceived": {},
+      "firstStats": {
+        "usb": "false",
+        "config": "false",
+        "capture": "true",
+        "pause": "false",
+        "encoded": 58,
+        "videoWritten": 0,
+        "bytesWritten": 0,
+        "dropped": 0,
+        "time": "08:12:04.251"
+      },
+      "lastStats": {
+        "usb": "false",
+        "config": "false",
+        "capture": "true",
+        "pause": "false",
+        "encoded": 1155,
+        "videoWritten": 0,
+        "bytesWritten": 0,
+        "dropped": 0,
+        "time": "08:13:30.022"
+      },
+      "stalledAfterVideo": false,
+      "errors": []
+    },
+    {
+      "name": "session-20261023-081630.txt",
+      "lines": 40,
+      "snapshots": 3,
+      "usbOpen": true,
+      "configReceived": true,
+      "captureStarted": true,
+      "methodsReceived": {
+        "onHuReady": 4,
+        "requestWeLink": 1,
+        "onControlEnAndCh": 1,
+        "reqHeartbeat": 4
+      },
+      "firstStats": {
+        "usb": "true",
+        "config": "true",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 1343,
+        "dropped": 0,
+        "time": "08:19:37.220"
+      },
+      "lastStats": {
+        "usb": "true",
+        "config": "true",
+        "capture": "true",
+        "pause": "false",
+        "encoded": 819,
+        "videoWritten": 2,
+        "bytesWritten": 24591,
+        "dropped": 816,
+        "time": "08:20:12.361"
+      },
+      "stalledAfterVideo": true,
+      "errors": []
+    },
+    {
+      "name": "session-20261023-082018.txt",
+      "lines": 3,
+      "snapshots": 3,
+      "usbOpen": true,
+      "configReceived": false,
+      "captureStarted": false,
+      "methodsReceived": {},
+      "firstStats": null,
+      "lastStats": null,
+      "stalledAfterVideo": false,
+      "errors": []
+    },
+    {
+      "name": "session-20261023-082039.txt",
+      "lines": 7,
+      "snapshots": 3,
+      "usbOpen": true,
+      "configReceived": false,
+      "captureStarted": false,
+      "methodsReceived": {},
+      "firstStats": {
+        "usb": "true",
+        "config": "false",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 0,
+        "dropped": 0,
+        "time": "08:20:57.237"
+      },
+      "lastStats": {
+        "usb": "true",
+        "config": "false",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 0,
+        "dropped": 0,
+        "time": "08:21:12.259"
+      },
+      "stalledAfterVideo": false,
+      "errors": []
+    },
+    {
+      "name": "session-20261023-082141.txt",
+      "lines": 8,
+      "snapshots": 3,
+      "usbOpen": true,
+      "configReceived": false,
+      "captureStarted": false,
+      "methodsReceived": {},
+      "firstStats": null,
+      "lastStats": null,
+      "stalledAfterVideo": false,
+      "errors": [
+        "08:21:47.795 USB_CLOSED read: java.io.IOException: read failed: EIO (I/O error)"
+      ]
+    },
+    {
+      "name": "session-20261023-082226.txt",
+      "lines": 108,
+      "snapshots": 3,
+      "usbOpen": true,
+      "configReceived": true,
+      "captureStarted": true,
+      "methodsReceived": {
+        "onHuReady": 2,
+        "requestWeLink": 1,
+        "onControlEnAndCh": 1,
+        "reqHeartbeat": 37
+      },
+      "firstStats": {
+        "usb": "true",
+        "config": "true",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 1027,
+        "dropped": 0,
+        "time": "08:22:46.198"
+      },
+      "lastStats": {
+        "usb": "true",
+        "config": "true",
+        "capture": "true",
+        "pause": "false",
+        "encoded": 1263,
+        "videoWritten": 1263,
+        "bytesWritten": 3431909,
+        "dropped": 0,
+        "time": "08:23:36.272"
+      },
+      "stalledAfterVideo": false,
+      "errors": []
+    },
+    {
+      "name": "session-20261023-082504.txt",
+      "lines": 2,
+      "snapshots": 2,
+      "usbOpen": false,
+      "configReceived": false,
+      "captureStarted": false,
+      "methodsReceived": {},
+      "firstStats": null,
+      "lastStats": null,
+      "stalledAfterVideo": false,
+      "errors": []
+    },
+    {
+      "name": "session-20261023-082534.txt",
+      "lines": 19,
+      "snapshots": 2,
+      "usbOpen": true,
+      "configReceived": false,
+      "captureStarted": false,
+      "methodsReceived": {
+        "onHuReady": 6
+      },
+      "firstStats": {
+        "usb": "true",
+        "config": "false",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 632,
+        "dropped": 0,
+        "time": "08:25:38.783"
+      },
+      "lastStats": {
+        "usb": "true",
+        "config": "false",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 632,
+        "dropped": 0,
+        "time": "08:25:43.789"
+      },
+      "stalledAfterVideo": false,
+      "errors": []
+    },
+    {
+      "name": "session-20261023-082605.txt",
+      "lines": 21,
+      "snapshots": 2,
+      "usbOpen": true,
+      "configReceived": false,
+      "captureStarted": false,
+      "methodsReceived": {
+        "onHuReady": 6
+      },
+      "firstStats": {
+        "usb": "true",
+        "config": "false",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 632,
+        "dropped": 0,
+        "time": "08:26:09.880"
+      },
+      "lastStats": {
+        "usb": "true",
+        "config": "false",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 632,
+        "dropped": 0,
+        "time": "08:26:24.904"
+      },
+      "stalledAfterVideo": false,
+      "errors": []
+    },
+    {
+      "name": "session-20261023-083622.txt",
+      "lines": 54,
+      "snapshots": 1,
+      "usbOpen": true,
+      "configReceived": true,
+      "captureStarted": true,
+      "methodsReceived": {
+        "onHuReady": 1,
+        "requestWeLink": 1,
+        "onControlEnAndCh": 1,
+        "reqHeartbeat": 15
+      },
+      "firstStats": {
+        "usb": "true",
+        "config": "true",
+        "capture": "false",
+        "pause": "false",
+        "encoded": 0,
+        "videoWritten": 0,
+        "bytesWritten": 869,
+        "dropped": 0,
+        "time": "08:36:27.177"
+      },
+      "lastStats": {
+        "usb": "true",
+        "config": "true",
+        "capture": "true",
+        "pause": "false",
+        "encoded": 292,
+        "videoWritten": 292,
+        "bytesWritten": 631229,
+        "dropped": 0,
+        "time": "08:36:42.190"
+      },
+      "stalledAfterVideo": false,
+      "errors": []
+    }
+  ],
+  "captures": [
+    {
+      "name": "capture-1792714320407.h264",
+      "bytes": 2715879,
+      "car": false,
+      "firstAuBytes": 23295,
+      "firstAuNalTypes": [
+        7,
+        8,
+        5
+      ],
+      "firstAuPath": "analysis\\car-20261023\\fixtures\\capture-1792714320407-first-au.bin",
+      "sampleSha256": "5950bdd3f4f3ef44c81c27712606c5ec2267cd6540c228a6586be28f4240642c"
+    },
+    {
+      "name": "capture-1792714781165.h264",
+      "bytes": 3910833,
+      "car": true,
+      "firstAuBytes": 22125,
+      "firstAuNalTypes": [
+        7,
+        8,
+        5
+      ],
+      "firstAuPath": "analysis\\car-20261023\\fixtures\\capture-1792714781165-first-au.bin",
+      "sampleSha256": "97b003cf1b680fab31a181d4a09676cd3cdc6487a1df86200a1b24ea1ba71df4"
+    },
+    {
+      "name": "capture-1792714968599.h264",
+      "bytes": 4189006,
+      "car": true,
+      "firstAuBytes": 22542,
+      "firstAuNalTypes": [
+        7,
+        8,
+        5
+      ],
+      "firstAuPath": "analysis\\car-20261023\\fixtures\\capture-1792714968599-first-au.bin",
+      "sampleSha256": "e17b5aea4a0d002e148f65b65f1264ad62e1d1c5378dccb464dd92a7f48f2025"
+    },
+    {
+      "name": "capture-1792715789931.h264",
+      "bytes": 1335541,
+      "car": true,
+      "firstAuBytes": 23080,
+      "firstAuNalTypes": [
+        7,
+        8,
+        5
+      ],
+      "firstAuPath": "analysis\\car-20261023\\fixtures\\capture-1792715789931-first-au.bin",
+      "sampleSha256": "77f28d58e6dd840a999e7c86e5f13e2ae37726ca195ce1b857a7eb19ca67cc92"
+    }
+  ],
+  "note": "Exports are cumulative snapshots; identical session names are not independent tests."
+}

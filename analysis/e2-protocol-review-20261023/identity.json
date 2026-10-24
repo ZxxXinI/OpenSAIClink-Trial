@@ -1,0 +1,36 @@
+﻿{
+  "startedAt": "2026-10-23T17:55:08.210214",
+  "apk": "OpenSAICLink-E2-0.2.0.apk",
+  "apkSha256": "67e3ded6334ebd5d8f4417554de2ae27d4daa9060e60c828c25eef631fe0b6db",
+  "firmwareSha256": "835f2d3a6485c52111c5360c34ef665bcf2b1a26969cd7cea8747fc8f2275ced",
+  "ranges": {
+    "hardware-decoder": [
+      "0x1c9f8",
+      "0x1cc80"
+    ],
+    "protocol": [
+      "0x75000",
+      "0x77275"
+    ],
+    "json": [
+      "0x7908c",
+      "0x7a611"
+    ],
+    "wire": [
+      "0x7a610",
+      "0x7b100"
+    ],
+    "image-callback": [
+      "0x85efc",
+      "0x86088"
+    ],
+    "page-video": [
+      "0x1e30c",
+      "0x1e651"
+    ],
+    "app-json": [
+      "0x7ce04",
+      "0x7cf4c"
+    ]
+  }
+}

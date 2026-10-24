@@ -1,0 +1,17 @@
+﻿{
+  "builtAt": "2026-10-24T16:54:16.374865+08:00",
+  "apk": "OpenSAICLink-E6-0.6.0.apk",
+  "package": "org.opensaiclink.trial",
+  "version": "0.6.0-e6",
+  "minSdk": 34,
+  "targetSdk": 36,
+  "bytes": 135709,
+  "sha256": "3bfda669b76a65c46e8e1f4eb47e75cb8b3b17eef2d450654615fc89f33df7e5",
+  "nativeLibraries": 0,
+  "hostTests": "PASS 5046 assertions; 500 frames across five USB fragmentation patterns\nPASS 2716 E5 checks; 2698 real touch events, 9 two-pointer starts\nPASS 3621 E6 checks; 1716 real events, 25 inconsistent UP coordinates corrected",
+  "signatureVerification": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): false\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=OpenSAICLink Local Trial, OU=Development, O=Local, C=CN\nSigner #1 certificate SHA-256 digest: a077a13c97e65dc45a4841f2686175acd218c70297899febdfe161c98599afa6\nSigner #1 certificate SHA-1 digest: 08167253cf81cdfbb3b772a5f964d4cb49a95864\nSigner #1 certificate MD5 digest: 4f3522a83805cf69df4405b51a9e02ab\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 3072\nSigner #1 public key SHA-256 digest: f0d26dfecd377eb656548ec22d9d90b74b7f8587aea06e07108e50cbbf6d6fdd\nSigner #1 public key SHA-1 digest: 6c02927787efdb30da71e04a06760abe8e4a1396\nSigner #1 public key MD5 digest: fbf0db5da74ed9101abaf20642d6e1bc",
+  "deviceValidation": "User-confirmed E6 real-car test passed; binary uses the same source as accepted build, with a later signing timestamp",
+  "carValidation": "User-confirmed final E6 real-car acceptance on 2026-10-24; no new diagnostic ZIP supplied",
+  "verificationSourceSha256": "3bfda669b76a65c46e8e1f4eb47e75cb8b3b17eef2d450654615fc89f33df7e5",
+  "archiveStatus": "E6 source release archived to GitHub; locally rebuilt binary accepted by user from same source"
+}

@@ -1,0 +1,2 @@
+﻿08:25:04.073 START E1/0.1.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+08:25:08.199 USB_NOT_FOUND Connect phone directly to the car and select SAICLink

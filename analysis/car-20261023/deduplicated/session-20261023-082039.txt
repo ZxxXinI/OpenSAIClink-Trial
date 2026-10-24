@@ -1,0 +1,7 @@
+﻿08:20:39.606 START E1/0.1.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+08:20:53.219 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:20:53.234 USB_OPEN manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:20:57.237 STATS usb=true config=false capture=false pause=false encoded=0 videoWritten=0 bytesWritten=0 dropped=0
+08:21:02.244 STATS usb=true config=false capture=false pause=false encoded=0 videoWritten=0 bytesWritten=0 dropped=0
+08:21:07.254 STATS usb=true config=false capture=false pause=false encoded=0 videoWritten=0 bytesWritten=0 dropped=0
+08:21:12.259 STATS usb=true config=false capture=false pause=false encoded=0 videoWritten=0 bytesWritten=0 dropped=0

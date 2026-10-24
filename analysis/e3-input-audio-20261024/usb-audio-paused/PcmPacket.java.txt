@@ -1,0 +1,19 @@
+package org.opensaiclink.trial;
+
+/** Original AP31 PCM: little-endian 16-byte header plus 8-byte PCM descriptor. */
+public final class PcmPacket {
+    public static final int RATE=44100, SOURCE_MUSIC=1, START=1, DATA=0, END=2;
+    private PcmPacket(){}
+    public static byte[] encode(byte[] pcm,int phase){
+        if(pcm==null || (pcm.length&1)!=0 || pcm.length>8192 || phase<0 || phase>2)
+            throw new IllegalArgumentException("Invalid mono PCM16 packet");
+        byte[] out=new byte[24+pcm.length];out[0]=(byte)0xaa;out[1]=0x55;out[2]=10;out[4]=SOURCE_MUSIC;
+        littleInt(out,12,8+pcm.length);out[16]=0;out[17]=(byte)phase;out[18]=1;out[19]=16;
+        littleInt(out,20,RATE);System.arraycopy(pcm,0,out,24,pcm.length);return out;
+    }
+    private static void littleInt(byte[] out,int at,int value){for(int i=0;i<4;i++)out[at+i]=(byte)(value>>>(8*i));}
+    public static int reply(byte[] data){
+        if(data.length<5 || (data[0]&255)!=0xaa || data[1]!=0x55 || data[4]!=SOURCE_MUSIC)return -1;
+        return (data[2]&255)|((data[3]&255)<<8);
+    }
+}

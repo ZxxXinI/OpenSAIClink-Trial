@@ -1,0 +1,110 @@
+﻿[
+  {
+    "name": "manifest.xml",
+    "bytes": 839
+  },
+  {
+    "name": "bin/SaicLink",
+    "bytes": 3883080
+  },
+  {
+    "name": "bin/welink/wlCmd",
+    "bytes": 17668
+  },
+  {
+    "name": "bin/wl_info.ini",
+    "bytes": 419
+  },
+  {
+    "name": "bin/wlDriver",
+    "bytes": 148702
+  },
+  {
+    "name": "bin/default.ttf",
+    "bytes": 4446008
+  },
+  {
+    "name": "bin/libwelinkEAP.so",
+    "bytes": 101088
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/ios_toast_rec_screen.png",
+    "bytes": 17887
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/ic_close_p.png",
+    "bytes": 4033
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/qrcode.png",
+    "bytes": 20748
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/ic_back_n.png",
+    "bytes": 3745
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/android_toast.png",
+    "bytes": 16347
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/btn_normal.png",
+    "bytes": 2334
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/ios_toast.png",
+    "bytes": 12245
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/wifi_help_qrcode.png",
+    "bytes": 1662
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/bg.png",
+    "bytes": 3488
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/btn_press.png",
+    "bytes": 2330
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/wait_for_video.png",
+    "bytes": 17324
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/ic_close_n.png",
+    "bytes": 4238
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/ic_back_p.png",
+    "bytes": 3939
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/help_divided_line.png",
+    "bytes": 1055
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/connecting.png",
+    "bytes": 29995
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/help_qrcode.png",
+    "bytes": 1662
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/text_under_line.png",
+    "bytes": 3709
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/none_title.png",
+    "bytes": 10982
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/help_title_bg.png",
+    "bytes": 1904
+  },
+  {
+    "name": "bin/image/image(1280,480)/common/help_tab_high_light.png",
+    "bytes": 3440
+  }
+]

@@ -1,0 +1,8 @@
+﻿08:21:41.167 START E1/0.1.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+08:21:43.784 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:21:43.799 USB_OPEN manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:21:47.795 USB_CLOSED read: java.io.IOException: read failed: EIO (I/O error)
+08:21:47.802 SERVICE_STOPPED USB and capture released
+08:21:55.214 USB_NOT_FOUND Connect phone directly to the car and select SAICLink
+08:21:58.275 USB_NOT_FOUND Connect phone directly to the car and select SAICLink
+08:21:59.665 USB_NOT_FOUND Connect phone directly to the car and select SAICLink

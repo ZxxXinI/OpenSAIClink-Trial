@@ -1,0 +1,21 @@
+﻿08:26:05.319 START E1/0.1.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+08:26:05.853 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:26:05.865 USB_OPEN manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:26:05.866 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:26:05.867 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:26:05.868 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:26:05.869 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:26:06.395 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:26:06.397 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:26:07.405 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:26:07.408 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:26:08.412 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:26:08.413 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:26:09.410 RX_9 {"moduleName":"WeLink_SDK","version":0,"platform":"linux","command":{"method":"onHuReady","extData":{"width":1280,"height":480,"codecMode":3}}}
+08:26:09.414 TX_JSON {"moduleName":"WeLink_SDK","version":0,"platform":"android","command":{"method":"onMuReady","extData":{"width":1280,"height":480,"systemVersion":36}}}
+08:26:09.880 STATS usb=true config=false capture=false pause=false encoded=0 videoWritten=0 bytesWritten=632 dropped=0
+08:26:12.921 USB_DISCOVERED manufacturer=Mapbar, Inc model=WeLink version=1.0
+08:26:14.887 STATS usb=true config=false capture=false pause=false encoded=0 videoWritten=0 bytesWritten=632 dropped=0
+08:26:19.894 STATS usb=true config=false capture=false pause=false encoded=0 videoWritten=0 bytesWritten=632 dropped=0
+08:26:24.904 STATS usb=true config=false capture=false pause=false encoded=0 videoWritten=0 bytesWritten=632 dropped=0
+08:26:26.311 SERVICE_STOPPED USB and capture released

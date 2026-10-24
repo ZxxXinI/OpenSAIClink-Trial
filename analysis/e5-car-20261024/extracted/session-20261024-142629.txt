@@ -1,0 +1,51 @@
+﻿14:26:29.513 START E5/0.5.0 Android=36 model=24117RK2CC abis=[arm64-v8a]
+14:26:50.288 TOUCH_SERVICE User enabled two-pointer relay
+14:27:51.160 USB_NOT_FOUND Connect phone directly to the car and select SAICLink
+14:28:03.829 ROTATION_APPLIED Temporary landscape; previous auto=1 rotation=0
+14:28:03.918 ROTATION_OVERLAY_ON Requested landscape; actual display rotation still needs verification
+14:28:04.093 ENCODER_CONFIG c2.qti.avc.encoder {max-fps-to-encoder=15.0, color-format=2130708361, i-frame-interval=1, level=512, mime=video/avc, latency=0, profile=1, bitrate=1200000, priority=0, repeat-previous-frame-after=66666, width=1280, max-bframes=0, frame-rate=15, height=480}
+14:28:04.382 DISPLAY_RENDERER GPU fit enabled; portrait remains aspect-fitted
+14:28:04.429 CAPTURE_STARTED 1280x480 fps=15
+14:28:04.430 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+14:28:04.430 CAPTURE_VISIBILITY true
+14:28:04.465 DISPLAY_FIT fill=true content=3200x1440
+14:28:04.525 ENCODER_FORMAT {max-bitrate=1200000, crop-right=1279, level=512, latency=0, mime=video/avc, profile=1, bitrate=1200000, priority=0, intra-refresh-period=0, color-standard=2, feature-secure-playback=0, csd-1=java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], color-transfer=3, crop-bottom=479, prepend-sps-pps-to-idr-frames=0, crop-left=0, width=1280, bitrate-mode=1, color-range=2, crop-top=0, frame-rate=15, height=480, csd-0=java.nio.HeapByteBuffer[pos=0 lim=21 cap=21]} csdBytes=29
+14:28:04.535 FIRST_ENCODED_FRAME bytes=25827 key=true
+14:28:05.128 CAR_HOME_OPENED Local preview
+14:28:07.804 STATS usb=false config=false capture=true pause=false encoded=42 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=21 maxEncodeAgeMs=73 fill=true renderFrames=224 renderMs=1 maxRenderMs=6 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:08.352 CAR_APP_LAUNCHED com.autonavi.amapauto
+14:28:12.842 STATS usb=false config=false capture=true pause=false encoded=127 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=38 maxEncodeAgeMs=73 fill=true renderFrames=602 renderMs=0 maxRenderMs=16 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:14.049 CAR_APP_LAUNCHED com.autonavi.minimap
+14:28:17.843 STATS usb=false config=false capture=true pause=false encoded=202 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=18 maxEncodeAgeMs=73 fill=true renderFrames=966 renderMs=4 maxRenderMs=49 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:22.846 STATS usb=false config=false capture=true pause=false encoded=272 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=16 maxEncodeAgeMs=73 fill=true renderFrames=1273 renderMs=2 maxRenderMs=49 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:24.486 CAR_APPS_READY count=121 shortcut=false
+14:28:27.849 STATS usb=false config=false capture=true pause=false encoded=346 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=22 maxEncodeAgeMs=73 fill=true renderFrames=1570 renderMs=1 maxRenderMs=49 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:28.983 CAR_APP_LAUNCHED tv.danmaku.bili
+14:28:32.853 STATS usb=false config=false capture=true pause=false encoded=425 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=35 maxEncodeAgeMs=94 fill=true renderFrames=2051 renderMs=0 maxRenderMs=49 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:37.855 STATS usb=false config=false capture=true pause=false encoded=500 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=25 maxEncodeAgeMs=94 fill=true renderFrames=2651 renderMs=0 maxRenderMs=49 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:42.857 STATS usb=false config=false capture=true pause=false encoded=578 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=13 maxEncodeAgeMs=94 fill=true renderFrames=3188 renderMs=0 maxRenderMs=49 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:47.860 STATS usb=false config=false capture=true pause=false encoded=653 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=19 maxEncodeAgeMs=94 fill=true renderFrames=3732 renderMs=1 maxRenderMs=49 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:28:51.777 ROTATION_OVERLAY_OFF Orientation window removed
+14:28:52.111 CAPTURE_STOPPED sampleBytes=5749859
+14:28:52.112 CAPTURE_ENDED System ended screen sharing
+14:28:52.117 ROTATION_RESTORE_SKIPPED Settings changed since trial; user choice retained
+14:28:52.129 SERVICE_STOPPED USB and capture released
+14:29:07.638 ROTATION_APPLIED Temporary landscape; previous auto=0 rotation=0
+14:29:07.721 ROTATION_OVERLAY_ON Requested landscape; actual display rotation still needs verification
+14:29:07.746 ENCODER_CONFIG c2.qti.avc.encoder {max-fps-to-encoder=15.0, color-format=2130708361, i-frame-interval=1, level=512, mime=video/avc, latency=0, profile=1, bitrate=1200000, priority=0, repeat-previous-frame-after=66666, width=1280, max-bframes=0, frame-rate=15, height=480}
+14:29:07.901 DISPLAY_RENDERER GPU fit enabled; portrait remains aspect-fitted
+14:29:07.941 CAPTURE_STARTED 1280x480 fps=15
+14:29:07.942 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+14:29:07.942 CAPTURE_VISIBILITY true
+14:29:07.963 DISPLAY_FIT fill=true content=3200x1440
+14:29:08.005 ENCODER_FORMAT {max-bitrate=1200000, crop-right=1279, level=512, latency=0, mime=video/avc, profile=1, bitrate=1200000, priority=0, intra-refresh-period=0, color-standard=2, feature-secure-playback=0, csd-1=java.nio.HeapByteBuffer[pos=0 lim=8 cap=8], color-transfer=3, crop-bottom=479, prepend-sps-pps-to-idr-frames=0, crop-left=0, width=1280, bitrate-mode=1, color-range=2, crop-top=0, frame-rate=15, height=480, csd-0=java.nio.HeapByteBuffer[pos=0 lim=21 cap=21]} csdBytes=29
+14:29:08.008 FIRST_ENCODED_FRAME bytes=38754 key=true
+14:29:08.915 CAR_HOME_OPENED Local preview
+14:29:11.628 STATS usb=false config=false capture=true pause=false encoded=55 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=22 maxEncodeAgeMs=68 fill=true renderFrames=382 renderMs=0 maxRenderMs=9 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:29:16.632 STATS usb=false config=false capture=true pause=false encoded=130 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=32 maxEncodeAgeMs=68 fill=true renderFrames=654 renderMs=4 maxRenderMs=9 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:29:21.640 STATS usb=false config=false capture=true pause=false encoded=207 videoWritten=0 bytesWritten=0 videoPackets=0 fps=15 queueMs=0 maxQueueMs=0 writeMs=0 maxWriteMs=0 encodeAgeMs=17 maxEncodeAgeMs=68 fill=true renderFrames=994 renderMs=1 maxRenderMs=9 maxPointers=0 rotationOverlay=true touchRx=0 touchDone=0 dropped=0
+14:29:26.492 ROTATION_OVERLAY_OFF Orientation window removed
+14:29:26.531 CAPTURE_STOPPED sampleBytes=2336112
+14:29:26.533 CAPTURE_ENDED System ended screen sharing
+14:29:26.545 ROTATION_RESTORED Original screen rotation restored
+14:29:26.556 SERVICE_STOPPED USB and capture released

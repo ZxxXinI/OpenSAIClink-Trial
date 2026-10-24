@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.opensaiclink.trial.tests">
+ <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="36"/>
+ <application android:label="E3 isolated device tests" android:debuggable="true"/>
+ <instrumentation android:name="org.opensaiclink.trial.E3DeviceTest" android:targetPackage="org.opensaiclink.trial"/>
+</manifest>

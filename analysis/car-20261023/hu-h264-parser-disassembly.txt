@@ -1,0 +1,651 @@
+﻿
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink-Trial\analysis\car-20261023\firmware\SaicLink:	file format elf32-littlearm
+
+Disassembly of section .text:
+
+00073000 <_mware_decoder_get_next_nal(char*, int)>:
+   73000: b580         	push	{r7, lr}
+   73002: b086         	sub	sp, #0x18
+   73004: af02         	add	r7, sp, #0x8
+   73006: 6078         	str	r0, [r7, #0x4]
+   73008: 6039         	str	r1, [r7]
+   7300a: 2300         	movs	r3, #0x0
+   7300c: 60bb         	str	r3, [r7, #0x8]
+   7300e: 2300         	movs	r3, #0x0
+   73010: 60fb         	str	r3, [r7, #0xc]
+   73012: 687b         	ldr	r3, [r7, #0x4]
+   73014: 2b00         	cmp	r3, #0x0
+   73016: d101         	bne	0x7301c <_mware_decoder_get_next_nal(char*, int)+0x1c> @ imm = #0x2
+   73018: 68bb         	ldr	r3, [r7, #0x8]
+   7301a: e054         	b	0x730c6 <_mware_decoder_get_next_nal(char*, int)+0xc6> @ imm = #0xa8
+   7301c: 2304         	movs	r3, #0x4
+   7301e: 60fb         	str	r3, [r7, #0xc]
+   73020: e04b         	b	0x730ba <_mware_decoder_get_next_nal(char*, int)+0xba> @ imm = #0x96
+   73022: 68fb         	ldr	r3, [r7, #0xc]
+   73024: 687a         	ldr	r2, [r7, #0x4]
+   73026: 4413         	add	r3, r2
+   73028: 781b         	ldrb	r3, [r3]
+   7302a: 2b00         	cmp	r3, #0x0
+   7302c: d142         	bne	0x730b4 <_mware_decoder_get_next_nal(char*, int)+0xb4> @ imm = #0x84
+   7302e: 68fb         	ldr	r3, [r7, #0xc]
+   73030: 3301         	adds	r3, #0x1
+   73032: 687a         	ldr	r2, [r7, #0x4]
+   73034: 4413         	add	r3, r2
+   73036: 781b         	ldrb	r3, [r3]
+   73038: 2b00         	cmp	r3, #0x0
+   7303a: d13b         	bne	0x730b4 <_mware_decoder_get_next_nal(char*, int)+0xb4> @ imm = #0x76
+   7303c: 68fb         	ldr	r3, [r7, #0xc]
+   7303e: 3302         	adds	r3, #0x2
+   73040: 687a         	ldr	r2, [r7, #0x4]
+   73042: 4413         	add	r3, r2
+   73044: 781b         	ldrb	r3, [r3]
+   73046: 2b01         	cmp	r3, #0x1
+   73048: d134         	bne	0x730b4 <_mware_decoder_get_next_nal(char*, int)+0xb4> @ imm = #0x68
+   7304a: 68fb         	ldr	r3, [r7, #0xc]
+   7304c: 3303         	adds	r3, #0x3
+   7304e: 687a         	ldr	r2, [r7, #0x4]
+   73050: 4413         	add	r3, r2
+   73052: 781b         	ldrb	r3, [r3]
+   73054: f003 031f    	and	r3, r3, #0x1f
+   73058: 3b01         	subs	r3, #0x1
+   7305a: 2b07         	cmp	r3, #0x7
+   7305c: d81c         	bhi	0x73098 <_mware_decoder_get_next_nal(char*, int)+0x98> @ imm = #0x38
+   7305e: a202         	adr	r2, #8 <_mware_decoder_get_next_nal(char*, int)+0x64>
+   73060: f852 3023    	ldr.w	r3, [r2, r3, lsl #2]
+   73064: 441a         	add	r2, r3
+   73066: 4710         	bx	r2
+   73068: 2d 00 00 00  	.word	0x0000002d
+   7306c: 31 00 00 00  	.word	0x00000031
+   73070: 31 00 00 00  	.word	0x00000031
+   73074: 31 00 00 00  	.word	0x00000031
+   73078: 29 00 00 00  	.word	0x00000029
+   7307c: 31 00 00 00  	.word	0x00000031
+   73080: 21 00 00 00  	.word	0x00000021
+   73084: 25 00 00 00  	.word	0x00000025
+   73088: 2301         	movs	r3, #0x1
+   7308a: e01c         	b	0x730c6 <_mware_decoder_get_next_nal(char*, int)+0xc6> @ imm = #0x38
+   7308c: 2302         	movs	r3, #0x2
+   7308e: e01a         	b	0x730c6 <_mware_decoder_get_next_nal(char*, int)+0xc6> @ imm = #0x34
+   73090: 2303         	movs	r3, #0x3
+   73092: e018         	b	0x730c6 <_mware_decoder_get_next_nal(char*, int)+0xc6> @ imm = #0x30
+   73094: 2304         	movs	r3, #0x4
+   73096: e016         	b	0x730c6 <_mware_decoder_get_next_nal(char*, int)+0xc6> @ imm = #0x2c
+   73098: f7f5 f98c    	bl	0x683b4 <wl_get_lasterror> @ imm = #-0xace8
+   7309c: 4603         	mov	r3, r0
+   7309e: 9300         	str	r3, [sp]
+   730a0: 4b0b         	ldr	r3, [pc, #0x2c]         @ 0x730d0 <_mware_decoder_get_next_nal(char*, int)+0xd0>
+   730a2: 447b         	add	r3, pc
+   730a4: 2236         	movs	r2, #0x36
+   730a6: 490b         	ldr	r1, [pc, #0x2c]         @ 0x730d4 <_mware_decoder_get_next_nal(char*, int)+0xd4>
+   730a8: 4479         	add	r1, pc
+   730aa: 2002         	movs	r0, #0x2
+   730ac: f7f5 fcc2    	bl	0x68a34 <wl_printf>     @ imm = #-0xa67c
+   730b0: 2300         	movs	r3, #0x0
+   730b2: e008         	b	0x730c6 <_mware_decoder_get_next_nal(char*, int)+0xc6> @ imm = #0x10
+   730b4: 68fb         	ldr	r3, [r7, #0xc]
+   730b6: 3301         	adds	r3, #0x1
+   730b8: 60fb         	str	r3, [r7, #0xc]
+   730ba: 68fb         	ldr	r3, [r7, #0xc]
+   730bc: 1d1a         	adds	r2, r3, #0x4
+   730be: 683b         	ldr	r3, [r7]
+   730c0: 429a         	cmp	r2, r3
+   730c2: dbae         	blt	0x73022 <_mware_decoder_get_next_nal(char*, int)+0x22> @ imm = #-0xa4
+   730c4: 68bb         	ldr	r3, [r7, #0x8]
+   730c6: 4618         	mov	r0, r3
+   730c8: 3710         	adds	r7, #0x10
+   730ca: 46bd         	mov	sp, r7
+   730cc: bd80         	pop	{r7, pc}
+   730ce: bf00         	nop
+   730d0: d2 12 06 00  	.word	0x000612d2
+   730d4: 18 13 06 00  	.word	0x00061318
+
+000730d8 <_mware_decoder_get_nal_type(char*, int)>:
+   730d8: b580         	push	{r7, lr}
+   730da: b086         	sub	sp, #0x18
+   730dc: af02         	add	r7, sp, #0x8
+   730de: 6078         	str	r0, [r7, #0x4]
+   730e0: 6039         	str	r1, [r7]
+   730e2: 2300         	movs	r3, #0x0
+   730e4: 60bb         	str	r3, [r7, #0x8]
+   730e6: 2300         	movs	r3, #0x0
+   730e8: 60fb         	str	r3, [r7, #0xc]
+   730ea: 687b         	ldr	r3, [r7, #0x4]
+   730ec: 2b00         	cmp	r3, #0x0
+   730ee: d101         	bne	0x730f4 <_mware_decoder_get_nal_type(char*, int)+0x1c> @ imm = #0x2
+   730f0: 68bb         	ldr	r3, [r7, #0x8]
+   730f2: e058         	b	0x731a6 <_mware_decoder_get_nal_type(char*, int)+0xce> @ imm = #0xb0
+   730f4: 2300         	movs	r3, #0x0
+   730f6: 60fb         	str	r3, [r7, #0xc]
+   730f8: e04f         	b	0x7319a <_mware_decoder_get_nal_type(char*, int)+0xc2> @ imm = #0x9e
+   730fa: 68fb         	ldr	r3, [r7, #0xc]
+   730fc: 687a         	ldr	r2, [r7, #0x4]
+   730fe: 4413         	add	r3, r2
+   73100: 781b         	ldrb	r3, [r3]
+   73102: 2b00         	cmp	r3, #0x0
+   73104: d146         	bne	0x73194 <_mware_decoder_get_nal_type(char*, int)+0xbc> @ imm = #0x8c
+   73106: 68fb         	ldr	r3, [r7, #0xc]
+   73108: 3301         	adds	r3, #0x1
+   7310a: 687a         	ldr	r2, [r7, #0x4]
+   7310c: 4413         	add	r3, r2
+   7310e: 781b         	ldrb	r3, [r3]
+   73110: 2b00         	cmp	r3, #0x0
+   73112: d13f         	bne	0x73194 <_mware_decoder_get_nal_type(char*, int)+0xbc> @ imm = #0x7e
+   73114: 68fb         	ldr	r3, [r7, #0xc]
+   73116: 3302         	adds	r3, #0x2
+   73118: 687a         	ldr	r2, [r7, #0x4]
+   7311a: 4413         	add	r3, r2
+   7311c: 781b         	ldrb	r3, [r3]
+   7311e: 2b01         	cmp	r3, #0x1
+   73120: d138         	bne	0x73194 <_mware_decoder_get_nal_type(char*, int)+0xbc> @ imm = #0x70
+   73122: 68fb         	ldr	r3, [r7, #0xc]
+   73124: 3303         	adds	r3, #0x3
+   73126: 687a         	ldr	r2, [r7, #0x4]
+   73128: 4413         	add	r3, r2
+   7312a: 781b         	ldrb	r3, [r3]
+   7312c: f003 031f    	and	r3, r3, #0x1f
+   73130: 3b01         	subs	r3, #0x1
+   73132: 2b07         	cmp	r3, #0x7
+   73134: d81c         	bhi	0x73170 <_mware_decoder_get_nal_type(char*, int)+0x98> @ imm = #0x38
+   73136: a202         	adr	r2, #8 <_mware_decoder_get_nal_type(char*, int)+0x64>
+   73138: f852 3023    	ldr.w	r3, [r2, r3, lsl #2]
+   7313c: 441a         	add	r2, r3
+   7313e: 4710         	bx	r2
+   73140: 2d 00 00 00  	.word	0x0000002d
+   73144: 31 00 00 00  	.word	0x00000031
+   73148: 31 00 00 00  	.word	0x00000031
+   7314c: 31 00 00 00  	.word	0x00000031
+   73150: 29 00 00 00  	.word	0x00000029
+   73154: 31 00 00 00  	.word	0x00000031
+   73158: 21 00 00 00  	.word	0x00000021
+   7315c: 25 00 00 00  	.word	0x00000025
+   73160: 2301         	movs	r3, #0x1
+   73162: e020         	b	0x731a6 <_mware_decoder_get_nal_type(char*, int)+0xce> @ imm = #0x40
+   73164: 2302         	movs	r3, #0x2
+   73166: e01e         	b	0x731a6 <_mware_decoder_get_nal_type(char*, int)+0xce> @ imm = #0x3c
+   73168: 2303         	movs	r3, #0x3
+   7316a: e01c         	b	0x731a6 <_mware_decoder_get_nal_type(char*, int)+0xce> @ imm = #0x38
+   7316c: 2304         	movs	r3, #0x4
+   7316e: e01a         	b	0x731a6 <_mware_decoder_get_nal_type(char*, int)+0xce> @ imm = #0x34
+   73170: f7f5 f920    	bl	0x683b4 <wl_get_lasterror> @ imm = #-0xadc0
+   73174: 4603         	mov	r3, r0
+   73176: 9300         	str	r3, [sp]
+   73178: 4b0d         	ldr	r3, [pc, #0x34]         @ 0x731b0 <_mware_decoder_get_nal_type(char*, int)+0xd8>
+   7317a: 447b         	add	r3, pc
+   7317c: 2258         	movs	r2, #0x58
+   7317e: 490d         	ldr	r1, [pc, #0x34]         @ 0x731b4 <_mware_decoder_get_nal_type(char*, int)+0xdc>
+   73180: 4479         	add	r1, pc
+   73182: 2002         	movs	r0, #0x2
+   73184: f7f5 fc56    	bl	0x68a34 <wl_printf>     @ imm = #-0xa754
+   73188: 6839         	ldr	r1, [r7]
+   7318a: 6878         	ldr	r0, [r7, #0x4]
+   7318c: f7ff ff38    	bl	0x73000 <_mware_decoder_get_next_nal(char*, int)> @ imm = #-0x190
+   73190: 4603         	mov	r3, r0
+   73192: e008         	b	0x731a6 <_mware_decoder_get_nal_type(char*, int)+0xce> @ imm = #0x10
+   73194: 68fb         	ldr	r3, [r7, #0xc]
+   73196: 3301         	adds	r3, #0x1
+   73198: 60fb         	str	r3, [r7, #0xc]
+   7319a: 68fb         	ldr	r3, [r7, #0xc]
+   7319c: 1d1a         	adds	r2, r3, #0x4
+   7319e: 683b         	ldr	r3, [r7]
+   731a0: 429a         	cmp	r2, r3
+   731a2: dbaa         	blt	0x730fa <_mware_decoder_get_nal_type(char*, int)+0x22> @ imm = #-0xac
+   731a4: 68bb         	ldr	r3, [r7, #0x8]
+   731a6: 4618         	mov	r0, r3
+   731a8: 3710         	adds	r7, #0x10
+   731aa: 46bd         	mov	sp, r7
+   731ac: bd80         	pop	{r7, pc}
+   731ae: bf00         	nop
+   731b0: fa 11 06 00  	.word	0x000611fa
+   731b4: 5c 12 06 00  	.word	0x0006125c
+
+000731b8 <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)>:
+   731b8: b580         	push	{r7, lr}
+   731ba: b086         	sub	sp, #0x18
+   731bc: af02         	add	r7, sp, #0x8
+   731be: 6078         	str	r0, [r7, #0x4]
+   731c0: f7f6 fe8e    	bl	0x69ee0 <wl_mware_info_get()> @ imm = #-0x92e4
+   731c4: 4603         	mov	r3, r0
+   731c6: 60fb         	str	r3, [r7, #0xc]
+   731c8: 68fb         	ldr	r3, [r7, #0xc]
+   731ca: 2b00         	cmp	r3, #0x0
+   731cc: d002         	beq	0x731d4 <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)+0x1c> @ imm = #0x4
+   731ce: 687b         	ldr	r3, [r7, #0x4]
+   731d0: 2b00         	cmp	r3, #0x0
+   731d2: d10c         	bne	0x731ee <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)+0x36> @ imm = #0x18
+   731d4: f7f5 f8ee    	bl	0x683b4 <wl_get_lasterror> @ imm = #-0xae24
+   731d8: 4603         	mov	r3, r0
+   731da: 9300         	str	r3, [sp]
+   731dc: 4b15         	ldr	r3, [pc, #0x54]         @ 0x73234 <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)+0x7c>
+   731de: 447b         	add	r3, pc
+   731e0: 226c         	movs	r2, #0x6c
+   731e2: 4915         	ldr	r1, [pc, #0x54]         @ 0x73238 <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)+0x80>
+   731e4: 4479         	add	r1, pc
+   731e6: 2001         	movs	r0, #0x1
+   731e8: f7f5 fc24    	bl	0x68a34 <wl_printf>     @ imm = #-0xa7b8
+   731ec: e01f         	b	0x7322e <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)+0x76> @ imm = #0x3e
+   731ee: f7f6 fd6f    	bl	0x69cd0 <wl_mware_info_get_status()> @ imm = #-0x9522
+   731f2: 4603         	mov	r3, r0
+   731f4: 2b04         	cmp	r3, #0x4
+   731f6: bf0c         	ite	eq
+   731f8: 2301         	moveq	r3, #0x1
+   731fa: 2300         	movne	r3, #0x0
+   731fc: b2db         	uxtb	r3, r3
+   731fe: 2b00         	cmp	r3, #0x0
+   73200: d00a         	beq	0x73218 <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)+0x60> @ imm = #0x14
+   73202: 2300         	movs	r3, #0x0
+   73204: 9301         	str	r3, [sp, #0x4]
+   73206: 2300         	movs	r3, #0x0
+   73208: 9300         	str	r3, [sp]
+   7320a: 2305         	movs	r3, #0x5
+   7320c: 2204         	movs	r2, #0x4
+   7320e: 2170         	movs	r1, #0x70
+   73210: 480a         	ldr	r0, [pc, #0x28]         @ 0x7323c <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)+0x84>
+   73212: 4478         	add	r0, pc
+   73214: f001 fc6c    	bl	0x74af0 <wl_mware_msg_send(char const*, int, int, int, int, char const*)> @ imm = #0x18d8
+   73218: 68fb         	ldr	r3, [r7, #0xc]
+   7321a: f8d3 3310    	ldr.w	r3, [r3, #0x310]
+   7321e: 2b00         	cmp	r3, #0x0
+   73220: d004         	beq	0x7322c <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)+0x74> @ imm = #0x8
+   73222: 68fb         	ldr	r3, [r7, #0xc]
+   73224: f8d3 3310    	ldr.w	r3, [r3, #0x310]
+   73228: 6878         	ldr	r0, [r7, #0x4]
+   7322a: 4798         	blx	r3
+   7322c: bf00         	nop
+   7322e: 3710         	adds	r7, #0x10
+   73230: 46bd         	mov	sp, r7
+   73232: bd80         	pop	{r7, pc}
+   73234: ae 11 06 00  	.word	0x000611ae
+   73238: 14 12 06 00  	.word	0x00061214
+   7323c: e6 11 06 00  	.word	0x000611e6
+
+00073240 <_mware_decoder_get_h264_info(void*, int)>:
+   73240: b580         	push	{r7, lr}
+   73242: b092         	sub	sp, #0x48
+   73244: af02         	add	r7, sp, #0x8
+   73246: 6078         	str	r0, [r7, #0x4]
+   73248: 6039         	str	r1, [r7]
+   7324a: 2300         	movs	r3, #0x0
+   7324c: 63bb         	str	r3, [r7, #0x38]
+   7324e: 2300         	movs	r3, #0x0
+   73250: 637b         	str	r3, [r7, #0x34]
+   73252: 2300         	movs	r3, #0x0
+   73254: 633b         	str	r3, [r7, #0x30]
+   73256: f7f6 fe43    	bl	0x69ee0 <wl_mware_info_get()> @ imm = #-0x937a
+   7325a: 4603         	mov	r3, r0
+   7325c: 62fb         	str	r3, [r7, #0x2c]
+   7325e: 687b         	ldr	r3, [r7, #0x4]
+   73260: 2b00         	cmp	r3, #0x0
+   73262: d002         	beq	0x7326a <_mware_decoder_get_h264_info(void*, int)+0x2a> @ imm = #0x4
+   73264: 6afb         	ldr	r3, [r7, #0x2c]
+   73266: 2b00         	cmp	r3, #0x0
+   73268: d10e         	bne	0x73288 <_mware_decoder_get_h264_info(void*, int)+0x48> @ imm = #0x1c
+   7326a: f7f5 f8a3    	bl	0x683b4 <wl_get_lasterror> @ imm = #-0xaeba
+   7326e: 4603         	mov	r3, r0
+   73270: 9300         	str	r3, [sp]
+   73272: 4bb2         	ldr	r3, [pc, #0x2c8]        @ 0x7353c <_mware_decoder_get_h264_info(void*, int)+0x2fc>
+   73274: 447b         	add	r3, pc
+   73276: 228b         	movs	r2, #0x8b
+   73278: 49b1         	ldr	r1, [pc, #0x2c4]        @ 0x73540 <_mware_decoder_get_h264_info(void*, int)+0x300>
+   7327a: 4479         	add	r1, pc
+   7327c: 2001         	movs	r0, #0x1
+   7327e: f7f5 fbd9    	bl	0x68a34 <wl_printf>     @ imm = #-0xa84e
+   73282: f06f 0301    	mvn	r3, #0x1
+   73286: e154         	b	0x73532 <_mware_decoder_get_h264_info(void*, int)+0x2f2> @ imm = #0x2a8
+   73288: 2301         	movs	r3, #0x1
+   7328a: 60bb         	str	r3, [r7, #0x8]
+   7328c: 6afb         	ldr	r3, [r7, #0x2c]
+   7328e: f8d3 3858    	ldr.w	r3, [r3, #0x858]
+   73292: 613b         	str	r3, [r7, #0x10]
+   73294: 6afb         	ldr	r3, [r7, #0x2c]
+   73296: f8d3 385c    	ldr.w	r3, [r3, #0x85c]
+   7329a: 617b         	str	r3, [r7, #0x14]
+   7329c: 2300         	movs	r3, #0x0
+   7329e: 60fb         	str	r3, [r7, #0xc]
+   732a0: 6839         	ldr	r1, [r7]
+   732a2: 6878         	ldr	r0, [r7, #0x4]
+   732a4: f7ff ff18    	bl	0x730d8 <_mware_decoder_get_nal_type(char*, int)> @ imm = #-0x1d0
+   732a8: 4603         	mov	r3, r0
+   732aa: 633b         	str	r3, [r7, #0x30]
+   732ac: 6b3b         	ldr	r3, [r7, #0x30]
+   732ae: 9300         	str	r3, [sp]
+   732b0: 4ba4         	ldr	r3, [pc, #0x290]        @ 0x73544 <_mware_decoder_get_h264_info(void*, int)+0x304>
+   732b2: 447b         	add	r3, pc
+   732b4: 2293         	movs	r2, #0x93
+   732b6: 49a4         	ldr	r1, [pc, #0x290]        @ 0x73548 <_mware_decoder_get_h264_info(void*, int)+0x308>
+   732b8: 4479         	add	r1, pc
+   732ba: f44f 1080    	mov.w	r0, #0x100000
+   732be: f7f5 fbb9    	bl	0x68a34 <wl_printf>     @ imm = #-0xa88e
+   732c2: 6b3b         	ldr	r3, [r7, #0x30]
+   732c4: 3b01         	subs	r3, #0x1
+   732c6: 2b03         	cmp	r3, #0x3
+   732c8: f200 8125    	bhi.w	0x73516 <_mware_decoder_get_h264_info(void*, int)+0x2d6> @ imm = #0x24a
+   732cc: a202         	adr	r2, #8 <_mware_decoder_get_h264_info(void*, int)+0x92>
+   732ce: f852 3023    	ldr.w	r3, [r2, r3, lsl #2]
+   732d2: 441a         	add	r2, r3
+   732d4: 4710         	bx	r2
+   732d6: bf00         	nop
+   732d8: 11 00 00 00  	.word	0x00000011
+   732dc: 69 00 00 00  	.word	0x00000069
+   732e0: c1 00 00 00  	.word	0x000000c1
+   732e4: ed 01 00 00  	.word	0x000001ed
+   732e8: 4b98         	ldr	r3, [pc, #0x260]        @ 0x7354c <_mware_decoder_get_h264_info(void*, int)+0x30c>
+   732ea: 447b         	add	r3, pc
+   732ec: 681b         	ldr	r3, [r3]
+   732ee: 2296         	movs	r2, #0x96
+   732f0: 4997         	ldr	r1, [pc, #0x25c]        @ 0x73550 <_mware_decoder_get_h264_info(void*, int)+0x310>
+   732f2: 4479         	add	r1, pc
+   732f4: 4618         	mov	r0, r3
+   732f6: f7fc f965    	bl	0x6f5c4 <wl_module_mem_delete(void*, char const*, int)> @ imm = #-0x3d36
+   732fa: 4b96         	ldr	r3, [pc, #0x258]        @ 0x73554 <_mware_decoder_get_h264_info(void*, int)+0x314>
+   732fc: 447b         	add	r3, pc
+   732fe: 461a         	mov	r2, r3
+   73300: 2300         	movs	r3, #0x0
+   73302: 6013         	str	r3, [r2]
+   73304: 2298         	movs	r2, #0x98
+   73306: 4b94         	ldr	r3, [pc, #0x250]        @ 0x73558 <_mware_decoder_get_h264_info(void*, int)+0x318>
+   73308: 447b         	add	r3, pc
+   7330a: 4619         	mov	r1, r3
+   7330c: 6838         	ldr	r0, [r7]
+   7330e: f7fc f8ff    	bl	0x6f510 <wl_module_mem_new(int, char const*, int)> @ imm = #-0x3e02
+   73312: 4602         	mov	r2, r0
+   73314: 4b91         	ldr	r3, [pc, #0x244]        @ 0x7355c <_mware_decoder_get_h264_info(void*, int)+0x31c>
+   73316: 447b         	add	r3, pc
+   73318: 601a         	str	r2, [r3]
+   7331a: 4b91         	ldr	r3, [pc, #0x244]        @ 0x73560 <_mware_decoder_get_h264_info(void*, int)+0x320>
+   7331c: 447b         	add	r3, pc
+   7331e: 681b         	ldr	r3, [r3]
+   73320: 2b00         	cmp	r3, #0x0
+   73322: d00c         	beq	0x7333e <_mware_decoder_get_h264_info(void*, int)+0xfe> @ imm = #0x18
+   73324: 4b8f         	ldr	r3, [pc, #0x23c]        @ 0x73564 <_mware_decoder_get_h264_info(void*, int)+0x324>
+   73326: 447b         	add	r3, pc
+   73328: 681b         	ldr	r3, [r3]
+   7332a: 683a         	ldr	r2, [r7]
+   7332c: 6879         	ldr	r1, [r7, #0x4]
+   7332e: 4618         	mov	r0, r3
+   73330: f7a2 e988    	blx	0x15644 <.plt+0x494>    @ imm = #-0x5dcf0
+   73334: 4b8c         	ldr	r3, [pc, #0x230]        @ 0x73568 <_mware_decoder_get_h264_info(void*, int)+0x328>
+   73336: 447b         	add	r3, pc
+   73338: 461a         	mov	r2, r3
+   7333a: 683b         	ldr	r3, [r7]
+   7333c: 6013         	str	r3, [r2]
+   7333e: e0f7         	b	0x73530 <_mware_decoder_get_h264_info(void*, int)+0x2f0> @ imm = #0x1ee
+   73340: 4b8a         	ldr	r3, [pc, #0x228]        @ 0x7356c <_mware_decoder_get_h264_info(void*, int)+0x32c>
+   73342: 447b         	add	r3, pc
+   73344: 681b         	ldr	r3, [r3]
+   73346: 229f         	movs	r2, #0x9f
+   73348: 4989         	ldr	r1, [pc, #0x224]        @ 0x73570 <_mware_decoder_get_h264_info(void*, int)+0x330>
+   7334a: 4479         	add	r1, pc
+   7334c: 4618         	mov	r0, r3
+   7334e: f7fc f939    	bl	0x6f5c4 <wl_module_mem_delete(void*, char const*, int)> @ imm = #-0x3d8e
+   73352: 4b88         	ldr	r3, [pc, #0x220]        @ 0x73574 <_mware_decoder_get_h264_info(void*, int)+0x334>
+   73354: 447b         	add	r3, pc
+   73356: 461a         	mov	r2, r3
+   73358: 2300         	movs	r3, #0x0
+   7335a: 6013         	str	r3, [r2]
+   7335c: 22a1         	movs	r2, #0xa1
+   7335e: 4b86         	ldr	r3, [pc, #0x218]        @ 0x73578 <_mware_decoder_get_h264_info(void*, int)+0x338>
+   73360: 447b         	add	r3, pc
+   73362: 4619         	mov	r1, r3
+   73364: 6838         	ldr	r0, [r7]
+   73366: f7fc f8d3    	bl	0x6f510 <wl_module_mem_new(int, char const*, int)> @ imm = #-0x3e5a
+   7336a: 4602         	mov	r2, r0
+   7336c: 4b83         	ldr	r3, [pc, #0x20c]        @ 0x7357c <_mware_decoder_get_h264_info(void*, int)+0x33c>
+   7336e: 447b         	add	r3, pc
+   73370: 601a         	str	r2, [r3]
+   73372: 4b83         	ldr	r3, [pc, #0x20c]        @ 0x73580 <_mware_decoder_get_h264_info(void*, int)+0x340>
+   73374: 447b         	add	r3, pc
+   73376: 681b         	ldr	r3, [r3]
+   73378: 2b00         	cmp	r3, #0x0
+   7337a: d00c         	beq	0x73396 <_mware_decoder_get_h264_info(void*, int)+0x156> @ imm = #0x18
+   7337c: 4b81         	ldr	r3, [pc, #0x204]        @ 0x73584 <_mware_decoder_get_h264_info(void*, int)+0x344>
+   7337e: 447b         	add	r3, pc
+   73380: 681b         	ldr	r3, [r3]
+   73382: 683a         	ldr	r2, [r7]
+   73384: 6879         	ldr	r1, [r7, #0x4]
+   73386: 4618         	mov	r0, r3
+   73388: f7a2 e95c    	blx	0x15644 <.plt+0x494>    @ imm = #-0x5dd48
+   7338c: 4b7e         	ldr	r3, [pc, #0x1f8]        @ 0x73588 <_mware_decoder_get_h264_info(void*, int)+0x348>
+   7338e: 447b         	add	r3, pc
+   73390: 461a         	mov	r2, r3
+   73392: 683b         	ldr	r3, [r7]
+   73394: 6013         	str	r3, [r2]
+   73396: e0cb         	b	0x73530 <_mware_decoder_get_h264_info(void*, int)+0x2f0> @ imm = #0x196
+   73398: 2300         	movs	r3, #0x0
+   7339a: 63fb         	str	r3, [r7, #0x3c]
+   7339c: 2300         	movs	r3, #0x0
+   7339e: 62bb         	str	r3, [r7, #0x28]
+   733a0: 2302         	movs	r3, #0x2
+   733a2: 623b         	str	r3, [r7, #0x20]
+   733a4: 4b79         	ldr	r3, [pc, #0x1e4]        @ 0x7358c <_mware_decoder_get_h264_info(void*, int)+0x34c>
+   733a6: 447b         	add	r3, pc
+   733a8: 681b         	ldr	r3, [r3]
+   733aa: 2b00         	cmp	r3, #0x0
+   733ac: dd10         	ble	0x733d0 <_mware_decoder_get_h264_info(void*, int)+0x190> @ imm = #0x20
+   733ae: 4b78         	ldr	r3, [pc, #0x1e0]        @ 0x73590 <_mware_decoder_get_h264_info(void*, int)+0x350>
+   733b0: 447b         	add	r3, pc
+   733b2: 681b         	ldr	r3, [r3]
+   733b4: 2b00         	cmp	r3, #0x0
+   733b6: dd0b         	ble	0x733d0 <_mware_decoder_get_h264_info(void*, int)+0x190> @ imm = #0x16
+   733b8: 4b76         	ldr	r3, [pc, #0x1d8]        @ 0x73594 <_mware_decoder_get_h264_info(void*, int)+0x354>
+   733ba: 447b         	add	r3, pc
+   733bc: 681b         	ldr	r3, [r3]
+   733be: 6bfa         	ldr	r2, [r7, #0x3c]
+   733c0: 4413         	add	r3, r2
+   733c2: 63fb         	str	r3, [r7, #0x3c]
+   733c4: 4b74         	ldr	r3, [pc, #0x1d0]        @ 0x73598 <_mware_decoder_get_h264_info(void*, int)+0x358>
+   733c6: 447b         	add	r3, pc
+   733c8: 681b         	ldr	r3, [r3]
+   733ca: 6bfa         	ldr	r2, [r7, #0x3c]
+   733cc: 4413         	add	r3, r2
+   733ce: 63fb         	str	r3, [r7, #0x3c]
+   733d0: 6bfa         	ldr	r2, [r7, #0x3c]
+   733d2: 683b         	ldr	r3, [r7]
+   733d4: 4413         	add	r3, r2
+   733d6: 22b0         	movs	r2, #0xb0
+   733d8: 4970         	ldr	r1, [pc, #0x1c0]        @ 0x7359c <_mware_decoder_get_h264_info(void*, int)+0x35c>
+   733da: 4479         	add	r1, pc
+   733dc: 4618         	mov	r0, r3
+   733de: f7fc f897    	bl	0x6f510 <wl_module_mem_new(int, char const*, int)> @ imm = #-0x3ed2
+   733e2: 4603         	mov	r3, r0
+   733e4: 62bb         	str	r3, [r7, #0x28]
+   733e6: 6abb         	ldr	r3, [r7, #0x28]
+   733e8: 2b00         	cmp	r3, #0x0
+   733ea: d061         	beq	0x734b0 <_mware_decoder_get_h264_info(void*, int)+0x270> @ imm = #0xc2
+   733ec: 4b6c         	ldr	r3, [pc, #0x1b0]        @ 0x735a0 <_mware_decoder_get_h264_info(void*, int)+0x360>
+   733ee: 447b         	add	r3, pc
+   733f0: 681b         	ldr	r3, [r3]
+   733f2: 2b00         	cmp	r3, #0x0
+   733f4: dd21         	ble	0x7343a <_mware_decoder_get_h264_info(void*, int)+0x1fa> @ imm = #0x42
+   733f6: 4b6b         	ldr	r3, [pc, #0x1ac]        @ 0x735a4 <_mware_decoder_get_h264_info(void*, int)+0x364>
+   733f8: 447b         	add	r3, pc
+   733fa: 681b         	ldr	r3, [r3]
+   733fc: 2b00         	cmp	r3, #0x0
+   733fe: dd1c         	ble	0x7343a <_mware_decoder_get_h264_info(void*, int)+0x1fa> @ imm = #0x38
+   73400: 4b69         	ldr	r3, [pc, #0x1a4]        @ 0x735a8 <_mware_decoder_get_h264_info(void*, int)+0x368>
+   73402: 447b         	add	r3, pc
+   73404: 681b         	ldr	r3, [r3]
+   73406: 4a69         	ldr	r2, [pc, #0x1a4]        @ 0x735ac <_mware_decoder_get_h264_info(void*, int)+0x36c>
+   73408: 447a         	add	r2, pc
+   7340a: 6812         	ldr	r2, [r2]
+   7340c: 4619         	mov	r1, r3
+   7340e: 6ab8         	ldr	r0, [r7, #0x28]
+   73410: f7a2 e918    	blx	0x15644 <.plt+0x494>    @ imm = #-0x5ddd0
+   73414: 4b66         	ldr	r3, [pc, #0x198]        @ 0x735b0 <_mware_decoder_get_h264_info(void*, int)+0x370>
+   73416: 447b         	add	r3, pc
+   73418: 681b         	ldr	r3, [r3]
+   7341a: 461a         	mov	r2, r3
+   7341c: 6abb         	ldr	r3, [r7, #0x28]
+   7341e: 4413         	add	r3, r2
+   73420: 4a64         	ldr	r2, [pc, #0x190]        @ 0x735b4 <_mware_decoder_get_h264_info(void*, int)+0x374>
+   73422: 447a         	add	r2, pc
+   73424: 6811         	ldr	r1, [r2]
+   73426: 4a64         	ldr	r2, [pc, #0x190]        @ 0x735b8 <_mware_decoder_get_h264_info(void*, int)+0x378>
+   73428: 447a         	add	r2, pc
+   7342a: 6812         	ldr	r2, [r2]
+   7342c: 4618         	mov	r0, r3
+   7342e: f7a2 e90a    	blx	0x15644 <.plt+0x494>    @ imm = #-0x5ddec
+   73432: 6bfb         	ldr	r3, [r7, #0x3c]
+   73434: 60fb         	str	r3, [r7, #0xc]
+   73436: 2301         	movs	r3, #0x1
+   73438: 623b         	str	r3, [r7, #0x20]
+   7343a: 6bfb         	ldr	r3, [r7, #0x3c]
+   7343c: 6aba         	ldr	r2, [r7, #0x28]
+   7343e: 4413         	add	r3, r2
+   73440: 683a         	ldr	r2, [r7]
+   73442: 6879         	ldr	r1, [r7, #0x4]
+   73444: 4618         	mov	r0, r3
+   73446: f7a2 e8fe    	blx	0x15644 <.plt+0x494>    @ imm = #-0x5de04
+   7344a: 6bfa         	ldr	r2, [r7, #0x3c]
+   7344c: 683b         	ldr	r3, [r7]
+   7344e: 4413         	add	r3, r2
+   73450: 63fb         	str	r3, [r7, #0x3c]
+   73452: 6abb         	ldr	r3, [r7, #0x28]
+   73454: 61fb         	str	r3, [r7, #0x1c]
+   73456: 6bfb         	ldr	r3, [r7, #0x3c]
+   73458: 61bb         	str	r3, [r7, #0x18]
+   7345a: f107 0308    	add.w	r3, r7, #0x8
+   7345e: 4618         	mov	r0, r3
+   73460: f7ff feaa    	bl	0x731b8 <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)> @ imm = #-0x2ac
+   73464: 4b55         	ldr	r3, [pc, #0x154]        @ 0x735bc <_mware_decoder_get_h264_info(void*, int)+0x37c>
+   73466: 447b         	add	r3, pc
+   73468: 461a         	mov	r2, r3
+   7346a: 2300         	movs	r3, #0x0
+   7346c: 6013         	str	r3, [r2]
+   7346e: 4b54         	ldr	r3, [pc, #0x150]        @ 0x735c0 <_mware_decoder_get_h264_info(void*, int)+0x380>
+   73470: 447b         	add	r3, pc
+   73472: 461a         	mov	r2, r3
+   73474: 2300         	movs	r3, #0x0
+   73476: 6013         	str	r3, [r2]
+   73478: 4b52         	ldr	r3, [pc, #0x148]        @ 0x735c4 <_mware_decoder_get_h264_info(void*, int)+0x384>
+   7347a: 447b         	add	r3, pc
+   7347c: 681b         	ldr	r3, [r3]
+   7347e: 22bf         	movs	r2, #0xbf
+   73480: 4951         	ldr	r1, [pc, #0x144]        @ 0x735c8 <_mware_decoder_get_h264_info(void*, int)+0x388>
+   73482: 4479         	add	r1, pc
+   73484: 4618         	mov	r0, r3
+   73486: f7fc f89d    	bl	0x6f5c4 <wl_module_mem_delete(void*, char const*, int)> @ imm = #-0x3ec6
+   7348a: 4b50         	ldr	r3, [pc, #0x140]        @ 0x735cc <_mware_decoder_get_h264_info(void*, int)+0x38c>
+   7348c: 447b         	add	r3, pc
+   7348e: 681b         	ldr	r3, [r3]
+   73490: 22c0         	movs	r2, #0xc0
+   73492: 494f         	ldr	r1, [pc, #0x13c]        @ 0x735d0 <_mware_decoder_get_h264_info(void*, int)+0x390>
+   73494: 4479         	add	r1, pc
+   73496: 4618         	mov	r0, r3
+   73498: f7fc f894    	bl	0x6f5c4 <wl_module_mem_delete(void*, char const*, int)> @ imm = #-0x3ed8
+   7349c: 4b4d         	ldr	r3, [pc, #0x134]        @ 0x735d4 <_mware_decoder_get_h264_info(void*, int)+0x394>
+   7349e: 447b         	add	r3, pc
+   734a0: 461a         	mov	r2, r3
+   734a2: 2300         	movs	r3, #0x0
+   734a4: 6013         	str	r3, [r2]
+   734a6: 4b4c         	ldr	r3, [pc, #0x130]        @ 0x735d8 <_mware_decoder_get_h264_info(void*, int)+0x398>
+   734a8: 447b         	add	r3, pc
+   734aa: 461a         	mov	r2, r3
+   734ac: 2300         	movs	r3, #0x0
+   734ae: 6013         	str	r3, [r2]
+   734b0: 22c4         	movs	r2, #0xc4
+   734b2: 4b4a         	ldr	r3, [pc, #0x128]        @ 0x735dc <_mware_decoder_get_h264_info(void*, int)+0x39c>
+   734b4: 447b         	add	r3, pc
+   734b6: 4619         	mov	r1, r3
+   734b8: 6ab8         	ldr	r0, [r7, #0x28]
+   734ba: f7fc f883    	bl	0x6f5c4 <wl_module_mem_delete(void*, char const*, int)> @ imm = #-0x3efa
+   734be: 2300         	movs	r3, #0x0
+   734c0: 62bb         	str	r3, [r7, #0x28]
+   734c2: e035         	b	0x73530 <_mware_decoder_get_h264_info(void*, int)+0x2f0> @ imm = #0x6a
+   734c4: 2300         	movs	r3, #0x0
+   734c6: 627b         	str	r3, [r7, #0x24]
+   734c8: 22cb         	movs	r2, #0xcb
+   734ca: 4b45         	ldr	r3, [pc, #0x114]        @ 0x735e0 <_mware_decoder_get_h264_info(void*, int)+0x3a0>
+   734cc: 447b         	add	r3, pc
+   734ce: 4619         	mov	r1, r3
+   734d0: 6838         	ldr	r0, [r7]
+   734d2: f7fc f81d    	bl	0x6f510 <wl_module_mem_new(int, char const*, int)> @ imm = #-0x3fc6
+   734d6: 4603         	mov	r3, r0
+   734d8: 627b         	str	r3, [r7, #0x24]
+   734da: 6a7b         	ldr	r3, [r7, #0x24]
+   734dc: 2b00         	cmp	r3, #0x0
+   734de: d010         	beq	0x73502 <_mware_decoder_get_h264_info(void*, int)+0x2c2> @ imm = #0x20
+   734e0: 683b         	ldr	r3, [r7]
+   734e2: 461a         	mov	r2, r3
+   734e4: 6879         	ldr	r1, [r7, #0x4]
+   734e6: 6a78         	ldr	r0, [r7, #0x24]
+   734e8: f7a2 e8ac    	blx	0x15644 <.plt+0x494>    @ imm = #-0x5dea8
+   734ec: 2303         	movs	r3, #0x3
+   734ee: 623b         	str	r3, [r7, #0x20]
+   734f0: 6a7b         	ldr	r3, [r7, #0x24]
+   734f2: 61fb         	str	r3, [r7, #0x1c]
+   734f4: 683b         	ldr	r3, [r7]
+   734f6: 61bb         	str	r3, [r7, #0x18]
+   734f8: f107 0308    	add.w	r3, r7, #0x8
+   734fc: 4618         	mov	r0, r3
+   734fe: f7ff fe5b    	bl	0x731b8 <_mware_decoder_image_data_cb(wl_sdk_image_info_t*)> @ imm = #-0x34a
+   73502: 22d3         	movs	r2, #0xd3
+   73504: 4b37         	ldr	r3, [pc, #0xdc]         @ 0x735e4 <_mware_decoder_get_h264_info(void*, int)+0x3a4>
+   73506: 447b         	add	r3, pc
+   73508: 4619         	mov	r1, r3
+   7350a: 6a78         	ldr	r0, [r7, #0x24]
+   7350c: f7fc f85a    	bl	0x6f5c4 <wl_module_mem_delete(void*, char const*, int)> @ imm = #-0x3f4c
+   73510: 2300         	movs	r3, #0x0
+   73512: 627b         	str	r3, [r7, #0x24]
+   73514: e00c         	b	0x73530 <_mware_decoder_get_h264_info(void*, int)+0x2f0> @ imm = #0x18
+   73516: f7f4 ff4d    	bl	0x683b4 <wl_get_lasterror> @ imm = #-0xb166
+   7351a: 4603         	mov	r3, r0
+   7351c: 9300         	str	r3, [sp]
+   7351e: 4b32         	ldr	r3, [pc, #0xc8]         @ 0x735e8 <_mware_decoder_get_h264_info(void*, int)+0x3a8>
+   73520: 447b         	add	r3, pc
+   73522: 22d8         	movs	r2, #0xd8
+   73524: 4931         	ldr	r1, [pc, #0xc4]         @ 0x735ec <_mware_decoder_get_h264_info(void*, int)+0x3ac>
+   73526: 4479         	add	r1, pc
+   73528: 2002         	movs	r0, #0x2
+   7352a: f7f5 fa83    	bl	0x68a34 <wl_printf>     @ imm = #-0xaafa
+   7352e: bf00         	nop
+   73530: 6bbb         	ldr	r3, [r7, #0x38]
+   73532: 4618         	mov	r0, r3
+   73534: 3740         	adds	r7, #0x40
+   73536: 46bd         	mov	sp, r7
+   73538: bd80         	pop	{r7, pc}
+   7353a: bf00         	nop
+   7353c: 18 11 06 00  	.word	0x00061118
+   73540: 9e 11 06 00  	.word	0x0006119e
+   73544: f2 10 06 00  	.word	0x000610f2
+   73548: 60 11 06 00  	.word	0x00061160
+   7354c: 7a a1 f5 00  	.word	0x00f5a17a
+   73550: 26 11 06 00  	.word	0x00061126
+   73554: 6c a1 f5 00  	.word	0x00f5a16c
+   73558: 10 11 06 00  	.word	0x00061110
+   7355c: 4e a1 f5 00  	.word	0x00f5a14e
+   73560: 48 a1 f5 00  	.word	0x00f5a148
+   73564: 3e a1 f5 00  	.word	0x00f5a13e
+   73568: 32 a1 f5 00  	.word	0x00f5a132
+   7356c: 2a a1 f5 00  	.word	0x00f5a12a
+   73570: ce 10 06 00  	.word	0x000610ce
+   73574: 1c a1 f5 00  	.word	0x00f5a11c
+   73578: b8 10 06 00  	.word	0x000610b8
+   7357c: fe a0 f5 00  	.word	0x00f5a0fe
+   73580: f8 a0 f5 00  	.word	0x00f5a0f8
+   73584: ee a0 f5 00  	.word	0x00f5a0ee
+   73588: e2 a0 f5 00  	.word	0x00f5a0e2
+   7358c: c2 a0 f5 00  	.word	0x00f5a0c2
+   73590: c0 a0 f5 00  	.word	0x00f5a0c0
+   73594: ae a0 f5 00  	.word	0x00f5a0ae
+   73598: aa a0 f5 00  	.word	0x00f5a0aa
+   7359c: 3e 10 06 00  	.word	0x0006103e
+   735a0: 7a a0 f5 00  	.word	0x00f5a07a
+   735a4: 78 a0 f5 00  	.word	0x00f5a078
+   735a8: 62 a0 f5 00  	.word	0x00f5a062
+   735ac: 60 a0 f5 00  	.word	0x00f5a060
+   735b0: 52 a0 f5 00  	.word	0x00f5a052
+   735b4: 4a a0 f5 00  	.word	0x00f5a04a
+   735b8: 48 a0 f5 00  	.word	0x00f5a048
+   735bc: 02 a0 f5 00  	.word	0x00f5a002
+   735c0: 00 a0 f5 00  	.word	0x00f5a000
+   735c4: ea 9f f5 00  	.word	0x00f59fea
+   735c8: 96 0f 06 00  	.word	0x00060f96
+   735cc: e0 9f f5 00  	.word	0x00f59fe0
+   735d0: 84 0f 06 00  	.word	0x00060f84
+   735d4: c6 9f f5 00  	.word	0x00f59fc6
+   735d8: c4 9f f5 00  	.word	0x00f59fc4
+   735dc: 64 0f 06 00  	.word	0x00060f64
+   735e0: 4c 0f 06 00  	.word	0x00060f4c
+   735e4: 12 0f 06 00  	.word	0x00060f12
+   735e8: 54 0e 06 00  	.word	0x00060e54
+   735ec: f2 0e 06 00  	.word	0x00060ef2

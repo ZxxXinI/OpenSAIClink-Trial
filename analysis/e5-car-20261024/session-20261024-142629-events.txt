@@ -1,0 +1,16 @@
+﻿14:28:03.829 ROTATION_APPLIED Temporary landscape; previous auto=1 rotation=0
+14:28:03.918 ROTATION_OVERLAY_ON Requested landscape; actual display rotation still needs verification
+14:28:04.429 CAPTURE_STARTED 1280x480 fps=15
+14:28:04.430 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+14:28:04.465 DISPLAY_FIT fill=true content=3200x1440
+14:28:51.777 ROTATION_OVERLAY_OFF Orientation window removed
+14:28:52.111 CAPTURE_STOPPED sampleBytes=5749859
+14:28:52.117 ROTATION_RESTORE_SKIPPED Settings changed since trial; user choice retained
+14:29:07.638 ROTATION_APPLIED Temporary landscape; previous auto=0 rotation=0
+14:29:07.721 ROTATION_OVERLAY_ON Requested landscape; actual display rotation still needs verification
+14:29:07.941 CAPTURE_STARTED 1280x480 fps=15
+14:29:07.942 CAPTURE_RESIZE content=3200x1440 fixedEncoder=1280x480
+14:29:07.963 DISPLAY_FIT fill=true content=3200x1440
+14:29:26.492 ROTATION_OVERLAY_OFF Orientation window removed
+14:29:26.531 CAPTURE_STOPPED sampleBytes=2336112
+14:29:26.545 ROTATION_RESTORED Original screen rotation restored

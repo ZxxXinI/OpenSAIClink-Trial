@@ -1,0 +1,64 @@
+﻿{
+  "boundary": "Original ARM CPU functions only; no real USB, hardware decoder or display.",
+  "headerLimits": {
+    "0": true,
+    "23": true,
+    "1536000": true,
+    "1536001": false,
+    "4194304": false
+  },
+  "nativeExtendedFrameReadSizes": [
+    8,
+    2,
+    3
+  ],
+  "normalJsonWire": {
+    "onMuReady": [
+      8,
+      150
+    ],
+    "responseWeLink": [
+      8,
+      369
+    ],
+    "onHeartbeat": [
+      8,
+      108
+    ],
+    "onResumeWelink": [
+      8,
+      143
+    ]
+  },
+  "fullCaptures": [
+    {
+      "name": "capture-1792714781165",
+      "accessUnits": 927,
+      "wirePackets": 997,
+      "imageCallbacks": 927,
+      "keyframes": 35,
+      "allPayloadsEqual": true,
+      "maxPayload": 40311
+    },
+    {
+      "name": "capture-1792714968599",
+      "accessUnits": 1361,
+      "wirePackets": 1407,
+      "imageCallbacks": 1361,
+      "keyframes": 23,
+      "allPayloadsEqual": true,
+      "maxPayload": 39604
+    },
+    {
+      "name": "capture-1792715789931",
+      "accessUnits": 423,
+      "wirePackets": 439,
+      "imageCallbacks": 423,
+      "keyframes": 8,
+      "allPayloadsEqual": true,
+      "maxPayload": 40737
+    }
+  ],
+  "audSeiIdrImageCallbacks": 0,
+  "firmwareSha256": "835f2d3a6485c52111c5360c34ef665bcf2b1a26969cd7cea8747fc8f2275ced"
+}

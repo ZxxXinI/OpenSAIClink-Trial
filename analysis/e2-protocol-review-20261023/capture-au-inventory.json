@@ -1,0 +1,38 @@
+﻿[
+  {
+    "name": "capture-1792714781165",
+    "units": 927,
+    "nalCounts": {
+      "7": 35,
+      "8": 35,
+      "5": 35,
+      "1": 892
+    },
+    "allVclFirstMbZero": true,
+    "firstAuBytes": 22125
+  },
+  {
+    "name": "capture-1792714968599",
+    "units": 1361,
+    "nalCounts": {
+      "7": 23,
+      "8": 23,
+      "5": 23,
+      "1": 1338
+    },
+    "allVclFirstMbZero": true,
+    "firstAuBytes": 22542
+  },
+  {
+    "name": "capture-1792715789931",
+    "units": 423,
+    "nalCounts": {
+      "7": 8,
+      "8": 8,
+      "5": 8,
+      "1": 415
+    },
+    "allVclFirstMbZero": true,
+    "firstAuBytes": 23080
+  }
+]

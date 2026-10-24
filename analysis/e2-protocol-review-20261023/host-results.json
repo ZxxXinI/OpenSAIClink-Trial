@@ -1,0 +1,16 @@
+﻿{
+  "sessionBaseline": true,
+  "pauseResume": "[true, false, true, false]",
+  "midSessionConfigUpdatesStatus": true,
+  "extensionCase": {
+    "expected": "abc",
+    "actual": "a"
+  },
+  "e2Accepts1536001Payload": true,
+  "blockedWrite": {
+    "stillOpen": true,
+    "heartbeatWritten": false,
+    "pending": "type=6 nal=5 payload=8 headerDone=true pendingMs=3208"
+  },
+  "checks": 18
+}

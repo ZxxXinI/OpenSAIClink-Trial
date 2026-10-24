@@ -1,0 +1,49 @@
+﻿{
+  "reviewedAt": "2026-10-23T18:21:40+08:00",
+  "apk": "OpenSAICLink-E2-0.2.0.apk",
+  "sha256": "67e3ded6334ebd5d8f4417554de2ae27d4daa9060e60c828c25eef631fe0b6db",
+  "runtimeCodeChanged": false,
+  "findings": [
+    {
+      "id": "R1",
+      "priority": "P1",
+      "issue": "Blocked video output also blocks heartbeat; no bounded abort or session recovery",
+      "evidence": "host-results.json",
+      "file": "src/main/java/org/opensaiclink/trial/AoaTransport.java",
+      "line": 66,
+      "physicalE2Reproduction": false
+    },
+    {
+      "id": "R2",
+      "priority": "P2 conditional",
+      "issue": "Nonzero extension length interpretation differs from A7",
+      "evidence": "native-results.json and host-results.json",
+      "file": "src/main/java/org/opensaiclink/trial/WlFrame.java",
+      "line": 61,
+      "seenInCarSamples": false
+    },
+    {
+      "id": "R3",
+      "priority": "P2 conditional",
+      "issue": "Mid-capture config fps changes status but not active encoder",
+      "evidence": "APK DEX and source callback",
+      "file": "src/main/java/org/opensaiclink/trial/LinkService.java",
+      "line": 113,
+      "a7MidStreamConfigConfirmed": false
+    },
+    {
+      "id": "R4",
+      "priority": "P2 conditional",
+      "issue": "AUD plus SEI before IDR produces no A7 image callback",
+      "evidence": "native-results.json",
+      "file": "src/main/java/org/opensaiclink/trial/AnnexB.java",
+      "line": 63,
+      "seenInCarSamples": false
+    }
+  ],
+  "payloadLimits": {
+    "E2": 4194304,
+    "A7": 1536000,
+    "largestRecorded": 40737
+  }
+}

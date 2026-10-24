@@ -1,0 +1,32 @@
+﻿[
+  {
+    "source": "E:\\Soft\\Tools\\AndroidSDK\\sources\\android-36\\org\\json\\JSON.java",
+    "copy": "analysis\\e2-protocol-review-20261023\\host-src\\org\\json\\JSON.java",
+    "sha256": "a2cc5e4bf64bfe3edd73c6a14409f3200640454051d9947ee79f16a2396a19b1"
+  },
+  {
+    "source": "E:\\Soft\\Tools\\AndroidSDK\\sources\\android-36\\org\\json\\JSONArray.java",
+    "copy": "analysis\\e2-protocol-review-20261023\\host-src\\org\\json\\JSONArray.java",
+    "sha256": "24f10dbe57a9228b8aec8a891355c26285e7fc4e070a2f826a080300e3ca4180"
+  },
+  {
+    "source": "E:\\Soft\\Tools\\AndroidSDK\\sources\\android-36\\org\\json\\JSONException.java",
+    "copy": "analysis\\e2-protocol-review-20261023\\host-src\\org\\json\\JSONException.java",
+    "sha256": "26e10aae9c209dabbc8f15b4156fe9fdc87f5d9d2cb2d2f078b475a61ba0df7d"
+  },
+  {
+    "source": "E:\\Soft\\Tools\\AndroidSDK\\sources\\android-36\\org\\json\\JSONObject.java",
+    "copy": "analysis\\e2-protocol-review-20261023\\host-src\\org\\json\\JSONObject.java",
+    "sha256": "b7770e43fdad8415e8f5c37a7dc06a7c1ffb3a16c557887ded1479f3116c868f"
+  },
+  {
+    "source": "E:\\Soft\\Tools\\AndroidSDK\\sources\\android-36\\org\\json\\JSONStringer.java",
+    "copy": "analysis\\e2-protocol-review-20261023\\host-src\\org\\json\\JSONStringer.java",
+    "sha256": "8772ac80610cd62e906330152b09864c471a0921f199f4b9d670d98050e3d86c"
+  },
+  {
+    "source": "E:\\Soft\\Tools\\AndroidSDK\\sources\\android-36\\org\\json\\JSONTokener.java",
+    "copy": "analysis\\e2-protocol-review-20261023\\host-src\\org\\json\\JSONTokener.java",
+    "sha256": "744c9ffb50c2472d7269c8d64a7d8331ea1a1691fb6536619ac9590e9ebbbd4b"
+  }
+]

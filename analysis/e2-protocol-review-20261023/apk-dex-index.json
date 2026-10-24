@@ -1,0 +1,42 @@
+﻿[
+  {
+    "class": "Lorg/opensaiclink/trial/WlFrame$Receiver;",
+    "file": "org.opensaiclink.trial.WlFrame$Receiver.apk-dex.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lorg/opensaiclink/trial/AoaTransport$$ExternalSyntheticLambda0;",
+    "file": "org.opensaiclink.trial.AoaTransport$$ExternalSyntheticLambda0.apk-dex.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lorg/opensaiclink/trial/AoaTransport;",
+    "file": "org.opensaiclink.trial.AoaTransport.apk-dex.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lorg/opensaiclink/trial/WelinkSession$Listener;",
+    "file": "org.opensaiclink.trial.WelinkSession$Listener.apk-dex.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lorg/opensaiclink/trial/ScreenEncoder;",
+    "file": "org.opensaiclink.trial.ScreenEncoder.apk-dex.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lorg/opensaiclink/trial/WelinkSession;",
+    "file": "org.opensaiclink.trial.WelinkSession.apk-dex.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lorg/opensaiclink/trial/LinkService$2;",
+    "file": "org.opensaiclink.trial.LinkService$2.apk-dex.txt",
+    "methods": 1
+  },
+  {
+    "class": "Lorg/opensaiclink/trial/LinkService$4;",
+    "file": "org.opensaiclink.trial.LinkService$4.apk-dex.txt",
+    "methods": 2
+  }
+]

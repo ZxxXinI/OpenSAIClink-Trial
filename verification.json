@@ -1,0 +1,66 @@
+﻿{
+  "verifiedAt": "2026-10-23 08:15",
+  "apkSha256": "ad6096ecd3dbc23543b172615772e3b542953e561d0ac5d7c3347bd41f85f3d1",
+  "inputsUnchanged": [
+    {
+      "path": "F:\\Documents\\Code\\2026\\Misc\\2026-10-22\\saiclink_welink协议包\\libwlchannel.so",
+      "sha256": "bc08d12705a61f757dedcb574f6b08180f26ce24ddd9dc94096aacbfdda62c92",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\Documents\\Code\\2026\\Misc\\2026-10-22\\高德车机_V5.3.0.600050_release_signed.apk.1",
+      "sha256": "8c1a33976e72a9072a2a8e57c6a7b7fb282f229792f33e173f0298c381a7fd23",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\Documents\\Code\\2026\\Misc\\2026-10-21\\base.apk",
+      "sha256": "643ad19d0679a08e92c9620fbec34cacd441b388e9920bd15082f70ea02d5364",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\Documents\\Code\\2026\\Misc\\2026-10-21\\saiclink_19846.apk",
+      "sha256": "491b558e61cc733f310fe8659a86d570ec4a9a3206a2d8c0e4753067024e144c",
+      "unchanged": true
+    }
+  ],
+  "textFilesChecked": 54,
+  "encodingIssues": [],
+  "hostTests": "PASS 5017 assertions; 500 frames across five USB fragmentation patterns",
+  "emulator": {
+    "androidApi": 36,
+    "device": "isolated x86_64 emulator",
+    "consentDenialHandled": true,
+    "captureStartedAfterFreshConsent": true,
+    "backgroundEncodedBefore": 147,
+    "backgroundEncodedAfter": 278,
+    "rotationHandled": true,
+    "projectionReleasedOnStop": true,
+    "fatalExceptions": 0,
+    "usbAccessoryAndHeadUnit": "not tested; physical car unavailable",
+    "diagnosticExportPassed": true,
+    "exportEntries": 7,
+    "decodedFinalCaptureFrames": 412,
+    "decodedWidth": 1280,
+    "decodedHeight": 720,
+    "firstLastMeanAbsoluteDifference": 153.63008680555555,
+    "sps": {
+      "profile_idc": 66,
+      "level_idc": 31
+    }
+  },
+  "K80": {
+    "model": "REDMI K80",
+    "androidApi": 36,
+    "trialVersion": "0.1.0-e1",
+    "originalVersion": "V1.7.02504241_69efee4",
+    "gaodeVersion": "12.13.0.2035",
+    "installedSideBySide": true,
+    "screenCaptureStarted": true,
+    "hardwareAvcEncoder": "c2.qti.avc.encoder",
+    "lastEncodedCount": 1155,
+    "projectionReleasedOnStop": true,
+    "trialFatalExceptions": false,
+    "carUsbAndDisplay": "pending parked-car test"
+  },
+  "carTest": "pending"
+}

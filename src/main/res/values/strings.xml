@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">SAICLink 地图试验 E6</string>
+ <string name="instructions">驻车测试：先开启无障碍 → 连接车机 → 开始投屏。\n无障碍服务连接后才能开始屏幕投屏。</string>
+ <string name="connect">2　连接车机 USB</string><string name="capture">3　开始屏幕投屏</string>
+ <string name="gaode">打开高德</string><string name="baidu">打开百度</string>
+ <string name="pattern">显示动态测试画面</string><string name="stop">停止试验</string><string name="export">导出诊断</string>
+ <string name="local_test">本机录屏自检（不连接车机）</string>
+ <string name="limits">声音沿用已有方式：先打开车机音乐，再播放手机音乐。E6 不传输 USB 音频。\n投屏通知可以返回车载主页；手机 HOME 键仍返回原手机桌面。手机原桌面沿用系统方向；车载主页始终横屏。横屏铺满会适度改变画面宽高比例。\n触控支持单指和双指缩放；不支持三指。诊断包含日志和录屏片段，由你选择保存位置。</string>
+ <string name="car_home">车载主页</string>
+ <string name="car_return">返回车载主页</string>
+ <string name="car_preview">本机预览</string>
+ <string name="car_projecting">正在投屏</string>
+ <string name="car_back">返回主页</string>
+ <string name="car_home_hint">点悬浮“主页”返回；下方三个位置可添加应用，长按可更换或移除。</string>
+ <string name="car_gaode">高德地图</string><string name="car_baidu">百度地图</string>
+ <string name="car_navigation">打开手机导航</string>
+ <string name="car_favorite">常用应用</string>
+ <string name="car_choose_favorite">选择音乐等常用应用</string>
+ <string name="car_change_favorite">轻触打开 · 长按更换</string>
+ <string name="car_pick_favorite">选择常用应用</string>
+ <string name="car_favorite_saved">已添加到车载主页</string>
+ <string name="car_other_apps">其他应用</string>
+ <string name="car_apps_hint">选择手机上已有的应用</string>
+ <string name="car_loading">正在读取应用列表…</string>
+ <string name="car_no_apps">没有找到可打开的应用</string>
+ <string name="car_app_missing">应用暂时无法打开，请先在手机上确认已安装并启用</string>
+ <string name="car_pattern">测试画面</string>
+ <string name="car_pattern_hint">检查触控和画面延迟</string>
+ <string name="car_settings">试验设置</string>
+ <string name="car_settings_hint">权限、停止与诊断</string>
+ <string name="touch_option">投屏时允许车机触控</string>
+ <string name="touch_permission">1　开启无障碍（必须）</string>
+ <string name="touch_service_name">SAICLink 车机触控</string>
+ <string name="touch_service_description">将车机点击、拖动和双指缩放转为手机手势。手势仅在 USB 投屏期间生效；可显示返回车载主页按钮，不读取页面文字。请在驻车时启用。停止投屏后不处理车机触摸。</string>
+ <string name="landscape_option">投屏时自动横屏，结束后恢复</string>
+ <string name="rotation_permission">允许自动横屏（修改系统设置）</string>
+ <string name="multitouch_option">允许双指缩放（最多两根手指）</string>
+ <string name="fill_display_option">横屏画面铺满车机（下次投屏生效）</string>
+ <string name="responsive_option">优先降低延迟（15 帧/秒，下次投屏生效）</string>
+ <string name="touch_status">触控权限：%1$s　收到：%2$d　已执行：%3$d</string>
+ <string name="rotation_status">自动横屏权限：%1$s</string>
+ <string name="next_capture">已保存；请停止并重新开始投屏以应用新配置</string>
+ <string name="settings_unavailable">无法打开权限页面，请到系统设置中手动开启</string>
+ <string name="status_format">USB 打开：%1$s　收到车机配置：%2$s\n录屏运行：%3$s　编码帧：%4$d　USB 视频帧：%5$d</string>
+ <string name="yes">是</string><string name="no">否</string>
+ <string name="notification_capture">正在共享屏幕，点此返回车载主页</string><string name="notification_usb">正在连接车机，点击返回试验页面</string>
+ <string name="usb_denied">未获得 USB 访问权限，请重新连接并允许</string>
+ <string name="usb_not_found">未发现车机 USB 配件。请用线直连汽车，并在车机打开 SAICLink</string>
+ <string name="usb_unsupported">当前配件不是已识别的 WeLink 设备，信息已记录</string>
+ <string name="connect_first">请先连接车机，等待“收到车机配置”显示为是</string>
+ <string name="capture_first">请先开始屏幕投屏</string><string name="already_capturing">录屏已经运行，可直接打开地图</string>
+ <string name="map_not_found">未找到对应的手机地图，请先安装手机高德或百度</string>
+ <string name="stop_local_first">请先停止本机自检，再连接车机</string><string name="stop_usb_first">请先停止 USB 试验，再进行本机自检</string>
+ <string name="export_done">诊断包已保存</string>
+ <string name="accessibility_required">请先开启“SAICLink 车机触控”无障碍服务，连接成功后再开始投屏</string>
+ <string name="return_overlay_option">投屏时显示悬浮“主页”按钮</string>
+ <string name="return_overlay_button">主页</string>
+ <string name="car_slot_add">添加应用 %1$d</string>
+ <string name="car_slot_empty">点击选择常用应用</string>
+ <string name="car_slot_change">更换应用</string>
+ <string name="car_slot_clear">移除此入口</string>
+</resources>
