@@ -96,5 +96,5 @@ E1 已完成实车配置但出现黑屏。已在 A7 原 ARM 解析函数中复�
 
 ## 支持
 
-<img src="F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink-Trial\README.assets\image-20261025204820819.png" alt="image-20261025204820819" style="zoom:33%;" />
+<img src="\README.assets\image-20261025204820819.png" alt="image-20261025204820819" style="zoom:33%;" />
 
