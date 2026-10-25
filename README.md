@@ -93,3 +93,8 @@ E1 已完成实车配置但出现黑屏。已在 A7 原 ARM 解析函数中复�
 ## 仓库资料边界
 
 为避免把多 GB 的私密设备录屏和镜像纳入源码仓库，以下只保留在本机：`emulator/`、原始诊断和录屏、`evidence/`、`signing/`、解压依赖及大的分析二进制。仍提交源码、测试、精简的 JSON/日志/触控样本、说明文档及 E6 APK。用户提供的原版 SAICLink APK、车机固件和高德车机 APK 不重新分发。
+
+## 支持
+
+<img src="F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink-Trial\README.assets\image-20261025204820819.png" alt="image-20261025204820819" style="zoom:33%;" />
+
