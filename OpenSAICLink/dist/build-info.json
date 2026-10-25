@@ -1,0 +1,40 @@
+﻿{
+  "builtAt": "2026-10-25T19:57:27.821111+08:00",
+  "apk": "OpenSAICLink-1.0.0-rc2.apk",
+  "package": "org.opensaiclink.trial",
+  "versionCode": 101,
+  "versionName": "1.0.0-rc2",
+  "bytes": 2242134,
+  "sha256": "2a5a278397d044770b5c2f0b799928f1f76192739cc1ea847efd5498f8810c14",
+  "certificateSha256": "a077a13c97e65dc45a4841f2686175acd218c70297899febdfe161c98599afa6",
+  "canReplaceE6SigningAndIdentity": true,
+  "debuggable": false,
+  "permissionsUnchanged": true,
+  "minSdk": 34,
+  "targetSdk": 36,
+  "nativeLibraries": 0,
+  "testEntrypointsIncluded": false,
+  "lintErrors": 0,
+  "lintWarnings": 66,
+  "offlineChecks": [
+    "PASS 5046 assertions; 500 frames across five USB fragmentation patterns",
+    "PASS 2716 E5 checks; 2698 real touch events, 9 two-pointer starts",
+    "PASS 3621 E6 checks; 1716 real events, 25 inconsistent UP coordinates corrected",
+    "PASS 171 formal layout/migration/session assertions"
+  ],
+  "verbatimE6Core": {
+    "WlFrame": "bac73bc6d15bb581e36889e54b11c344155ffbdf47d2fa06fe015c9138d8fa7f",
+    "WlPacketWriter": "c8fb9db47b70d70a6f350868a37bc71d107ddf9837d1e95f3c56fb3b6268fc58",
+    "WelinkSession": "13dfe64cdf2a1255e418d3658f7ba102d8dfbd00959982fadd5f6dd8781d636b",
+    "AnnexB": "5b5c30c20026fcc54ef127ff851ba07e190e94daa5b51396b900582e7aacc8fe",
+    "VideoQueue": "75430c2b0d0051bedf998242ea4770980f87156cd9677b6ea684729cee1f3bdc",
+    "TouchInput": "31827686a17233697c9f99fa7469511896371ceab17fa480d3d4989f314a94bd",
+    "TouchFrames": "c3b8dc1b516574995730fe807f977b62f3c2a0c04bdde7bb3b7d48abe61b25f2",
+    "DisplayGeometry": "202804a54636bee324bfabf79f09021289837613783763113acab1bba7378dee",
+    "DisplayRenderer": "d05bd0e5f20fcdf37cccaf03cc9eed4ecbd9bb2efa858f872674eca980263663",
+    "ProjectionRotation": "d24931cd892ba8d107b5f75cf8cb86b7db90de1301ae234dee4c3ec7244f41ac",
+    "AoaTransport": "bc509dc78b96d07db22ad02c9cb7843cb3f0e7eca8b566120c469c27814c3fba"
+  },
+  "phoneOrEmulatorTested": false,
+  "carValidation": "Pending user acceptance"
+}

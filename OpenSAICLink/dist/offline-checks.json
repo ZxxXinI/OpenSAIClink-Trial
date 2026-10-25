@@ -1,0 +1,9 @@
+﻿{
+  "checks": [
+    "PASS 5046 assertions; 500 frames across five USB fragmentation patterns",
+    "PASS 2716 E5 checks; 2698 real touch events, 9 two-pointer starts",
+    "PASS 3621 E6 checks; 1716 real events, 25 inconsistent UP coordinates corrected",
+    "PASS 171 formal layout/migration/session assertions"
+  ],
+  "phoneOrEmulatorUsed": false
+}

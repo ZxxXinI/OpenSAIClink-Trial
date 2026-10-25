@@ -1,4 +1,23 @@
-﻿# OpenSAICLink 地图投屏试验 E6
+﻿# OpenSAICLink
+
+## 当前候选版本：1.0.0-rc2（2026-10-25）
+
+新版仍处于试验阶段，以已验收 E6 核心为基础，提供手机连接/应用/设置三页、玻璃风格车载九宫格、八个自定义应用位和悬浮主页。RC1 已收到用户初步测试正常的反馈；RC2 增加首页使用说明，尚待用户验证。
+
+**使用说明：本应用目前处于试验阶段。投屏时，部分图层不会在车机上显示；部分应用需要开启手机的“自动旋转屏幕”功能。**
+
+- [下载 RC2 APK](https://github.com/ZxxXinI/OpenSAIClink-Trial/releases/download/v1.0.0-rc2/OpenSAICLink-1.0.0-rc2.apk)
+- [RC2 发布页](https://github.com/ZxxXinI/OpenSAIClink-Trial/releases/tag/v1.0.0-rc2)
+- [新版源码与功能说明](OpenSAICLink/README.md) · [本次变更与核验](OpenSAICLink/docs/RC2发布记录.md)
+- [构建与签名](OpenSAICLink/docs/构建与签名.md) · [使用说明](OpenSAICLink/docs/使用说明与实车检查.md)
+
+最低 Android 14，主要适配 REDMI K80 与 A7 车机。沿用 org.opensaiclink.trial 包名和 E6 签名，可覆盖 E6 / RC1。声音继续走蓝牙；本次未调整方向控制、通知中心或通信/触控核心。
+
+新版源码位于 `OpenSAICLink/`。以下根目录工程与文档保留为 E6 历史记录，E6 标签与 Release 不变。
+
+---
+
+# OpenSAICLink 地图投屏试验 E6
 
 ## 当前版本：E6（2026-10-24）
 

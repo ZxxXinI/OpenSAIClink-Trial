@@ -1,0 +1,8 @@
+.gradle/
+.gradle-user/
+.private/
+.tmp/
+**/build/
+local.properties
+*.log
+.android-user/

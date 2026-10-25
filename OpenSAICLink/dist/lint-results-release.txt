@@ -1,0 +1,307 @@
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\java\org\opensaiclink\trial\ProjectionRotation.java:17: Warning: Consider using apply() instead; commit writes its data to persistent storage immediately, whereas apply will handle it in the background [ApplySharedPref]
+        prefs.edit().putInt("restore_auto",oldAuto).putInt("restore_rotation",oldRotation).putBoolean("restore_pending",true).commit();
+                                                                                                                              ~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\java\org\opensaiclink\trial\ProjectionRotation.java:26: Warning: Consider using apply() instead; commit writes its data to persistent storage immediately, whereas apply will handle it in the background [ApplySharedPref]
+                prefs.edit().putBoolean("restore_pending",false).commit();
+                                                                 ~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\java\org\opensaiclink\trial\ProjectionRotation.java:44: Warning: Consider using apply() instead; commit writes its data to persistent storage immediately, whereas apply will handle it in the background [ApplySharedPref]
+            prefs.edit().putBoolean("restore_pending",false).commit();
+                                                             ~~~~~~~~
+
+   Explanation for issues of type "ApplySharedPref":
+   Consider using apply() instead of commit on shared preferences. Whereas
+   commit blocks and writes its data to persistent storage immediately, apply
+   will handle it in the background.
+
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\build.gradle:7: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+ defaultConfig { applicationId 'org.opensaiclink.trial'; minSdk 34; targetSdk 36; versionCode 101; versionName '1.0.0-rc2' }
+                                                                    ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application or sdk runs on a version of Android that is more
+   recent than your targetSdk specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdk is
+   less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdk to the highest available value. Then
+   test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\gradle\wrapper\gradle-wrapper.properties:3: Warning: A newer version of Gradle than 9.4.1 is available: 9.8.2 [AndroidGradlePluginVersion]
+distributionUrl=https\://services.gradle.org/distributions/gradle-9.4.1-bin.zip
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\build.gradle:6: Warning: A newer version of compileSdk than 36 is available: 37 [GradleDependency]
+ compileSdk 36
+ ~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.instructions appears to be unused [UnusedResources]
+ <string name="instructions">驻车测试：先开启无障碍 → 连接车机 → 开始投屏。\n无障碍服务连接后才能开始屏幕投屏。</string>
+         ~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.capture appears to be unused [UnusedResources]
+ <string name="connect">2　连接车机 USB</string><string name="capture">3　开始屏幕投屏</string>
+                                                   ~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.connect appears to be unused [UnusedResources]
+ <string name="connect">2　连接车机 USB</string><string name="capture">3　开始屏幕投屏</string>
+         ~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.baidu appears to be unused [UnusedResources]
+ <string name="gaode">打开高德</string><string name="baidu">打开百度</string>
+                                           ~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.gaode appears to be unused [UnusedResources]
+ <string name="gaode">打开高德</string><string name="baidu">打开百度</string>
+         ~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:7: Warning: The resource R.string.export appears to be unused [UnusedResources]
+ <string name="pattern">显示动态测试画面</string><string name="stop">停止投屏</string><string name="export">导出诊断</string>
+                                                                                  ~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:7: Warning: The resource R.string.pattern appears to be unused [UnusedResources]
+ <string name="pattern">显示动态测试画面</string><string name="stop">停止投屏</string><string name="export">导出诊断</string>
+         ~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.local_test appears to be unused [UnusedResources]
+ <string name="local_test">本机录屏自检（不连接车机）</string>
+         ~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:9: Warning: The resource R.string.limits appears to be unused [UnusedResources]
+ <string name="limits">声音沿用已有方式：先打开车机音乐，再播放手机音乐。E6 不传输 USB 音频。\n投屏通知可以返回车载主页；手机 HOME 键仍返回原手机桌面。手机原桌面沿用系统方向；车载主页始终横屏。横屏铺满会适度改变画面宽高比例。\n触控支持单指和双指缩放；不支持三指。诊断包含日志和录屏片段，由你选择保存位置。</string>
+         ~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.car_home appears to be unused [UnusedResources]
+ <string name="car_home">车载主页</string>
+         ~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:12: Warning: The resource R.string.car_preview appears to be unused [UnusedResources]
+ <string name="car_preview">本机预览</string>
+         ~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:13: Warning: The resource R.string.car_projecting appears to be unused [UnusedResources]
+ <string name="car_projecting">正在投屏</string>
+         ~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:15: Warning: The resource R.string.car_home_hint appears to be unused [UnusedResources]
+ <string name="car_home_hint">点悬浮“主页”返回；下方三个位置可添加应用，长按可更换或移除。</string>
+         ~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.car_baidu appears to be unused [UnusedResources]
+ <string name="car_gaode">高德地图</string><string name="car_baidu">百度地图</string>
+                                               ~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.car_gaode appears to be unused [UnusedResources]
+ <string name="car_gaode">高德地图</string><string name="car_baidu">百度地图</string>
+         ~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:17: Warning: The resource R.string.car_navigation appears to be unused [UnusedResources]
+ <string name="car_navigation">打开手机导航</string>
+         ~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:18: Warning: The resource R.string.car_favorite appears to be unused [UnusedResources]
+ <string name="car_favorite">常用应用</string>
+         ~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:19: Warning: The resource R.string.car_choose_favorite appears to be unused [UnusedResources]
+ <string name="car_choose_favorite">选择音乐等常用应用</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:20: Warning: The resource R.string.car_change_favorite appears to be unused [UnusedResources]
+ <string name="car_change_favorite">轻触打开 · 长按更换</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:21: Warning: The resource R.string.car_pick_favorite appears to be unused [UnusedResources]
+ <string name="car_pick_favorite">选择常用应用</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:22: Warning: The resource R.string.car_favorite_saved appears to be unused [UnusedResources]
+ <string name="car_favorite_saved">已添加到车载主页</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:23: Warning: The resource R.string.car_other_apps appears to be unused [UnusedResources]
+ <string name="car_other_apps">其他应用</string>
+         ~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:24: Warning: The resource R.string.car_apps_hint appears to be unused [UnusedResources]
+ <string name="car_apps_hint">选择手机上已有的应用</string>
+         ~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:25: Warning: The resource R.string.car_loading appears to be unused [UnusedResources]
+ <string name="car_loading">正在读取应用列表…</string>
+         ~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:26: Warning: The resource R.string.car_no_apps appears to be unused [UnusedResources]
+ <string name="car_no_apps">没有找到可打开的应用</string>
+         ~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:28: Warning: The resource R.string.car_pattern appears to be unused [UnusedResources]
+ <string name="car_pattern">测试画面</string>
+         ~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:29: Warning: The resource R.string.car_pattern_hint appears to be unused [UnusedResources]
+ <string name="car_pattern_hint">检查触控和画面延迟</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:30: Warning: The resource R.string.car_settings appears to be unused [UnusedResources]
+ <string name="car_settings">试验设置</string>
+         ~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:31: Warning: The resource R.string.car_settings_hint appears to be unused [UnusedResources]
+ <string name="car_settings_hint">权限、停止与诊断</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:32: Warning: The resource R.string.touch_option appears to be unused [UnusedResources]
+ <string name="touch_option">投屏时允许车机触控</string>
+         ~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:33: Warning: The resource R.string.touch_permission appears to be unused [UnusedResources]
+ <string name="touch_permission">1　开启无障碍（必须）</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:36: Warning: The resource R.string.landscape_option appears to be unused [UnusedResources]
+ <string name="landscape_option">投屏时自动横屏，结束后恢复</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:37: Warning: The resource R.string.rotation_permission appears to be unused [UnusedResources]
+ <string name="rotation_permission">允许自动横屏（修改系统设置）</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:38: Warning: The resource R.string.multitouch_option appears to be unused [UnusedResources]
+ <string name="multitouch_option">允许双指缩放（最多两根手指）</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:39: Warning: The resource R.string.fill_display_option appears to be unused [UnusedResources]
+ <string name="fill_display_option">横屏画面铺满车机（下次投屏生效）</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:40: Warning: The resource R.string.responsive_option appears to be unused [UnusedResources]
+ <string name="responsive_option">优先降低延迟（15 帧/秒，下次投屏生效）</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:41: Warning: The resource R.string.touch_status appears to be unused [UnusedResources]
+ <string name="touch_status">触控权限：%1$s　收到：%2$d　已执行：%3$d</string>
+         ~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:42: Warning: The resource R.string.rotation_status appears to be unused [UnusedResources]
+ <string name="rotation_status">自动横屏权限：%1$s</string>
+         ~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:43: Warning: The resource R.string.next_capture appears to be unused [UnusedResources]
+ <string name="next_capture">已保存；请停止并重新开始投屏以应用新配置</string>
+         ~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:44: Warning: The resource R.string.settings_unavailable appears to be unused [UnusedResources]
+ <string name="settings_unavailable">无法打开权限页面，请到系统设置中手动开启</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:45: Warning: The resource R.string.status_format appears to be unused [UnusedResources]
+ <string name="status_format">USB 打开：%1$s　收到车机配置：%2$s\n录屏运行：%3$s　编码帧：%4$d　USB 视频帧：%5$d</string>
+         ~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:46: Warning: The resource R.string.no appears to be unused [UnusedResources]
+ <string name="yes">是</string><string name="no">否</string>
+                                      ~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:46: Warning: The resource R.string.yes appears to be unused [UnusedResources]
+ <string name="yes">是</string><string name="no">否</string>
+         ~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:48: Warning: The resource R.string.usb_denied appears to be unused [UnusedResources]
+ <string name="usb_denied">未获得 USB 访问权限，请重新连接并允许</string>
+         ~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:49: Warning: The resource R.string.usb_not_found appears to be unused [UnusedResources]
+ <string name="usb_not_found">未发现车机 USB 配件。请用线直连汽车，并在车机打开 SAICLink</string>
+         ~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:50: Warning: The resource R.string.usb_unsupported appears to be unused [UnusedResources]
+ <string name="usb_unsupported">当前配件不是已识别的 WeLink 设备，信息已记录</string>
+         ~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:51: Warning: The resource R.string.connect_first appears to be unused [UnusedResources]
+ <string name="connect_first">请先连接车机，等待“收到车机配置”显示为是</string>
+         ~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:52: Warning: The resource R.string.already_capturing appears to be unused [UnusedResources]
+ <string name="capture_first">请先开始屏幕投屏</string><string name="already_capturing">录屏已经运行，可直接打开地图</string>
+                                                       ~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:53: Warning: The resource R.string.map_not_found appears to be unused [UnusedResources]
+ <string name="map_not_found">未找到对应的手机地图，请先安装手机高德或百度</string>
+         ~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:54: Warning: The resource R.string.stop_local_first appears to be unused [UnusedResources]
+ <string name="stop_local_first">请先停止本机自检，再连接车机</string><string name="stop_usb_first">请先停止 USB 试验，再进行本机自检</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:54: Warning: The resource R.string.stop_usb_first appears to be unused [UnusedResources]
+ <string name="stop_local_first">请先停止本机自检，再连接车机</string><string name="stop_usb_first">请先停止 USB 试验，再进行本机自检</string>
+                                                                ~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:55: Warning: The resource R.string.export_done appears to be unused [UnusedResources]
+ <string name="export_done">诊断包已保存</string>
+         ~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:56: Warning: The resource R.string.accessibility_required appears to be unused [UnusedResources]
+ <string name="accessibility_required">请先开启“OpenSAICLink 车机触控”无障碍服务，连接成功后再开始投屏</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:57: Warning: The resource R.string.return_overlay_option appears to be unused [UnusedResources]
+ <string name="return_overlay_option">投屏时显示悬浮“主页”按钮</string>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:59: Warning: The resource R.string.car_slot_add appears to be unused [UnusedResources]
+ <string name="car_slot_add">添加应用 %1$d</string>
+         ~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:60: Warning: The resource R.string.car_slot_empty appears to be unused [UnusedResources]
+ <string name="car_slot_empty">点击选择常用应用</string>
+         ~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:61: Warning: The resource R.string.car_slot_change appears to be unused [UnusedResources]
+ <string name="car_slot_change">更换应用</string>
+         ~~~~~~~~~~~~~~~~~~~~~~
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\res\values\strings.xml:62: Warning: The resource R.string.car_slot_clear appears to be unused [UnusedResources]
+ <string name="car_slot_clear">移除此入口</string>
+         ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests=true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests=true.
+
+   Available options:
+
+   **skip-libraries** (default is true):
+   Whether the unused resource check should skip reporting unused resources in libraries.
+
+   Many libraries will declare resources that are part of the library surface; other modules depending on the library will also reference the resources. To avoid reporting all these resources as unused (in the context of a library), the unused resource check normally skips reporting unused resources in libraries. Instead, run the unused resource check on the consuming app module (along with `checkDependencies=true`).
+
+   However, there are cases where you want to check that all the resources declared in a library are used; in that case, you can disable the skip option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UnusedResources">
+           <option name="skip-libraries" value="true" />
+       </issue>
+   </lint>
+   ```
+
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\java\org\opensaiclink\trial\MainActivity.java:435: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        include.setText("\u5305\u542b\u4e0a\u6b21\u5f55\u5c4f\u7247\u6bb5\uff08\u6700\u591a 10 MiB\uff09");
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\java\org\opensaiclink\trial\ReturnOverlay.java:31: Warning: Use "Gravity.END" instead of "Gravity.RIGHT" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+        params.gravity=Gravity.RIGHT|Gravity.BOTTOM;params.x=dp(10);params.y=dp(12);params.setTitle("OpenSAICLink return home");
+                               ~~~~~
+
+   Explanation for issues of type "RtlHardcoded":
+   Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is
+   rendered in locales where text flows from right to left. Use Gravity#START
+   and Gravity#END instead. Similarly, in XML gravity and layout_gravity
+   attributes, use start rather than left.
+
+   For XML attributes such as paddingLeft and layout_marginLeft, use
+   paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less
+   than 17, you should add both the older left/right attributes as well as the
+   new start/end attributes. On older platforms, where RTL is not supported
+   and the start/end attributes are unknown and therefore ignored, you need
+   the older left/right attributes. There is a separate lint check which
+   catches that type of error.
+
+   (Note: For Gravity#LEFT and Gravity#START, you can use these constants even
+   when targeting older platforms, because the start bitmask is a superset of
+   the left bitmask. Therefore, you can use gravity="start" rather than
+   gravity="left|start".)
+
+0 errors, 66 warnings
