@@ -4,7 +4,7 @@ rootProject.file('.private/signing.properties').withInputStream { signingValues.
 android {
  namespace 'org.opensaiclink.trial'
  compileSdk 36
- defaultConfig { applicationId 'org.opensaiclink.trial'; minSdk 34; targetSdk 36; versionCode 101; versionName '1.0.0-rc2' }
+ defaultConfig { applicationId 'org.opensaiclink.trial'; minSdk 34; targetSdk 36; versionCode 102; versionName '1.0.0-rc3' }
  signingConfigs { inheritedE6 { storeFile rootProject.file(signingValues.storeFile); storePassword signingValues.storePassword; keyAlias signingValues.keyAlias; keyPassword signingValues.keyPassword } }
  buildTypes { release { debuggable false; minifyEnabled false; signingConfig signingConfigs.inheritedE6 } }
  compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }

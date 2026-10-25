@@ -1,0 +1,14 @@
+﻿{
+  "oldBytes": 2242134,
+  "newBytes": 165504,
+  "reductionPercent": 92.62,
+  "oldClasses": 1235,
+  "newClasses": 156,
+  "newDexBytes": 149984,
+  "kotlinClassesRemaining": 0,
+  "applicationClassSetUnchanged": true,
+  "javaSourcesSameExceptVersion": 29,
+  "sha256": "c06bacdf96c1d7627ea6eabd184196e5690f32f215af3f96cf743a288a6afb41",
+  "deviceTested": false,
+  "publishedToGitHub": false
+}

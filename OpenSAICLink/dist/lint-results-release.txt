@@ -14,7 +14,7 @@ F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\src\main\java\org\opensa
    will handle it in the background.
 
 F:\Documents\Code\2026\Misc\2026-10-21\OpenSAICLink\app\build.gradle:7: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
- defaultConfig { applicationId 'org.opensaiclink.trial'; minSdk 34; targetSdk 36; versionCode 101; versionName '1.0.0-rc2' }
+ defaultConfig { applicationId 'org.opensaiclink.trial'; minSdk 34; targetSdk 36; versionCode 102; versionName '1.0.0-rc3' }
                                                                     ~~~~~~~~~~~~
 
    Explanation for issues of type "OldTargetApi":

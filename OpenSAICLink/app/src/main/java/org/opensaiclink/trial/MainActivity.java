@@ -319,7 +319,7 @@ public final class MainActivity extends Activity implements SessionController.Ob
         );
         help.addView(record);
         help.addView(ui.row("\u5bfc\u51fa\u8bca\u65ad",Trace.hasVideo()?"\u53ef\u9009\u5f55\u5c4f":"\u4ec5\u65e5\u5fd7",v->exportDialog()));
-        help.addView(ui.row("\u5173\u4e8e","1.0.0-rc2",v->message("OpenSAICLink","\u7248\u672c 1.0.0-rc2\n\u9762\u5411\u5df2\u9a8c\u8bc1\u7684 K80 / A7 \u8fde\u63a5\u65b9\u5f0f\u3002\n\u4ec5\u5728\u4f60\u6388\u6743\u540e\u5171\u4eab\u5c4f\u5e55\u548c\u6267\u884c\u8f66\u673a\u89e6\u63a7\u3002")));
+        help.addView(ui.row("\u5173\u4e8e","1.0.0-rc3",v->message("OpenSAICLink","\u7248\u672c 1.0.0-rc3\n\u9762\u5411\u5df2\u9a8c\u8bc1\u7684 K80 / A7 \u8fde\u63a5\u65b9\u5f0f\u3002\n\u4ec5\u5728\u4f60\u6388\u6743\u540e\u5171\u4eab\u5c4f\u5e55\u548c\u6267\u884c\u8f66\u673a\u89e6\u63a7\u3002")));
     }
     private LinearLayout section(String name){
         LinearLayout card=ui.card();

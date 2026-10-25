@@ -1,15 +1,17 @@
-﻿# OpenSAICLink 1.0.0-rc2
+﻿# OpenSAICLink 1.0.0-rc3
 
-基于已验收 E6 核心的新版应用，仍处于试验阶段。RC1 已获用户初步反馈功能正常；RC2 仅增加首页使用说明并更新版本和文档，不修改投屏、触控、方向或通知中心逻辑。
+RC3 移除未使用的 Kotlin 标准库，安装包从 2,242,134 字节缩小到 165,504 字节（约 162 KiB），减少 92.62%。应用功能保留，详情见 [RC3 体积优化](docs/RC3体积优化.md)。
+
+基于已验收 E6 核心的新版应用，仍处于试验阶段。RC1 已获用户初步反馈功能正常；RC2 增加首页使用说明；RC3 优化依赖打包，投屏、触控、方向与通知中心逻辑保持原样。
 
 ## 下载与安装
 
-- [下载 RC2 安装包](https://github.com/ZxxXinI/OpenSAIClink-Trial/releases/download/v1.0.0-rc2/OpenSAICLink-1.0.0-rc2.apk)
-- [版本发布页](https://github.com/ZxxXinI/OpenSAIClink-Trial/releases/tag/v1.0.0-rc2)
+- [下载 RC3 安装包](https://github.com/ZxxXinI/OpenSAIClink-Trial/releases/download/v1.0.0-rc3/OpenSAICLink-1.0.0-rc3.apk)
+- [版本发布页](https://github.com/ZxxXinI/OpenSAIClink-Trial/releases/tag/v1.0.0-rc3)
 - [使用说明与实车检查](docs/使用说明与实车检查.md)
-- [本地验证报告](docs/本地验证报告.md) · [开发记录](docs/开发记录.md) · [构建与签名](docs/构建与签名.md)
+- [RC3 本地检查](docs/RC3体积优化.md) · [开发记录](docs/开发记录.md) · [构建与签名](docs/构建与签名.md)
 
-包名 org.opensaiclink.trial，versionCode=101，沿用 E6 签名，可直接覆盖 E6 或 RC1。最低 Android 14，编译/目标 SDK 36，主要面向 REDMI K80 与 A7 车机。安装包大小、SHA-256 和签名核验记录见 dist/build-info.json。
+包名 org.opensaiclink.trial，versionCode=102，沿用 E6 签名，可直接覆盖 E6、RC1 或 RC2。最低 Android 14，编译/目标 SDK 36，主要面向 REDMI K80 与 A7 车机。安装包大小、SHA-256 和签名核验记录见 dist/build-info.json。
 
 ## 使用说明与已知限制
 
@@ -28,4 +30,4 @@
 - 手机端独立编辑和预览；未保存退出提示；E6 布局与设置迁移。
 - 悬浮主页返回，有容量限制的诊断日志，主动记录下一次问题时才保存最多 10 MiB 视频。
 
-不包含 USB 音频、强制手机桌面横屏、内置地图/播放器、账号系统或自动更新。本次只做本地构建与检查，未启动 ADB、模拟器或自动安装；RC2 手机与实车验证由用户进行。
+不包含 USB 音频、强制手机桌面横屏、内置地图/播放器、账号系统或自动更新。本次只做本地构建与检查，未启动 ADB、模拟器或自动安装；RC3 手机与实车验证由用户进行。

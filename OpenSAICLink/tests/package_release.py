@@ -5,8 +5,8 @@ logger.remove()
 from androguard.core.apk import APK
 from androguard.core.dex import DEX
 root=Path(__file__).resolve().parents[1];out=root/'dist';out.mkdir(exist_ok=True)
-source=root/'app/build/outputs/apk/release/app-release.apk';target=out/'OpenSAICLink-1.0.0-rc2.apk'
-a=APK(str(source));assert a.get_package()=='org.opensaiclink.trial';assert a.get_androidversion_code()=='101' and a.get_androidversion_name()=='1.0.0-rc2';assert a.get_attribute_value('application','debuggable')!='true'
+source=root/'app/build/outputs/apk/release/app-release.apk';target=out/'OpenSAICLink-1.0.0-rc3.apk'
+a=APK(str(source));assert a.get_package()=='org.opensaiclink.trial';assert a.get_androidversion_code()=='102' and a.get_androidversion_name()=='1.0.0-rc3';assert a.get_attribute_value('application','debuggable')!='true'
 assert a.get_min_sdk_version()=='34' and a.get_target_sdk_version()=='36'
 with zipfile.ZipFile(source) as z:
  assert z.testzip() is None;assert not any(n.startswith('lib/') for n in z.namelist())
@@ -26,7 +26,7 @@ for name in ['WlFrame','WlPacketWriter','WelinkSession','AnnexB','VideoQueue','T
  current=(root/'app'/rel).read_bytes();assert current==baseline,name;core[name]=hashlib.sha256(current).hexdigest()
 shutil.copy2(source,target)
 checks=json.loads((out/'offline-checks.json').read_text(encoding='utf-8-sig'))
-report={'builtAt':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),'apk':target.name,'package':a.get_package(),'versionCode':101,'versionName':'1.0.0-rc2','bytes':target.stat().st_size,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'certificateSha256':cert,'canReplaceE6SigningAndIdentity':True,'debuggable':False,'permissionsUnchanged':True,'minSdk':34,'targetSdk':36,'nativeLibraries':0,'testEntrypointsIncluded':False,'lintErrors':0,'lintWarnings':sum(i.get('severity')=='Warning' for i in lint.findall('issue')),'offlineChecks':checks['checks'],'verbatimE6Core':core,'phoneOrEmulatorTested':False,'carValidation':'Pending user acceptance'}
+report={'builtAt':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),'apk':target.name,'package':a.get_package(),'versionCode':102,'versionName':'1.0.0-rc3','bytes':target.stat().st_size,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'certificateSha256':cert,'canReplaceE6SigningAndIdentity':True,'debuggable':False,'permissionsUnchanged':True,'minSdk':34,'targetSdk':36,'nativeLibraries':0,'testEntrypointsIncluded':False,'lintErrors':0,'lintWarnings':sum(i.get('severity')=='Warning' for i in lint.findall('issue')),'offlineChecks':checks['checks'],'verbatimE6Core':core,'phoneOrEmulatorTested':False,'carValidation':'Pending user acceptance'}
 (out/'build-info.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8-sig')
 (out/'signature-verification.txt').write_text(r.stdout,encoding='utf-8-sig')
 print(json.dumps({k:report[k] for k in ['apk','bytes','sha256','lintErrors','lintWarnings','canReplaceE6SigningAndIdentity']}))
