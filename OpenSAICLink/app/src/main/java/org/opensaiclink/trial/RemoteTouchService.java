@@ -34,18 +34,23 @@ public final class RemoteTouchService extends AccessibilityService {
     @Override public void onAccessibilityEvent(AccessibilityEvent ignored){}
     @Override public void onInterrupt(){release();}
     @Override public void onDestroy(){
-        connected=false;main.removeCallbacks(maintain);release();if(returns!=null)returns.setEnabled(false);
+        connected=false;main.removeCallbacks(maintain);release();if(returns!=null)returns.setEnabled(false,false);
         active=null;Status.touchReady=false;SessionController.touch(false);super.onDestroy();
     }
     public static void deliver(TouchInput.Event event){RemoteTouchService s=active;if(s!=null)s.main.post(()->s.accept(event));}
     public static void deliverCommit(){RemoteTouchService s=active;if(s!=null)s.main.post(s::flush);}
     public static void releaseCurrent(){RemoteTouchService s=active;if(s!=null)s.main.post(()->{s.release();s.refreshRotation();});}
     public static void refreshOrientation(){RemoteTouchService s=active;if(s!=null)s.main.post(s::refreshRotation);}
-    public static void back(){RemoteTouchService s=active;if(s!=null)s.main.post(()->{if(s.allowed()){s.release();s.performGlobalAction(GLOBAL_ACTION_BACK);}});}
+    static void noteUserInteraction(){
+        RemoteTouchService s=active;
+        if(s!=null && s.returns!=null)s.returns.noteUserInteraction();
+    }
+    public static void back(){RemoteTouchService s=active;if(s!=null)s.main.post(()->{if(s.allowed()){noteUserInteraction();s.release();s.performGlobalAction(GLOBAL_ACTION_BACK);}});}
     private boolean unlocked(){return !getSystemService(KeyguardManager.class).isKeyguardLocked();}
     private void refreshRotation(){
         boolean visible=connected && Status.capturing && !Status.huPaused && unlocked();
-        if(returns!=null)returns.setEnabled(visible && getSharedPreferences("trial",MODE_PRIVATE).getBoolean("return_overlay",true));
+        boolean showHome=getSharedPreferences("trial",MODE_PRIVATE).getBoolean("return_overlay",true);
+        if(returns!=null)returns.setEnabled(visible,showHome);
     }
     private boolean allowed(){return connected && Status.capturing && Status.usbOpen && Status.configured && !Status.huPaused
             && getSharedPreferences("trial",MODE_PRIVATE).getBoolean("touch",true) && unlocked();}
@@ -63,6 +68,7 @@ public final class RemoteTouchService extends AccessibilityService {
         // Preserve even a very short down/up pair when comm is absent.
         if(event.action!=TouchInput.MOVE)flush();
         if(!desired.accept(event)){release();Trace.log("TOUCH_REJECT","Invalid transition or more than two pointers");return;}
+        noteUserInteraction();
         main.removeCallbacks(flushFallback);main.postDelayed(flushFallback,10);
         main.removeCallbacks(expire);main.postDelayed(expire,2000);
     }

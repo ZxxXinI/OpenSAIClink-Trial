@@ -5,6 +5,8 @@ import android.content.*;
 import android.content.pm.ServiceInfo;
 import android.hardware.usb.*;
 import android.os.*;
+import android.provider.Settings;
+import android.widget.Toast;
 
 public final class LinkService extends Service {
     public static final String CONNECT="org.opensaiclink.trial.CONNECT";
@@ -154,7 +156,17 @@ public final class LinkService extends Service {
             if(transport!=null)transport.resetVideo();
             if(local){Status.width=1280;Status.height=480;Status.fps=15;}
             Status.capturing=true;Status.captureStage="Starting capture";
-            ProjectionRotation.apply(this);RemoteTouchService.refreshOrientation();
+            ProjectionRotation.apply(this);
+            if(Settings.System.canWrite(this)){
+                ProjectionBrightness.apply(this,new SettingsStore(this).projectionBrightness());
+            }else{
+                main.post(()->{
+                    if(!destroyed && Status.capturing){
+                        Toast.makeText(this,R.string.display_settings_required,Toast.LENGTH_LONG).show();
+                    }
+                });
+            }
+            RemoteTouchService.refreshOrientation();
             encoder=new ScreenEncoder(this,worker,new ScreenEncoder.Listener(){
                 @Override public void frame(byte[] data,boolean key){
                     if(destroyed)return;
@@ -164,7 +176,7 @@ public final class LinkService extends Service {
                 @Override public void stopped(String reason){if(!destroyed){Trace.log("CAPTURE_ENDED",reason);stopWith(SessionState.Stage.DISCONNECTED,"\u5c4f\u5e55\u5171\u4eab\u5df2\u7ed3\u675f");}}
             });
             encoder.start(result,grant,Status.width,Status.height,Status.fps);
-            if(destroyed){encoder.stop();Status.capturing=false;ProjectionRotation.restore(this);return;}
+            if(destroyed){encoder.stop();Status.capturing=false;return;}
             Status.capturing=true;Status.captureStage=local?"Local capture active; USB not tested":"Capture active; car display needs visual check";
             if(!local)main.postDelayed(()->{if(session!=null && Status.capturing)session.resume("");},1000);
         }catch(Exception e){
@@ -180,8 +192,18 @@ public final class LinkService extends Service {
         sendBroadcast(new Intent(SESSION_STOPPED).setPackage(getPackageName()));
         new Thread(()->{
             try{if(transport!=null)transport.close();}catch(Exception e){Trace.log("CLOSE_USB_ERROR",e.toString());}
-            worker.post(()->{try{if(encoder!=null)encoder.stop();ProjectionRotation.restore(this);}catch(Exception e){Trace.log("CLOSE_CAPTURE_ERROR",e.toString());}
-                finally{Status.stage="Stopped";Status.captureStage="Stopped";SessionController.state.ended(terminal,terminalMessage);SessionController.publish();workerThread.quitSafely();Trace.log("SERVICE_STOPPED","Resources released");}});
+            worker.post(()->{
+                try{if(encoder!=null)encoder.stop();}
+                catch(Exception e){Trace.log("CLOSE_CAPTURE_ERROR",e.toString());}
+                finally{
+                    ProjectionBrightness.restore(this);
+                    ProjectionRotation.restore(this);
+                    Status.stage="Stopped";Status.captureStage="Stopped";
+                    SessionController.state.ended(terminal,terminalMessage);
+                    SessionController.publish();workerThread.quitSafely();
+                    Trace.log("SERVICE_STOPPED","Resources released");
+                }
+            });
         },"wl-session-close").start();
         stopForeground(STOP_FOREGROUND_REMOVE);super.onDestroy();
     }

@@ -28,7 +28,7 @@ public final class CarHomeActivity extends Activity implements SessionController
         super.onCreate(b);
         preview=getIntent().getBooleanExtra("preview",false);
         if(b!=null)picking=b.getInt("picking");
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        setRequestedOrientation(ProjectionRotation.activityOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE));
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         settings=new SettingsStore(this);
         render();
@@ -123,21 +123,27 @@ public final class CarHomeActivity extends Activity implements SessionController
     @Override protected void onResume(){
         super.onResume();
         Status.carHomeVisible=true;
-        RemoteTouchService.refreshOrientation();
+        RemoteTouchService.noteUserInteraction();
         render();
         handler.post(tick);
         SessionController.observe(this);
     }
     @Override protected void onPause(){
         Status.carHomeVisible=false;
-        RemoteTouchService.refreshOrientation();
         SessionController.remove(this);
         handler.removeCallbacks(tick);
         super.onPause();
     }
+    @Override public boolean dispatchTouchEvent(MotionEvent event){
+        RemoteTouchService.noteUserInteraction();
+        return super.dispatchTouchEvent(event);
+    }
     public void changed(SessionState.Snapshot s){
         if(!preview&&!s.projecting()&&s.stage!=SessionState.Stage.STARTING){
             finish();
+            return;
         }
+        int orientation=ProjectionRotation.activityOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        if(getRequestedOrientation()!=orientation)setRequestedOrientation(orientation);
     }
 }

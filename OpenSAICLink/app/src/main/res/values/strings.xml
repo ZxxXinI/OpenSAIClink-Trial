@@ -56,6 +56,16 @@
  <string name="accessibility_required">请先开启“OpenSAICLink 车机触控”无障碍服务，连接成功后再开始投屏</string>
  <string name="return_overlay_option">投屏时显示悬浮“主页”按钮</string>
  <string name="return_overlay_button">主页</string>
+ <string name="rotate_screen">旋转</string>
+ <string name="dim_brightness">调暗</string>
+ <string name="restore_brightness">调亮</string>
+ <string name="projection_brightness">调暗后的亮度</string>
+ <string name="brightness_percent">%1$d%%</string>
+ <string name="display_settings_permission">亮度和屏幕旋转（修改系统设置）</string>
+ <string name="display_settings_required">请在权限管理中允许修改系统设置，以调整亮度和旋转屏幕</string>
+ <string name="brightness_restore_failed">调亮失败，请重试</string>
+ <string name="brightness_dim_failed">调暗失败，请重试</string>
+ <string name="rotation_failed">旋转屏幕失败，请重试</string>
  <string name="car_slot_add">添加应用 %1$d</string>
  <string name="car_slot_empty">点击选择常用应用</string>
  <string name="car_slot_change">更换应用</string>

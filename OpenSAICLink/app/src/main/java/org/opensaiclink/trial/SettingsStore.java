@@ -51,6 +51,12 @@ public final class SettingsStore {
     public void setOption(String key,boolean value){
         legacy.edit().putBoolean(key,value).apply();
     }
+    public int projectionBrightness(){
+        return formal.getInt("projection_brightness_percent",80);
+    }
+    public void setProjectionBrightness(int percent){
+        formal.edit().putInt("projection_brightness_percent",percent).apply();
+    }
     public boolean recordingArmed(){
         return formal.getBoolean("record_next",false);
     }

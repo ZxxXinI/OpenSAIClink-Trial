@@ -41,7 +41,6 @@ public final class MainActivity extends Activity implements SessionController.Ob
         super.onCreate(state);
         getOnBackInvokedDispatcher().registerOnBackInvokedCallback(OnBackInvokedDispatcher.PRIORITY_DEFAULT,backCallback);
         Trace.init(this);
-        ProjectionRotation.recover(this);
         try{
             settings=new SettingsStore(this);
             saved=settings.layout();
@@ -290,6 +289,8 @@ public final class MainActivity extends Activity implements SessionController.Ob
         }
         ).show()));
         toggle(display,"\u60ac\u6d6e\u4e3b\u9875\u6309\u94ae","return_overlay",true,false);
+        display.addView(ui.row(getString(R.string.projection_brightness),
+                getString(R.string.brightness_percent,settings.projectionBrightness()),v->chooseBrightness()));
         toggle(display,"\u53cc\u6307\u7f29\u653e","multitouch",true,false);
         toggle(display,"\u4f18\u5148\u4f4e\u5ef6\u8fdf","responsive",true,true);
         toggle(display,"\u6295\u5c4f\u65f6\u81ea\u52a8\u65cb\u8f6c","landscape",true,true);
@@ -347,12 +348,29 @@ public final class MainActivity extends Activity implements SessionController.Ob
         );
         parent.addView(s);
     }
+    private void chooseBrightness(){
+        int[] levels={5,10,20,30,40,50,60,70,80,90};
+        String[] labels=new String[levels.length];
+        int selected=-1;
+        int current=settings.projectionBrightness();
+        for(int i=0;i<levels.length;i++){
+            labels[i]=getString(R.string.brightness_percent,levels[i]);
+            if(levels[i]==current)selected=i;
+        }
+        new AlertDialog.Builder(this).setTitle(R.string.projection_brightness)
+                .setSingleChoiceItems(labels,selected,(dialog,which)->{
+                    settings.setProjectionBrightness(levels[which]);
+                    dialog.dismiss();
+                    nextCaptureNotice();
+                    render();
+                }).show();
+    }
     private void nextCaptureNotice(){
         if(Status.capturing)toast("\u5df2\u4fdd\u5b58\uff0c\u4e0b\u6b21\u6295\u5c4f\u751f\u6548");
     }
     private void permissions(){
         new AlertDialog.Builder(this).setTitle("\u6743\u9650\u7ba1\u7406").setItems(new String[]{
-            "\u8f66\u673a\u89e6\u63a7\uff08\u65e0\u969c\u788d\uff0c\u5fc5\u9700\uff09","\u81ea\u52a8\u65cb\u8f6c\uff08\u4fee\u6539\u7cfb\u7edf\u8bbe\u7f6e\uff09","\u6295\u5c4f\u901a\u77e5"
+            "\u8f66\u673a\u89e6\u63a7\uff08\u65e0\u969c\u788d\uff0c\u5fc5\u9700\uff09",getString(R.string.display_settings_permission),"\u6295\u5c4f\u901a\u77e5"
         }
         ,(d,w)->{
             if(w==0)openSettings(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
@@ -500,6 +518,8 @@ public final class MainActivity extends Activity implements SessionController.Ob
     }
     @Override protected void onResume(){
         super.onResume();
+        ProjectionRotation.recover(this);
+        ProjectionBrightness.recover(this);
         resumed=true;
         if(settings!=null){
             if(!dirty())draft=saved=settings.layout();

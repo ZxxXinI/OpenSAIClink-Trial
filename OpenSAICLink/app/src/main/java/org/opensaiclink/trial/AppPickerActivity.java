@@ -8,7 +8,7 @@ import android.widget.*;
 import android.text.*;
 import java.util.*;
 import java.text.Collator;
-public final class AppPickerActivity extends Activity {
+public final class AppPickerActivity extends Activity implements SessionController.Observer {
     private static final class Entry {
         final String pkg,name;
         Entry(String p,String n){
@@ -24,7 +24,7 @@ public final class AppPickerActivity extends Activity {
     private EditText search;
     @Override public void onCreate(Bundle b){
         super.onCreate(b);
-        if(Status.capturing)setRequestedOrientation(android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        updateOrientation();
         pick=getIntent().getBooleanExtra("pick",true);
         preview=getIntent().getBooleanExtra("preview",false);
         ui=new GlassUi(this);
@@ -123,6 +123,22 @@ public final class AppPickerActivity extends Activity {
         for(Entry e:all)if(e.name.toLowerCase(Locale.ROOT).contains(q)||e.pkg.contains(q))filtered.add(e);
         adapter.notifyDataSetChanged();
         count.setText(filtered.isEmpty()?"\u6ca1\u6709\u627e\u5230\u5e94\u7528":"\u5171 "+filtered.size()+" \u4e2a\u5e94\u7528");
+    }
+    @Override protected void onResume(){
+        super.onResume();
+        SessionController.observe(this);
+    }
+    @Override protected void onPause(){
+        SessionController.remove(this);
+        super.onPause();
+    }
+    @Override public void changed(SessionState.Snapshot state){
+        updateOrientation();
+    }
+    private void updateOrientation(){
+        int fallback=Status.capturing?ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE:ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
+        int orientation=ProjectionRotation.activityOrientation(fallback);
+        if(getRequestedOrientation()!=orientation)setRequestedOrientation(orientation);
     }
     @Override protected void onDestroy(){
         disposed=true;
